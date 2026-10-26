@@ -2,4 +2,6 @@
 //! `model` has no UI-toolkit and no database dependency: UI is a consumer of it.
 pub mod app;
 pub mod bench;
+pub mod jsonlog;
 pub mod model;
+pub mod shortcuts;

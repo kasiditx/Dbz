@@ -1,14 +1,17 @@
 use crate::bench::{Bench, FrameRow, Scenario};
+use crate::jsonlog::json_string;
 use crate::model::editor::{line_col, statement_at};
 use crate::model::explorer::{Explorer, NodeKind};
+use crate::model::focus::{FocusModel, Pane};
 use crate::model::grid::{
-    Cell, Nav, RowSource, Selection, SyntheticSource, scroll_to_reveal, visible_cells,
+    Cell, Nav, RowSource, Selection, SyntheticSource, copy_text, scroll_to_reveal, visible_cells,
     visible_range,
 };
 use crate::model::highlight::{Kind, tokenize};
 use crate::model::layout::Split;
 use crate::model::metrics::Samples;
 use crate::model::tabs::Tabs;
+use crate::shortcuts;
 use eframe::egui::{self, Color32, FontId, Key, Modifiers, RichText, Sense, Stroke, TextFormat};
 use std::sync::atomic::{AtomicBool, Ordering};
 use std::sync::{Arc, mpsc};
@@ -21,11 +24,29 @@ const HEADER_H: f32 = 26.0;
 const OVERSCAN: usize = 3;
 const MOCK_LATENCY_MS: u64 = 400;
 
-#[derive(Debug, Clone, Copy, PartialEq, Eq)]
-enum Focus {
-    Explorer,
-    Editor,
-    Grid,
+/// Last-laid-out widget rects in egui points; logged so an external injector can aim at them.
+#[derive(Clone, Copy)]
+struct Rects {
+    editor: egui::Rect,
+    grid: egui::Rect,
+    splitter: egui::Rect,
+    tab0: egui::Rect,
+    plus: egui::Rect,
+    explorer_row1: egui::Rect,
+}
+
+impl Default for Rects {
+    fn default() -> Self {
+        let z = egui::Rect::ZERO;
+        Rects {
+            editor: z,
+            grid: z,
+            splitter: z,
+            tab0: z,
+            plus: z,
+            explorer_row1: z,
+        }
+    }
 }
 
 enum Run {
@@ -54,6 +75,16 @@ pub struct Options {
     pub bench: Option<Scenario>,
     pub out: Option<String>,
     pub screenshot: Option<String>,
+    /// Programmatic resize: send a resize command every N frames (default 1).
+    pub resize_every: usize,
+    /// Programmatic resize: number of frames the scenario runs after warm-up.
+    pub resize_frames: usize,
+    /// External scenario: wall-clock seconds to record.
+    pub seconds: f64,
+    /// Force-enable AccessKit tree building (diagnostic; normally activated by assistive tech).
+    pub accesskit: bool,
+    /// Append state-change lines (with UI rects) for external E2E input tests.
+    pub event_log: Option<String>,
     pub started: Instant,
 }
 
@@ -63,7 +94,7 @@ pub struct PocApp {
     explorer: Explorer,
     src: SyntheticSource,
     sel: Selection,
-    focus: Focus,
+    focus: FocusModel,
     editor_split: Split,
     scroll_y: f32,
     pending_scroll: Option<f32>,
@@ -82,13 +113,24 @@ pub struct PocApp {
     dark: bool,
     want_editor_focus: bool,
     editor_id: Option<egui::Id>,
+    rects: Rects,
+    event_log: Option<std::fs::File>,
+    last_snapshot: String,
+    copy_requested: bool,
 }
 
 impl PocApp {
     pub fn new(cc: &eframe::CreationContext<'_>, opts: Options) -> Self {
+        if opts.accesskit {
+            cc.egui_ctx.enable_accesskit();
+        }
         install_fonts(&cc.egui_ctx);
         apply_style(&cc.egui_ctx, opts.dark);
         let bench = opts.bench.map(|s| Bench::new(s, opts.started));
+        let opts_event_log = opts
+            .event_log
+            .as_ref()
+            .and_then(|p| std::fs::File::create(p).ok());
         let mut tabs = Tabs::new();
         tabs.active_mut().text = "SELECT o.id, o.status, o.total, c.name AS ลูกค้า\nFROM app.orders o\nJOIN app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- mock only; no database connection\nORDER BY o.id;\n\nSELECT COUNT(*) FROM app.orders;".into();
         Self {
@@ -98,7 +140,7 @@ impl PocApp {
             tabs,
             explorer: Explorer::mock(),
             sel: Selection::default(),
-            focus: Focus::Editor,
+            focus: FocusModel::new(Pane::Editor),
             editor_split: Split::new(0.28),
             scroll_y: 0.0,
             pending_scroll: None,
@@ -116,6 +158,10 @@ impl PocApp {
             screenshot_sent: false,
             want_editor_focus: true,
             editor_id: None,
+            rects: Rects::default(),
+            event_log: opts_event_log,
+            last_snapshot: String::new(),
+            copy_requested: false,
         }
     }
 
@@ -179,64 +225,50 @@ impl PocApp {
     }
 
     fn handle_global_keys(&mut self, ctx: &egui::Context) {
-        let cmd = Modifiers::COMMAND;
-        let (run, new_tab, close_tab, next, prev, theme, f6, esc) = ctx.input_mut(|i| {
-            (
-                i.consume_key(cmd, Key::Enter),
-                i.consume_key(cmd, Key::T),
-                i.consume_key(cmd, Key::W),
-                i.consume_key(Modifiers::CTRL, Key::Tab),
-                i.consume_key(Modifiers::CTRL | Modifiers::SHIFT, Key::Tab),
-                i.consume_key(cmd | Modifiers::SHIFT, Key::L),
-                i.consume_key(Modifiers::NONE, Key::F6),
-                i.key_pressed(Key::Escape),
-            )
-        });
-        if run {
+        let sc = shortcuts::read(ctx);
+        self.copy_requested = sc.copy;
+        if sc.run {
             self.start_run(ctx);
         }
-        if new_tab {
+        if sc.new_tab {
             self.tabs.open("");
+            self.focus.request(Pane::Editor);
             self.want_editor_focus = true;
         }
-        if close_tab {
+        if sc.close_tab {
             let i = self.tabs.active;
             self.tabs.close(i);
         }
-        if next {
+        if sc.next_tab {
             self.tabs.next();
         }
-        if prev {
+        if sc.prev_tab {
             self.tabs.prev();
         }
-        if theme {
+        if sc.toggle_theme {
             self.dark = !self.dark;
             apply_style(ctx, self.dark);
         }
-        if f6 {
-            self.focus = match self.focus {
-                Focus::Explorer => Focus::Editor,
-                Focus::Editor => Focus::Grid,
-                Focus::Grid => Focus::Explorer,
-            };
-            if self.focus == Focus::Editor {
+        if sc.cycle_focus {
+            self.focus.request(self.focus.next_pane());
+            if self.focus.current == Pane::Editor {
                 self.want_editor_focus = true;
             }
         }
-        if esc && let Run::Running { cancel, .. } = &self.run {
+        if sc.cancel
+            && let Run::Running { cancel, .. } = &self.run
+        {
             cancel.store(true, Ordering::Relaxed);
         }
-        // Alt+1/2/3 jump focus.
-        let alt = Modifiers::ALT;
-        if ctx.input_mut(|i| i.consume_key(alt, Key::Num1)) {
-            self.focus = Focus::Explorer;
+        if sc.focus_explorer {
+            self.focus.request(Pane::Explorer);
         }
-        if ctx.input_mut(|i| i.consume_key(alt, Key::Num2)) {
-            self.focus = Focus::Editor;
+        if sc.focus_editor {
+            self.focus.request(Pane::Editor);
             self.want_editor_focus = true;
         }
-        if ctx.input_mut(|i| i.consume_key(alt, Key::Num3)) {
-            self.focus = Focus::Grid;
+        if sc.focus_grid {
+            self.focus.request(Pane::Grid);
         }
     }
 
@@ -377,7 +409,7 @@ impl eframe::App for PocApp {
                 ui.separator();
                 ui.label(format!("RSS {} MiB", self.rss_mib.load(Ordering::Relaxed)));
                 ui.separator();
-                ui.label(format!("focus: {:?} (F6)", self.focus));
+                ui.label(format!("focus: {:?} (F6)", self.focus.current));
             });
         });
 
@@ -389,7 +421,7 @@ impl eframe::App for PocApp {
                 ui.heading("Explorer");
                 ui.small("mock data · ←→↑↓ · Alt+1");
                 ui.separator();
-                if self.focus == Focus::Explorer {
+                if self.focus.current == Pane::Explorer {
                     for n in Self::nav_keys(&ctx) {
                         self.explorer.key(n);
                     }
@@ -416,10 +448,15 @@ impl eframe::App for PocApp {
                             };
                             let selected = row == self.explorer.selected;
                             let text = format!("{}{} {}", "    ".repeat(depth), icon, n.label);
-                            let resp = ui
-                                .selectable_label(selected && self.focus == Focus::Explorer, text);
+                            let resp = ui.selectable_label(
+                                selected && self.focus.current == Pane::Explorer,
+                                text,
+                            );
+                            if row == 1 {
+                                self.rects.explorer_row1 = resp.rect;
+                            }
                             if resp.clicked() {
-                                self.focus = Focus::Explorer;
+                                self.focus.request(Pane::Explorer);
                                 self.explorer.selected = row;
                                 let has_kids = !self.explorer.nodes[i].children.is_empty();
                                 if has_kids {
@@ -427,7 +464,7 @@ impl eframe::App for PocApp {
                                         !self.explorer.nodes[i].expanded;
                                 }
                             }
-                            if selected && self.focus == Focus::Explorer {
+                            if selected && self.focus.current == Pane::Explorer {
                                 resp.scroll_to_me(None);
                             }
                         }
@@ -447,7 +484,7 @@ impl eframe::App for PocApp {
         let _ = grid_viewport_h;
 
         // Keys must reach only the focused pane: release the text caret when focus moved away.
-        if self.focus != Focus::Editor
+        if self.focus.end_frame()
             && let Some(id) = self.editor_id
         {
             ctx.memory_mut(|m| {
@@ -460,6 +497,7 @@ impl eframe::App for PocApp {
         let cpu = t0.elapsed().as_secs_f32() * 1000.0;
         self.cpu.push(cpu);
         self.bench_post_frame(&ctx, cpu as f64, interval_ms);
+        self.log_events(&ctx);
         self.maybe_screenshot(&ctx);
     }
 }
@@ -471,7 +509,11 @@ impl PocApp {
             let mut select: Option<usize> = None;
             for (i, t) in self.tabs.tabs.iter().enumerate() {
                 let active = i == self.tabs.active;
-                if ui.selectable_label(active, &t.title).clicked() {
+                let tab_resp = ui.selectable_label(active, &t.title);
+                if i == 0 {
+                    self.rects.tab0 = tab_resp.rect;
+                }
+                if tab_resp.clicked() {
                     select = Some(i);
                 }
                 if ui
@@ -483,7 +525,9 @@ impl PocApp {
                 }
                 ui.add_space(6.0);
             }
-            if ui.button("+").on_hover_text("New tab (⌘T)").clicked() {
+            let plus = ui.button("+").on_hover_text("New tab (⌘T)");
+            self.rects.plus = plus.rect;
+            if plus.clicked() {
                 self.tabs.open("");
                 self.want_editor_focus = true;
             }
@@ -533,12 +577,12 @@ impl PocApp {
                     .show(ui)
             });
         let te = out.inner;
+        self.rects.editor = te.response.rect;
         if want_focus {
             te.response.request_focus();
         }
-        if te.response.has_focus() {
-            self.focus = Focus::Editor;
-        }
+        self.focus
+            .observe_editor_text_focus(te.response.has_focus());
         self.editor_id = Some(te.response.id);
         if let Some(r) = te.cursor_range {
             let text = self.tabs.active_mut().text.clone();
@@ -550,6 +594,7 @@ impl PocApp {
     fn splitter(&mut self, ui: &mut egui::Ui, total_h: f32, handle_h: f32) {
         let (rect, resp) =
             ui.allocate_exact_size(egui::vec2(ui.available_width(), handle_h), Sense::drag());
+        self.rects.splitter = rect;
         let color = if resp.hovered() || resp.dragged() {
             ui.visuals().widgets.active.bg_fill
         } else {
@@ -575,19 +620,15 @@ impl PocApp {
         let total_w: f32 = widths.iter().sum();
         let total_h = HEADER_H + rows as f32 * ROW_H;
         let avail_h = ui.available_height();
+        self.rects.grid = ui.available_rect_before_wrap();
 
-        if self.focus == Focus::Grid {
+        if self.focus.current == Pane::Grid {
             for n in Self::nav_keys(&ui.ctx().clone()) {
                 self.apply_grid_nav(n, avail_h);
             }
-            if ui
-                .ctx()
-                .input_mut(|i| i.consume_key(Modifiers::COMMAND, Key::C))
-                && let Cell::Text(t) | Cell::Number(t) = self
-                    .src
-                    .cell(self.sel.row.min(rows.saturating_sub(1)), self.sel.col)
-            {
-                ui.ctx().copy_text(t);
+            if self.copy_requested {
+                let (r, c) = (self.sel.row.min(rows.saturating_sub(1)), self.sel.col);
+                ui.ctx().copy_text(copy_text(&self.src, r, c));
             }
         }
 
@@ -642,7 +683,7 @@ impl PocApp {
                     let selected = r == self.sel.row && c == self.sel.col;
                     if selected {
                         painter.rect_filled(rect, 0.0, vis.selection.bg_fill.gamma_multiply(0.5));
-                        let ring = if self.focus == Focus::Grid {
+                        let ring = if self.focus.current == Pane::Grid {
                             vis.selection.stroke.color
                         } else {
                             vis.weak_text_color()
@@ -730,7 +771,7 @@ impl PocApp {
                 Sense::click(),
             );
             if resp.clicked() {
-                self.focus = Focus::Grid;
+                self.focus.request(Pane::Grid);
                 if let Some(p) = resp.interact_pointer_pos() {
                     let ly = p.y - origin.y - HEADER_H;
                     let lx = p.x - origin.x;
@@ -748,6 +789,92 @@ impl PocApp {
             }
         });
         self.scroll_y = out.state.clamped_offset().y;
+    }
+
+    /// One line whenever observable UI state changes; used by external E2E scripts.
+    fn log_events(&mut self, ctx: &egui::Context) {
+        use std::io::Write as _;
+        if self.event_log.is_none() {
+            return;
+        }
+        let inner = ctx
+            .input(|i| i.viewport().inner_rect)
+            .unwrap_or(egui::Rect::ZERO);
+        let ppp = ctx.pixels_per_point();
+        let (tab_count, active, tail, chars) = {
+            let t = &self.tabs.tabs[self.tabs.active];
+            let tail: String = t
+                .text
+                .chars()
+                .rev()
+                .take(40)
+                .collect::<Vec<_>>()
+                .into_iter()
+                .rev()
+                .collect();
+            (
+                self.tabs.tabs.len(),
+                self.tabs.active,
+                tail,
+                t.text.chars().count(),
+            )
+        };
+        let r = |x: egui::Rect| {
+            format!(
+                "[{:.1},{:.1},{:.1},{:.1}]",
+                x.min.x, x.min.y, x.max.x, x.max.y
+            )
+        };
+        let editor_focus = self
+            .editor_id
+            .is_some_and(|id| ctx.memory(|m| m.has_focus(id)));
+        let snap = format!(
+            "\"sel\":[{},{}],\"focus\":\"{:?}\",\"tab\":{},\"tabs\":{},\"chars\":{},\"tail\":{},\"split\":{:.3},\"scroll_row\":{},\"exp_sel\":{},\"dark\":{},\"editor_has_focus\":{},\"run\":\"{}\"",
+            self.sel.row,
+            self.sel.col,
+            self.focus.current,
+            active,
+            tab_count,
+            chars,
+            json_string(&tail),
+            self.editor_split.ratio,
+            (self.scroll_y / ROW_H) as usize,
+            self.explorer.selected,
+            self.dark,
+            editor_focus,
+            match self.run {
+                Run::Idle => "idle",
+                Run::Running { .. } => "running",
+                Run::Done { .. } => "done",
+                Run::Cancelled => "cancelled",
+            }
+        );
+        let layout = format!(
+            "\"ppp\":{ppp},\"inner\":{},\"editor\":{},\"grid\":{},\"splitter\":{},\"tab0\":{},\"plus\":{},\"exp_row1\":{}",
+            r(inner),
+            r(self.rects.editor),
+            r(self.rects.grid),
+            r(self.rects.splitter),
+            r(self.rects.tab0),
+            r(self.rects.plus),
+            r(self.rects.explorer_row1)
+        );
+        let key = format!("{snap}|{layout}");
+        if key == self.last_snapshot {
+            return;
+        }
+        self.last_snapshot = key;
+        let ts = std::time::SystemTime::now()
+            .duration_since(std::time::UNIX_EPOCH)
+            .map_or(0, |d| d.as_nanos());
+        if let Some(f) = &mut self.event_log {
+            let _ = writeln!(
+                f,
+                "{{\"ts_ns\":{ts},\"frame\":{},{snap},{layout}}}",
+                self.frame_no
+            );
+            let _ = f.flush();
+        }
     }
 
     // ---- benchmark scripting -------------------------------------------------------------
@@ -774,7 +901,7 @@ impl PocApp {
             Scenario::Nav => {
                 ctx.request_repaint();
                 if frame >= 60 {
-                    self.focus = Focus::Grid;
+                    self.focus.request(Pane::Grid);
                     let f = frame - 60;
                     let nav = if f % 200 < 150 {
                         Nav::Down
@@ -788,13 +915,14 @@ impl PocApp {
             }
             Scenario::Resize => {
                 ctx.request_repaint();
-                if frame >= 30 {
+                if frame >= 30 && (frame - 30).is_multiple_of(self.opts.resize_every.max(1)) {
                     let f = (frame - 30) as f32;
                     let w = 1100.0 + 300.0 * (f / 12.0).sin();
                     let h = 760.0 + 140.0 * (f / 17.0).cos();
                     ctx.send_viewport_cmd(egui::ViewportCommand::InnerSize(egui::vec2(w, h)));
                 }
             }
+            Scenario::External => ctx.request_repaint(),
             Scenario::Startup | Scenario::Idle => {}
         }
     }
@@ -810,6 +938,7 @@ impl PocApp {
             Scenario::Scroll if f >= 60 => "sweep",
             Scenario::Nav if f >= 60 => "nav",
             Scenario::Resize if f >= 30 => "resize",
+            Scenario::External if f >= 30 => "external",
             _ => "warmup",
         };
         b.rows.push(FrameRow {
@@ -836,7 +965,18 @@ impl PocApp {
             }
             Scenario::Scroll => f >= 60 + 600,
             Scenario::Nav => f >= 60 + 400,
-            Scenario::Resize => f >= 30 + 240,
+            Scenario::Resize => f >= 30 + self.opts.resize_frames,
+            Scenario::External => {
+                if f == 5 && b.ready_ms.is_none() {
+                    b.ready_ms = Some(b.started.elapsed().as_secs_f64() * 1000.0);
+                    println!(
+                        "READY first_ui_ms={:.2} ready_ms={:.2}",
+                        b.first_ui_ms.unwrap_or(-1.0),
+                        b.ready_ms.unwrap()
+                    );
+                }
+                b.started.elapsed().as_secs_f64() > self.opts.seconds
+            }
             Scenario::Idle => {
                 if f == 5 && b.ready_ms.is_none() {
                     b.ready_ms = Some(b.started.elapsed().as_secs_f64() * 1000.0);

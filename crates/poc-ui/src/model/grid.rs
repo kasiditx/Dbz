@@ -85,6 +85,14 @@ pub fn visible_cells(src: &dyn RowSource, range: Range<usize>) -> Vec<Vec<Cell>>
         .collect()
 }
 
+/// Clipboard text for a cell: full value, never the truncated display; NULL copies as empty.
+pub fn copy_text(src: &dyn RowSource, row: usize, col: usize) -> String {
+    match src.cell(row, col) {
+        Cell::Null => String::new(),
+        Cell::Text(t) | Cell::Number(t) => t,
+    }
+}
+
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub enum Nav {
     Up,
@@ -274,6 +282,19 @@ mod tests {
             s.apply(n, 0, 0, 10);
         }
         assert_eq!(s, Selection { row: 0, col: 0 });
+    }
+
+    #[test]
+    fn copy_text_is_full_value_and_null_is_empty() {
+        let s = SyntheticSource::new(100, 20);
+        assert_eq!(copy_text(&s, 5, 1), "ลูกค้า 5");
+        assert_eq!(copy_text(&s, 2, 2), "15838.000000002");
+        assert_eq!(copy_text(&s, 7, 3), "");
+        let long = copy_text(&s, 3, 4);
+        assert!(
+            long.chars().count() >= 300,
+            "must not be the 90-char display form"
+        );
     }
 
     #[test]

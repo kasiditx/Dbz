@@ -10,6 +10,8 @@ pub enum Scenario {
     Nav,
     Resize,
     Idle,
+    /// Continuous repaint; window is resized by an external process (AX/mouse).
+    External,
 }
 
 impl Scenario {
@@ -20,6 +22,7 @@ impl Scenario {
             "nav" => Some(Self::Nav),
             "resize" => Some(Self::Resize),
             "idle" => Some(Self::Idle),
+            "external" => Some(Self::External),
             _ => None,
         }
     }
@@ -30,6 +33,7 @@ impl Scenario {
             Self::Nav => "nav",
             Self::Resize => "resize",
             Self::Idle => "idle",
+            Self::External => "external",
         }
     }
 }

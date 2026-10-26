@@ -22,6 +22,17 @@ fn main() -> eframe::Result {
         bench: get("--bench").and_then(|v| Scenario::parse(&v)),
         out: get("--out"),
         screenshot: get("--screenshot"),
+        resize_every: get("--resize-every")
+            .and_then(|v| v.parse().ok())
+            .unwrap_or(1),
+        resize_frames: get("--resize-frames")
+            .and_then(|v| v.parse().ok())
+            .unwrap_or(240),
+        event_log: get("--event-log"),
+        accesskit: args.iter().any(|a| a == "--accesskit"),
+        seconds: get("--seconds")
+            .and_then(|v| v.parse().ok())
+            .unwrap_or(15.0),
         started,
     };
     let native = eframe::NativeOptions {
