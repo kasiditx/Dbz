@@ -23,3 +23,6 @@ Oracle is a must-have. Core application aims to avoid Java and vendor client ins
 
 ## Decision
 **Thin first, no blanket compatibility claims.** Full acceptance conditional on POC evidence and support matrix. 11g is outside baseline scope.
+
+## Evidence log
+- 2026-10-26: `oracledb` 26.0.0-beta.4 compiles in POC; blocking API; no cancel fn in source; live tests NOT TESTED. See `docs/evidence/T-002-oracle-driver.md`.
