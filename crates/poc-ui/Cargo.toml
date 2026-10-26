@@ -6,3 +6,4 @@ edition = "2024"
 [dependencies]
 eframe = "0.37.0"
 png = "0.18.1"
+poc-workload = { path = "../poc-workload" }

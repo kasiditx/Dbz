@@ -68,3 +68,6 @@ Every async component: `idle | loading | partial | success | empty | error | ret
 
 ## Visual QA
 Capture screenshots on Windows 100%, 125%, 150% scaling and macOS Retina (when supported). Check 1080p and laptop small viewport; keyboard-only run; light/dark contrast; 300-char column; Unicode/Thai; null/binary/decimal.
+
+## Prototype evidence
+T-004a (`evidence/T-004a-tauri-comparison.md`) implements the workspace on Tauri with semantic theme tokens, CodeMirror, a virtual ARIA grid, keyboard focus transfer and resizable panes. Actual macOS screenshots/input and AX-tree evidence are attached; VoiceOver, Thai IME and Windows scaling remain NOT TESTED. This is not production feature acceptance.

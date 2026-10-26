@@ -1,0 +1,171 @@
+[
+  {
+    "command": [
+      "cargo",
+      "fmt",
+      "--manifest-path",
+      "crates/poc-workload/Cargo.toml",
+      "--check"
+    ],
+    "exit_code": 0,
+    "log": "benchmarks/t004a/raw/check-00.log"
+  },
+  {
+    "command": [
+      "cargo",
+      "test",
+      "--manifest-path",
+      "crates/poc-workload/Cargo.toml",
+      "--locked"
+    ],
+    "exit_code": 0,
+    "log": "benchmarks/t004a/raw/check-01.log"
+  },
+  {
+    "command": [
+      "cargo",
+      "clippy",
+      "--manifest-path",
+      "crates/poc-workload/Cargo.toml",
+      "--locked",
+      "--all-targets",
+      "--",
+      "-D",
+      "warnings"
+    ],
+    "exit_code": 0,
+    "log": "benchmarks/t004a/raw/check-02.log"
+  },
+  {
+    "command": [
+      "cargo",
+      "fmt",
+      "--manifest-path",
+      "crates/poc-ui/Cargo.toml",
+      "--check"
+    ],
+    "exit_code": 0,
+    "log": "benchmarks/t004a/raw/check-03.log"
+  },
+  {
+    "command": [
+      "cargo",
+      "test",
+      "--manifest-path",
+      "crates/poc-ui/Cargo.toml",
+      "--locked"
+    ],
+    "exit_code": 0,
+    "log": "benchmarks/t004a/raw/check-04.log"
+  },
+  {
+    "command": [
+      "cargo",
+      "clippy",
+      "--manifest-path",
+      "crates/poc-ui/Cargo.toml",
+      "--locked",
+      "--all-targets",
+      "--",
+      "-D",
+      "warnings"
+    ],
+    "exit_code": 0,
+    "log": "benchmarks/t004a/raw/check-05.log"
+  },
+  {
+    "command": [
+      "cargo",
+      "fmt",
+      "--manifest-path",
+      "crates/poc-tauri/src-tauri/Cargo.toml",
+      "--check"
+    ],
+    "exit_code": 0,
+    "log": "benchmarks/t004a/raw/check-06.log"
+  },
+  {
+    "command": [
+      "cargo",
+      "test",
+      "--manifest-path",
+      "crates/poc-tauri/src-tauri/Cargo.toml",
+      "--locked"
+    ],
+    "exit_code": 0,
+    "log": "benchmarks/t004a/raw/check-07.log"
+  },
+  {
+    "command": [
+      "cargo",
+      "clippy",
+      "--manifest-path",
+      "crates/poc-tauri/src-tauri/Cargo.toml",
+      "--locked",
+      "--all-targets",
+      "--",
+      "-D",
+      "warnings"
+    ],
+    "exit_code": 0,
+    "log": "benchmarks/t004a/raw/check-08.log"
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "typecheck",
+      "--prefix",
+      "crates/poc-tauri"
+    ],
+    "exit_code": 0,
+    "log": "benchmarks/t004a/raw/check-09.log"
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "lint",
+      "--prefix",
+      "crates/poc-tauri"
+    ],
+    "exit_code": 0,
+    "log": "benchmarks/t004a/raw/check-10.log"
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "test",
+      "--prefix",
+      "crates/poc-tauri"
+    ],
+    "exit_code": 0,
+    "log": "benchmarks/t004a/raw/check-11.log"
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "build",
+      "--prefix",
+      "crates/poc-tauri"
+    ],
+    "exit_code": 0,
+    "log": "benchmarks/t004a/raw/check-12.log"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "benchmarks/t004a",
+      "-p",
+      "test_*.py"
+    ],
+    "exit_code": 0,
+    "log": "benchmarks/t004a/raw/check-13.log"
+  }
+]

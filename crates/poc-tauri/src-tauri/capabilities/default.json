@@ -1,0 +1,1 @@
+{ "identifier": "main-local", "description": "Local synthetic prototype only; no filesystem, shell or network plugins.", "windows": ["main"], "permissions": ["core:default"] }

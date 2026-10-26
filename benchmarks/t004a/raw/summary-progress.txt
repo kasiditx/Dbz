@@ -1,0 +1,189 @@
+{
+  "startup": {
+    "egui": {
+      "n": 10,
+      "p50": 251.266208011657,
+      "p95": 1107.4814589810558,
+      "min": 239.13641698891297,
+      "max": 1107.4814589810558
+    },
+    "tauri": {
+      "n": 10,
+      "p50": 559.7239579656161,
+      "p95": 581.2357499962673,
+      "min": 521.9088339945301,
+      "max": 581.2357499962673
+    }
+  },
+  "idle": [
+    {
+      "footprint_mib": 268.3455810546875,
+      "file": "idle-egui-1000-0-memory.json",
+      "stack": "egui",
+      "rows": 1000,
+      "idle_main_mib": 108.765625,
+      "idle_group_rss_mib": 156.390625,
+      "sampled_peak_group_rss_mib": 163.8125,
+      "sampled_peak_main_mib": 113.71875,
+      "group_cpu_percent": 0.7891100527823439,
+      "seconds": 64.62976845900994,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        69425,
+        69445,
+        69449
+      ]
+    },
+    {
+      "footprint_mib": 265.50160217285156,
+      "file": "idle-egui-100000-1-memory.json",
+      "stack": "egui",
+      "rows": 100000,
+      "idle_main_mib": 118.390625,
+      "idle_group_rss_mib": 157.265625,
+      "sampled_peak_group_rss_mib": 157.359375,
+      "sampled_peak_main_mib": 120.875,
+      "group_cpu_percent": 0.7712353661642879,
+      "seconds": 64.83105183398584,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        78593,
+        78617
+      ]
+    },
+    {
+      "footprint_mib": 258.6265106201172,
+      "file": "idle-egui-100000-3-memory.json",
+      "stack": "egui",
+      "rows": 100000,
+      "idle_main_mib": 99.921875,
+      "idle_group_rss_mib": 131.375,
+      "sampled_peak_group_rss_mib": 131.421875,
+      "sampled_peak_main_mib": 112.25,
+      "group_cpu_percent": 0.7580385853707883,
+      "seconds": 64.64050899998983,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        92987,
+        93187
+      ]
+    },
+    {
+      "footprint_mib": null,
+      "file": "idle-egui-100000-4-memory.json",
+      "stack": "egui",
+      "rows": 100000,
+      "idle_main_mib": null,
+      "idle_group_rss_mib": null,
+      "sampled_peak_group_rss_mib": 165.96875,
+      "sampled_peak_main_mib": 130.796875,
+      "group_cpu_percent": 0.7504150498742022,
+      "seconds": 50.63864324998576,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        95760,
+        95786
+      ]
+    },
+    {
+      "footprint_mib": 259.9546585083008,
+      "file": "idle-egui-1000000-2-memory.json",
+      "stack": "egui",
+      "rows": 1000000,
+      "idle_main_mib": 112.546875,
+      "idle_group_rss_mib": 151.4375,
+      "sampled_peak_group_rss_mib": 152.09375,
+      "sampled_peak_main_mib": 115.328125,
+      "group_cpu_percent": 0.7554176695623822,
+      "seconds": 64.864778749994,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        80063,
+        80088
+      ]
+    },
+    {
+      "footprint_mib": 235.9571304321289,
+      "file": "idle-tauri-1000-0-memory.json",
+      "stack": "tauri",
+      "rows": 1000,
+      "idle_main_mib": 97.921875,
+      "idle_group_rss_mib": 245.625,
+      "sampled_peak_group_rss_mib": 250.875,
+      "sampled_peak_main_mib": 105.359375,
+      "group_cpu_percent": 3.7089930660337993,
+      "seconds": 64.70758929097792,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        73736,
+        73740,
+        73741,
+        73742,
+        73743
+      ]
+    },
+    {
+      "footprint_mib": 253.14508819580078,
+      "file": "idle-tauri-100000-1-memory.json",
+      "stack": "tauri",
+      "rows": 100000,
+      "idle_main_mib": 95.046875,
+      "idle_group_rss_mib": 281.40625,
+      "sampled_peak_group_rss_mib": 289.359375,
+      "sampled_peak_main_mib": 104.5625,
+      "group_cpu_percent": 3.6483087087740915,
+      "seconds": 64.68750833295053,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        76678,
+        76683,
+        76684,
+        76685,
+        76686,
+        76689
+      ]
+    },
+    {
+      "footprint_mib": 153.0044403076172,
+      "file": "idle-tauri-100000-3-memory.json",
+      "stack": "tauri",
+      "rows": 100000,
+      "idle_main_mib": 104.953125,
+      "idle_group_rss_mib": 295.4375,
+      "sampled_peak_group_rss_mib": 295.859375,
+      "sampled_peak_main_mib": 105.390625,
+      "group_cpu_percent": 3.835287066174232,
+      "seconds": 64.9234322499833,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        89813,
+        89817,
+        89818,
+        89819,
+        89820,
+        92738
+      ]
+    },
+    {
+      "footprint_mib": 263.0508575439453,
+      "file": "idle-tauri-1000000-2-memory.json",
+      "stack": "tauri",
+      "rows": 1000000,
+      "idle_main_mib": 104.25,
+      "idle_group_rss_mib": 278.46875,
+      "sampled_peak_group_rss_mib": 278.53125,
+      "sampled_peak_main_mib": 104.578125,
+      "group_cpu_percent": 3.5786718078526363,
+      "seconds": 64.82852087495849,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        85804,
+        85811,
+        85812,
+        85813,
+        85814
+      ]
+    }
+  ],
+  "active": []
+}

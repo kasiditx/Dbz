@@ -1,0 +1,43 @@
+
+> dbz-tauri-prototype@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/kasidit/Documents/Dbz/crates/poc-tauri
+
+ ❯ src/model.test.ts (3 tests | 2 failed) 3ms
+   × keyboard navigation clamps boundaries and reveals the final row and column 1ms
+   × tab switching wraps forward and backward without changing the count 0ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/model.test.ts > keyboard navigation clamps boundaries and reveals the final row and column
+TypeError: navigate is not a function
+ ❯ src/model.test.ts:15:10
+     13| import { navigate, changeTab } from './model';
+     14| it('keyboard navigation clamps boundaries and reveals the final row an…
+     15|   expect(navigate([0, 0], 'ArrowUp', false, 1000000, 20)).toEqual([0, …
+       |          ^
+     16|   expect(navigate([42, 2], 'ArrowDown', true, 1000000, 20)).toEqual([9…
+     17|   expect(navigate([42, 2], 'Home', false, 1000000, 20)).toEqual([42, 0…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  src/model.test.ts > tab switching wraps forward and backward without changing the count
+TypeError: changeTab is not a function
+ ❯ src/model.test.ts:22:10
+     20| });
+     21| it('tab switching wraps forward and backward without changing the coun…
+     22|   expect(changeTab(0, 3, -1)).toBe(2);
+       |          ^
+     23|   expect(changeTab(2, 3, 1)).toBe(0);
+     24| });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 1 passed (3)
+   Start at  22:54:03
+   Duration  85ms (transform 55%, import 24%, tests 13%, worker 8%)
+

@@ -60,6 +60,31 @@ impl RowSource for SyntheticSource {
     }
 }
 
+/// Same-workload source; keeps the T-003 generator and its baseline unchanged.
+pub struct ComparisonSource(pub usize);
+impl RowSource for ComparisonSource {
+    fn row_count(&self) -> usize {
+        self.0
+    }
+    fn col_count(&self) -> usize {
+        20
+    }
+    fn column_name(&self, col: usize) -> String {
+        match col {
+            5 => "TIMESTAMP".into(),
+            6 => "LONG_TEXT".into(),
+            _ => SyntheticSource::new(0, 20).column_name(col),
+        }
+    }
+    fn cell(&self, row: usize, col: usize) -> Cell {
+        match poc_workload::cell(row, col) {
+            None => Cell::Null,
+            Some(s) if col == 0 || col == 2 => Cell::Number(s),
+            Some(s) => Cell::Text(s),
+        }
+    }
+}
+
 /// Rows to materialize for a viewport (with overscan), clamped to `total`.
 pub fn visible_range(
     scroll_y: f32,

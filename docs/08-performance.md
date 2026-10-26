@@ -50,3 +50,6 @@
 
 ## Expected deliverables after M0
 `benchmarks/README.md`, `benchmarks/hardware.md`, CSV/JSON raw samples, summary, repeatable scripts. Until those files exist, all listed budgets remain aspirational.
+
+## T-004a measured evidence
+See `evidence/T-004a-tauri-comparison.md` and `../benchmarks/t004a/README.md`. Both release implementations use a shared synthetic workload on one macOS machine. Report main RSS, attributed helper RSS and separate physical footprint; do not equate a CUA-call latency upper bound with exact OS-event latency. Pane geometry and internal materialization differ and are explicit limitations. Windows baseline and cold startup remain NOT MEASURED.

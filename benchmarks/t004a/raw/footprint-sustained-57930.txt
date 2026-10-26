@@ -1,0 +1,832 @@
+======================================================================
+com.apple.WebKit.GPU [57931]: 64-bit    Footprint: 120194032 B (16384 bytes per page)
+======================================================================
+
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+102678528 B           0 B           0 B         46    Owned physical footprint (unmapped) (graphics)
+  4554752 B           0 B           0 B         92    IOAccelerator (graphics)
+  4521984 B           0 B     4440064 B        531    MALLOC_SMALL
+  1966080 B           0 B           0 B         30    Owned physical footprint (unmapped)
+  1703936 B           0 B     1720320 B          5    WebKit malloc
+  1154077 B           0 B           0 B        168    __DATA_DIRTY
+   705520 B           0 B           0 B          1    page table
+   612528 B           0 B           0 B         79    __DATA
+   442368 B           0 B           0 B          9    MALLOC metadata
+   409600 B           0 B           0 B         16    stack
+   311296 B           0 B           0 B          1    MALLOC_TINY
+   231811 B           0 B           0 B         84    unused dyld shared cache area
+   163840 B           0 B           0 B         12    untagged (VM_ALLOCATE)
+   114688 B           0 B           0 B          1    __AUTH_CONST
+    82408 B           0 B           0 B         18    __AUTH
+    81920 B           0 B           0 B          4    app-specific tag 2
+    65536 B           0 B           0 B          2    __DATA_CONST
+    65480 B           0 B           0 B          2    __TPRO_CONST
+    49152 B           0 B           0 B          1    IOAccelerator
+    49152 B           0 B           0 B          3    ColorSync
+    32768 B           0 B           0 B          1    Activity Tracing
+    32768 B           0 B           0 B          2    IOKit
+    16384 B           0 B           0 B          1    CoreServices
+    16384 B           0 B           0 B          1    os_alloc_once
+    16384 B           0 B           0 B          1    CoreAnimation
+        0 B     3620864 B           0 B          4    mapped file
+        0 B       16384 B           0 B          1    __LINKEDIT
+        0 B       16384 B           0 B          1    __TEXT
+        0 B           0 B           0 B          1    app-specific tag 1
+        0 B           0 B           0 B          1    dyld private memory
+        0 B           0 B           0 B         32    JS VM Gigacage
+        0 B           0 B           0 B        112    guard
+        ---           ---           ---        ---    ---
+120079344 B     3653632 B     6160384 B       1265    TOTAL
+
+Shared with com.apple.SafariPlatformSupport.Helper [57938], ThemeWidgetControlViewService [59095], dbz-tauri-poc [57930]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    IOKit
+    16384 B           0 B           0 B          1    IOAccelerator
+        0 B     2310144 B           0 B          4    __TEXT
+        0 B      638976 B           0 B          1    mapped file
+        0 B       32768 B           0 B          4    __LINKEDIT
+        ---           ---           ---        ---    ---
+    49152 B     2981888 B           0 B         12    TOTAL
+
+Shared with com.apple.WebKit.WebContent [57933], com.apple.WebKit.Networking [57932]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B       65536 B           0 B          2    mapped file
+        ---           ---           ---        ---    ---
+        0 B       65536 B           0 B          2    TOTAL
+
+Shared with com.apple.WebKit.WebContent [57933], dbz-tauri-poc [57930]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B    54738944 B    12402688 B         27    IOSurface
+        ---           ---           ---        ---    ---
+        0 B    54738944 B    12402688 B         27    TOTAL
+
+Shared with dbz-tauri-poc [57930]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B           0 B           0 B          4    IOKit
+        0 B           0 B           0 B          7    IOSurface
+        ---           ---           ---        ---    ---
+        0 B           0 B           0 B         11    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], ThemeWidgetControlViewService [59095], com.apple.audio.SandboxHelper [57934], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    16384 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B       81920 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+    16384 B       81920 B           0 B          2    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], com.apple.WebKit.WebContent [57933], ThemeWidgetControlViewService [59095], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    16384 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B      540672 B           0 B          3    mapped file
+        ---           ---           ---        ---    ---
+    16384 B      540672 B           0 B          4    TOTAL
+
+Shared with com.apple.WebKit.WebContent [57933]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B     4096000 B           0 B          6    mapped file
+        0 B      622592 B           0 B          1    untagged (VM_ALLOCATE)
+        ---           ---           ---        ---    ---
+        0 B     4718592 B           0 B          7    TOTAL
+
+Shared with com.apple.WebKit.WebContent [57933], ThemeWidgetControlViewService [59095], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B     1392640 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+        0 B     1392640 B           0 B          1    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], com.apple.WebKit.WebContent [57933], ThemeWidgetControlViewService [59095], com.apple.audio.SandboxHelper [57934], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B           0 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    TOTAL
+
+Auxiliary data:
+    phys_footprint: 120226800 B
+    phys_footprint_peak: 128779248 B
+
+======================================================================
+com.apple.WebKit.WebContent [57933]: 64-bit    Footprint: 117932944 B (16384 bytes per page)
+======================================================================
+
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+ 35880960 B           0 B    14516224 B          7    WebKit malloc
+ 16662528 B           0 B           0 B        545    JS VM Gigacage
+  3784704 B           0 B     4489216 B        529    MALLOC_SMALL
+  1884160 B           0 B       49152 B          3    JS JIT generated code
+  1271390 B           0 B           0 B        174    __DATA_DIRTY
+   727359 B           0 B           0 B         73    __DATA
+   639888 B           0 B           0 B          1    page table
+   425984 B           0 B           0 B         12    stack
+   360448 B           0 B           0 B          8    MALLOC metadata
+   311296 B           0 B           0 B          1    MALLOC_TINY
+   229531 B           0 B           0 B         81    unused dyld shared cache area
+    81920 B           0 B           0 B         13    __AUTH
+    81920 B           0 B           0 B          4    app-specific tag 2
+    49096 B           0 B           0 B          2    __TPRO_CONST
+    32768 B           0 B           0 B          2    ColorSync
+    32768 B           0 B           0 B          5    untagged (VM_ALLOCATE)
+    16384 B           0 B           0 B          1    CoreServices
+    16384 B           0 B           0 B          1    __DATA_CONST
+    16384 B           0 B           0 B          1    os_alloc_once
+        0 B     3358720 B           0 B         29    mapped file
+        0 B       16384 B           0 B          1    __TEXT
+        0 B       16384 B           0 B          1    __LINKEDIT
+        0 B           0 B           0 B          1    dyld private memory
+        0 B           0 B           0 B          1    app-specific tag 1
+        0 B           0 B           0 B         68    guard
+        ---           ---           ---        ---    ---
+ 62505872 B     3391488 B    19054592 B       1566    TOTAL
+
+Shared with dbz-tauri-poc [57930], ThemeWidgetControlViewService [59095]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B      278528 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+        0 B      278528 B           0 B          1    TOTAL
+
+Shared with com.apple.WebKit.GPU [57931], com.apple.WebKit.Networking [57932]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B       65536 B           0 B          2    mapped file
+        ---           ---           ---        ---    ---
+        0 B       65536 B           0 B          2    TOTAL
+
+Shared with dbz-tauri-poc [57930], com.apple.WebKit.GPU [57931]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+ 54738944 B           0 B           0 B         27    IOSurface
+        ---           ---           ---        ---    ---
+ 54738944 B           0 B           0 B         27    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], com.apple.WebKit.GPU [57931], ThemeWidgetControlViewService [59095], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    16384 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B     1245184 B           0 B          3    mapped file
+        ---           ---           ---        ---    ---
+    16384 B     1245184 B           0 B          4    TOTAL
+
+Shared with dbz-tauri-poc [57930]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    16384 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B      212992 B           0 B          2    mapped file
+        ---           ---           ---        ---    ---
+    16384 B      212992 B           0 B          3    TOTAL
+
+Shared with com.apple.WebKit.GPU [57931]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+   622592 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B     5111808 B           0 B          6    mapped file
+        ---           ---           ---        ---    ---
+   622592 B     5111808 B           0 B          7    TOTAL
+
+Shared with com.apple.WebKit.GPU [57931], ThemeWidgetControlViewService [59095], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B      802816 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+        0 B      802816 B           0 B          1    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], com.apple.WebKit.GPU [57931], ThemeWidgetControlViewService [59095], com.apple.audio.SandboxHelper [57934], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B           0 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    TOTAL
+
+Shared with ThemeWidgetControlViewService [59095], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B      688128 B           0 B          4    mapped file
+        ---           ---           ---        ---    ---
+        0 B      688128 B           0 B          4    TOTAL
+
+Auxiliary data:
+    phys_footprint: 117965712 B
+    phys_footprint_peak: 141738920 B
+
+======================================================================
+dbz-tauri-poc [57930]: 64-bit    Footprint: 26559544 B (16384 bytes per page)
+======================================================================
+
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+ 14303232 B           0 B     3457024 B         16    MALLOC_SMALL
+  2392064 B           0 B     2080768 B          6    WebKit malloc
+  2292699 B           0 B           0 B        401    __DATA_DIRTY
+  1179648 B           0 B           0 B         12    MALLOC metadata
+  1179541 B           0 B           0 B        117    __DATA
+   754744 B           0 B           0 B          1    page table
+   671744 B           0 B           0 B         32    CoreAnimation
+   524288 B           0 B           0 B         40    stack
+   387849 B           0 B           0 B         63    __AUTH
+   383423 B           0 B           0 B        165    unused dyld shared cache area
+   376832 B           0 B       16384 B          1    libdispatch
+   327680 B           0 B           0 B          1    MALLOC_TINY
+   278528 B           0 B           0 B          2    CoreUI image data
+   229376 B           0 B           0 B         43    untagged (VM_ALLOCATE)
+   229376 B           0 B           0 B          3    __DATA_CONST
+   131072 B           0 B           0 B          1    Accelerate image backing stores
+   131072 B           0 B           0 B          1    IOSurface
+   114688 B           0 B           0 B          1    __AUTH_CONST
+   114632 B           0 B           0 B          2    __TPRO_CONST
+    49152 B           0 B           0 B          1    IOAccelerator
+    49152 B           0 B           0 B          1    Activity Tracing
+    32768 B           0 B           0 B          2    ColorSync
+    16384 B           0 B           0 B          2    IOAccelerator (graphics)
+    16384 B           0 B           0 B          1    tag 22
+    16384 B           0 B           0 B          1    os_alloc_once
+    16384 B           0 B           0 B          1    Foundation
+    16384 B           0 B           0 B          1    IOKit
+    16384 B           0 B           0 B          1    CoreGraphics
+        0 B     6569984 B           0 B         24    mapped file
+        0 B     4997120 B           0 B          2    __TEXT
+        0 B       49152 B           0 B          2    __LINKEDIT
+        0 B           0 B           0 B         32    JS VM Gigacage
+        ---           ---           ---        ---    ---
+ 26231864 B    11616256 B     5554176 B        981    TOTAL
+
+Shared with com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B       65536 B           0 B          2    mapped file
+        ---           ---           ---        ---    ---
+        0 B       65536 B           0 B          2    TOTAL
+
+Shared with com.apple.WebKit.WebContent [57933], ThemeWidgetControlViewService [59095]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B      327680 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+        0 B      327680 B           0 B          1    TOTAL
+
+Shared with ThemeWidgetControlViewService [59095], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+   147456 B           0 B           0 B          9    untagged (VM_ALLOCATE)
+    32768 B           0 B           0 B          2    CoreGraphics
+        0 B     2015232 B           0 B          5    mapped file
+        0 B       16384 B           0 B          3    __LINKEDIT
+        0 B       16384 B           0 B          3    __TEXT
+        ---           ---           ---        ---    ---
+   180224 B     2048000 B           0 B         22    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], ThemeWidgetControlViewService [59095], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    untagged (VM_ALLOCATE)
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    TOTAL
+
+Shared with ThemeWidgetControlViewService [59095]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B      442368 B           0 B          4    mapped file
+        ---           ---           ---        ---    ---
+        0 B      442368 B           0 B          4    TOTAL
+
+Shared with com.apple.SafariPlatformSupport.Helper [57938], ThemeWidgetControlViewService [59095], com.apple.WebKit.GPU [57931]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    IOKit
+    16384 B           0 B           0 B          1    IOAccelerator
+        0 B     2310144 B           0 B          4    __TEXT
+        0 B       49152 B           0 B          1    mapped file
+        0 B       32768 B           0 B          4    __LINKEDIT
+        ---           ---           ---        ---    ---
+    49152 B     2392064 B           0 B         12    TOTAL
+
+Shared with com.apple.WebKit.WebContent [57933], com.apple.WebKit.GPU [57931]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B    54738944 B    12402688 B         27    IOSurface
+        ---           ---           ---        ---    ---
+        0 B    54738944 B    12402688 B         27    TOTAL
+
+Shared with com.apple.WebKit.GPU [57931]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B           0 B           0 B          4    IOKit
+        0 B           0 B           0 B          7    IOSurface
+        ---           ---           ---        ---    ---
+        0 B           0 B           0 B         11    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B       65536 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+        0 B       65536 B           0 B          1    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], com.apple.WebKit.GPU [57931], ThemeWidgetControlViewService [59095], com.apple.audio.SandboxHelper [57934], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    16384 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B       81920 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+    16384 B       81920 B           0 B          2    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], com.apple.WebKit.WebContent [57933], com.apple.WebKit.GPU [57931], ThemeWidgetControlViewService [59095], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    16384 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B      933888 B           0 B          3    mapped file
+        ---           ---           ---        ---    ---
+    16384 B      933888 B           0 B          4    TOTAL
+
+Shared with com.apple.WebKit.WebContent [57933]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B      212992 B           0 B          2    mapped file
+        0 B       16384 B           0 B          1    untagged (VM_ALLOCATE)
+        ---           ---           ---        ---    ---
+        0 B      229376 B           0 B          3    TOTAL
+
+Shared with com.apple.WebKit.GPU [57931], com.apple.WebKit.WebContent [57933], ThemeWidgetControlViewService [59095], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B     1245184 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+        0 B     1245184 B           0 B          1    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], com.apple.WebKit.WebContent [57933], com.apple.WebKit.GPU [57931], ThemeWidgetControlViewService [59095], com.apple.audio.SandboxHelper [57934], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B           0 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    TOTAL
+
+Shared with com.apple.WebKit.WebContent [57933], ThemeWidgetControlViewService [59095], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B     1130496 B           0 B          4    mapped file
+        ---           ---           ---        ---    ---
+        0 B     1130496 B           0 B          4    TOTAL
+
+Auxiliary data:
+    phys_footprint: 26592312 B
+    phys_footprint_peak: 32212048 B
+
+======================================================================
+com.apple.SafariPlatformSupport.Helper [57938]: 64-bit    Footprint: 10043992 B (16384 bytes per page)
+======================================================================
+
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+  3964928 B           0 B     3981312 B        581    MALLOC_SMALL
+  2031340 B           0 B           0 B        398    __DATA_DIRTY
+   751309 B           0 B           0 B         77    __DATA
+   475136 B           0 B           0 B         10    MALLOC metadata
+   426584 B           0 B           0 B          1    page table
+   278528 B           0 B           0 B          1    MALLOC_TINY
+   265119 B           0 B           0 B        141    unused dyld shared cache area
+   262144 B     3915776 B           0 B          7    mapped file
+   261856 B           0 B           0 B         38    __AUTH
+   212992 B           0 B       49152 B          1    libdispatch
+   196608 B           0 B           0 B          6    stack
+   131072 B           0 B           0 B         10    untagged (VM_ALLOCATE)
+   114688 B           0 B           0 B          1    __AUTH_CONST
+    98248 B           0 B           0 B          2    __TPRO_CONST
+    65536 B           0 B           0 B          2    __DATA_CONST
+    49152 B           0 B           0 B          1    IOAccelerator
+    49152 B           0 B           0 B          1    Activity Tracing
+    16384 B           0 B           0 B          1    Foundation
+    16384 B           0 B           0 B          1    CoreGraphics
+    16384 B           0 B           0 B          2    IOAccelerator (graphics)
+    16384 B           0 B           0 B          1    ColorSync
+    16384 B           0 B           0 B          1    IOKit
+    16384 B           0 B           0 B          1    os_alloc_once
+        0 B       98304 B           0 B          1    __TEXT
+        0 B       16384 B           0 B          1    __LINKEDIT
+        0 B           0 B           0 B          1    dyld private memory
+        0 B           0 B           0 B          1    CoreServices
+        ---           ---           ---        ---    ---
+  9732696 B     4030464 B     4030464 B       1291    TOTAL
+
+Shared with ThemeWidgetControlViewService [59095]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B       16384 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+        0 B       16384 B           0 B          1    TOTAL
+
+Shared with dbz-tauri-poc [57930]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B       65536 B           0 B          2    mapped file
+        ---           ---           ---        ---    ---
+        0 B       65536 B           0 B          2    TOTAL
+
+Shared with dbz-tauri-poc [57930], ThemeWidgetControlViewService [59095]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+   147456 B           0 B           0 B          9    untagged (VM_ALLOCATE)
+    16384 B           0 B           0 B          1    CoreGraphics
+        0 B      262144 B           0 B          5    mapped file
+        0 B       16384 B           0 B          3    __LINKEDIT
+        0 B       16384 B           0 B          3    __TEXT
+        ---           ---           ---        ---    ---
+   163840 B      294912 B           0 B         21    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], ThemeWidgetControlViewService [59095], dbz-tauri-poc [57930]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    untagged (VM_ALLOCATE)
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    TOTAL
+
+Shared with ThemeWidgetControlViewService [59095], dbz-tauri-poc [57930], com.apple.WebKit.GPU [57931]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    IOKit
+    16384 B           0 B           0 B          1    IOAccelerator
+        0 B     2310144 B           0 B          4    __TEXT
+        0 B       49152 B           0 B          1    mapped file
+        0 B       32768 B           0 B          4    __LINKEDIT
+        ---           ---           ---        ---    ---
+    49152 B     2392064 B           0 B         12    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], com.apple.WebKit.GPU [57931], ThemeWidgetControlViewService [59095], com.apple.audio.SandboxHelper [57934], dbz-tauri-poc [57930]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    16384 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B       81920 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+    16384 B       81920 B           0 B          2    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], com.apple.WebKit.WebContent [57933], com.apple.WebKit.GPU [57931], ThemeWidgetControlViewService [59095], dbz-tauri-poc [57930]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    16384 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B      671744 B           0 B          3    mapped file
+        ---           ---           ---        ---    ---
+    16384 B      671744 B           0 B          4    TOTAL
+
+Shared with com.apple.WebKit.GPU [57931], com.apple.WebKit.WebContent [57933], ThemeWidgetControlViewService [59095], dbz-tauri-poc [57930]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B      114688 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+        0 B      114688 B           0 B          1    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], com.apple.WebKit.WebContent [57933], com.apple.WebKit.GPU [57931], ThemeWidgetControlViewService [59095], com.apple.audio.SandboxHelper [57934], dbz-tauri-poc [57930]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B           0 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    TOTAL
+
+Shared with com.apple.WebKit.WebContent [57933], ThemeWidgetControlViewService [59095], dbz-tauri-poc [57930]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B      851968 B           0 B          4    mapped file
+        ---           ---           ---        ---    ---
+        0 B      851968 B           0 B          4    TOTAL
+
+Auxiliary data:
+    phys_footprint: 10076760 B
+    phys_footprint_peak: 10404440 B
+
+======================================================================
+ThemeWidgetControlViewService [59095]: 64-bit    Footprint: 8258112 B (16384 bytes per page)
+======================================================================
+
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+  2785280 B           0 B     3031040 B          4    MALLOC_SMALL
+  1537529 B           0 B           0 B        250    __DATA_DIRTY
+   688128 B           0 B           0 B         10    MALLOC metadata
+   683154 B           0 B           0 B         69    __DATA
+   410176 B           0 B           0 B          1    page table
+   318957 B           0 B           0 B        110    unused dyld shared cache area
+   278528 B           0 B           0 B          1    MALLOC_TINY
+   262144 B           0 B           0 B          1    libdispatch
+   229376 B           0 B           0 B          8    stack
+   212928 B           0 B           0 B         26    __AUTH
+   131072 B           0 B           0 B         11    untagged (VM_ALLOCATE)
+   114688 B           0 B           0 B          1    __AUTH_CONST
+    65536 B           0 B           0 B          2    __DATA_CONST
+    65480 B           0 B           0 B          2    __TPRO_CONST
+    49152 B           0 B           0 B          1    IOAccelerator
+    32768 B           0 B           0 B          1    Activity Tracing
+    16384 B           0 B           0 B          1    Foundation
+    16384 B           0 B           0 B          1    CoreGraphics
+    16384 B           0 B           0 B          2    IOAccelerator (graphics)
+    16384 B           0 B           0 B          1    IOKit
+    16384 B           0 B           0 B          1    os_alloc_once
+        0 B     4440064 B           0 B          2    mapped file
+        0 B       65536 B           0 B          1    __TEXT
+        0 B       16384 B           0 B          1    __LINKEDIT
+        0 B           0 B           0 B          1    dyld private memory
+        ---           ---           ---        ---    ---
+  7946816 B     4521984 B     3031040 B        511    TOTAL
+
+Shared with com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B       16384 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+        0 B       16384 B           0 B          1    TOTAL
+
+Shared with com.apple.WebKit.WebContent [57933], dbz-tauri-poc [57930]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B      278528 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+        0 B      278528 B           0 B          1    TOTAL
+
+Shared with dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+   147456 B           0 B           0 B          9    untagged (VM_ALLOCATE)
+    16384 B           0 B           0 B          1    CoreGraphics
+        0 B      376832 B           0 B          5    mapped file
+        0 B       16384 B           0 B          3    __LINKEDIT
+        0 B       16384 B           0 B          3    __TEXT
+        ---           ---           ---        ---    ---
+   163840 B      409600 B           0 B         21    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    untagged (VM_ALLOCATE)
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    TOTAL
+
+Shared with dbz-tauri-poc [57930]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B      409600 B           0 B          4    mapped file
+        ---           ---           ---        ---    ---
+        0 B      409600 B           0 B          4    TOTAL
+
+Shared with com.apple.SafariPlatformSupport.Helper [57938], dbz-tauri-poc [57930], com.apple.WebKit.GPU [57931]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    IOKit
+    16384 B           0 B           0 B          1    IOAccelerator
+        0 B     2310144 B           0 B          4    __TEXT
+        0 B       49152 B           0 B          1    mapped file
+        0 B       32768 B           0 B          4    __LINKEDIT
+        ---           ---           ---        ---    ---
+    49152 B     2392064 B           0 B         12    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], com.apple.WebKit.GPU [57931], com.apple.audio.SandboxHelper [57934], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    16384 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B       81920 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+    16384 B       81920 B           0 B          2    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], com.apple.WebKit.WebContent [57933], com.apple.WebKit.GPU [57931], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    16384 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B      671744 B           0 B          3    mapped file
+        ---           ---           ---        ---    ---
+    16384 B      671744 B           0 B          4    TOTAL
+
+Shared with com.apple.WebKit.GPU [57931], com.apple.WebKit.WebContent [57933], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B      114688 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+        0 B      114688 B           0 B          1    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], com.apple.WebKit.WebContent [57933], com.apple.WebKit.GPU [57931], com.apple.audio.SandboxHelper [57934], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B           0 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    TOTAL
+
+Shared with com.apple.WebKit.WebContent [57933], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B      688128 B           0 B          4    mapped file
+        ---           ---           ---        ---    ---
+        0 B      688128 B           0 B          4    TOTAL
+
+Auxiliary data:
+    phys_footprint: 8290880 B
+    phys_footprint_peak: 8421952 B
+
+======================================================================
+com.apple.WebKit.Networking [57932]: 64-bit    Footprint: 5734952 B (16384 bytes per page)
+======================================================================
+
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+  2228224 B           0 B     1966080 B          5    WebKit malloc
+   993983 B           0 B           0 B        138    __DATA_DIRTY
+   704512 B           0 B     1392640 B        245    MALLOC_SMALL
+   393768 B           0 B           0 B          1    page table
+   318213 B           0 B           0 B         48    __DATA
+   294912 B           0 B           0 B          8    MALLOC metadata
+   180224 B           0 B           0 B          1    MALLOC_TINY
+   172780 B           0 B           0 B         60    unused dyld shared cache area
+   147456 B           0 B           0 B          6    stack
+    55176 B           0 B           0 B         21    __AUTH
+    49096 B           0 B           0 B          2    __TPRO_CONST
+    32768 B           0 B           0 B          1    Activity Tracing
+    16384 B           0 B           0 B          3    SQLite page cache
+    16384 B           0 B           0 B          1    __DATA_CONST
+    16384 B           0 B           0 B          4    untagged (VM_ALLOCATE)
+    16384 B           0 B           0 B          1    os_alloc_once
+        0 B      114688 B           0 B          4    mapped file
+        0 B       16384 B           0 B          1    __TEXT
+        0 B       16384 B           0 B          1    __LINKEDIT
+        0 B           0 B           0 B          1    dyld private memory
+        0 B           0 B           0 B          1    app-specific tag 1
+        0 B           0 B           0 B         32    JS VM Gigacage
+        0 B           0 B           0 B         21    guard
+        ---           ---           ---        ---    ---
+  5636648 B      147456 B     3358720 B        608    TOTAL
+
+Shared with ThemeWidgetControlViewService [59095], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    untagged (VM_ALLOCATE)
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    TOTAL
+
+Shared with com.apple.WebKit.WebContent [57933], com.apple.WebKit.GPU [57931]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B       65536 B           0 B          2    mapped file
+        ---           ---           ---        ---    ---
+        0 B       65536 B           0 B          2    TOTAL
+
+Shared with dbz-tauri-poc [57930]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B       65536 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+        0 B       65536 B           0 B          1    TOTAL
+
+Shared with com.apple.WebKit.GPU [57931], ThemeWidgetControlViewService [59095], com.apple.audio.SandboxHelper [57934], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    16384 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B       81920 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+    16384 B       81920 B           0 B          2    TOTAL
+
+Shared with com.apple.WebKit.WebContent [57933], com.apple.WebKit.GPU [57931], ThemeWidgetControlViewService [59095], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    16384 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B     1081344 B           0 B          3    mapped file
+        ---           ---           ---        ---    ---
+    16384 B     1081344 B           0 B          4    TOTAL
+
+Shared with com.apple.WebKit.WebContent [57933], com.apple.WebKit.GPU [57931], ThemeWidgetControlViewService [59095], com.apple.audio.SandboxHelper [57934], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B           0 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    TOTAL
+
+Auxiliary data:
+    phys_footprint: 5767720 B
+    phys_footprint_peak: 7815744 B
+
+======================================================================
+com.apple.audio.SandboxHelper [57934]: 64-bit    Footprint: 3080744 B (16384 bytes per page)
+======================================================================
+
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+  1163264 B           0 B     2408448 B          6    MALLOC_SMALL
+   491573 B           0 B           0 B        100    __DATA_DIRTY
+   393768 B           0 B           0 B          1    page table
+   360448 B           0 B           0 B          8    MALLOC metadata
+   141813 B           0 B           0 B         20    __DATA
+   120334 B           0 B           0 B         43    unused dyld shared cache area
+   114688 B           0 B           0 B          1    MALLOC_TINY
+    81920 B           0 B       16384 B          1    libdispatch
+    49152 B           0 B           0 B          7    stack
+    49096 B           0 B           0 B          2    __TPRO_CONST
+    16384 B           0 B           0 B          1    __DATA_CONST
+    16384 B           0 B           0 B          1    os_alloc_once
+    16384 B           0 B           0 B          1    tag 22
+    16384 B           0 B           0 B          1    Activity Tracing
+        0 B       32768 B           0 B          1    __TEXT
+        0 B       16384 B           0 B          1    __LINKEDIT
+        0 B           0 B           0 B          2    untagged (VM_ALLOCATE)
+        ---           ---           ---        ---    ---
+  3031592 B       49152 B     2424832 B        199    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], com.apple.WebKit.GPU [57931], ThemeWidgetControlViewService [59095], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    16384 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B       81920 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+    16384 B       81920 B           0 B          2    TOTAL
+
+Shared with com.apple.WebKit.Networking [57932], com.apple.WebKit.WebContent [57933], com.apple.WebKit.GPU [57931], ThemeWidgetControlViewService [59095], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          1    untagged (VM_ALLOCATE)
+        0 B           0 B           0 B          1    mapped file
+        ---           ---           ---        ---    ---
+    32768 B           0 B           0 B          2    TOTAL
+
+Auxiliary data:
+    phys_footprint: 3113512 B
+    phys_footprint_peak: 5620264 B
+
+======================================================================
+Shared Cache 157E6D2E-2E5C-39B1-8F2A-8866EE228BED
+======================================================================
+
+Shared with com.apple.WebKit.Networking [57932], com.apple.WebKit.WebContent [57933], com.apple.WebKit.GPU [57931], ThemeWidgetControlViewService [59095], com.apple.audio.SandboxHelper [57934], dbz-tauri-poc [57930], com.apple.SafariPlatformSupport.Helper [57938]:
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+        0 B           0 B           0 B       3048    __AUTH
+        0 B           0 B           0 B       3047    __DATA_DIRTY
+        0 B           0 B           0 B       4631    __DATA
+        0 B           0 B           0 B       5799    __TEXT
+        0 B           0 B           0 B       5657    __DATA_CONST
+        0 B           0 B           0 B       5611    __AUTH_CONST
+        0 B           0 B           0 B       9772    unused dyld shared cache area
+        0 B           0 B           0 B         14    __LINKEDIT
+        0 B           0 B           0 B          7    __CTF
+        0 B           0 B           0 B          7    __FONT_DATA
+        0 B           0 B           0 B          1    __GLSLBUILTINS
+        ---           ---           ---        ---    ---
+        0 B           0 B           0 B      37594    TOTAL
+
+======================================================================
+Summary Footprint: 290886816 B
+======================================================================
+
+      Dirty         Clean   Reclaimable    Regions    Category
+        ---           ---           ---        ---    ---
+102678528 B           0 B           0 B         46    Owned physical footprint (unmapped) (graphics)
+ 54870016 B           0 B    12402688 B         96    IOSurface
+ 42205184 B           0 B    20283392 B         23    WebKit malloc
+ 31227904 B           0 B    23199744 B       1912    MALLOC_SMALL
+ 16662528 B           0 B           0 B        641    JS VM Gigacage
+  9772591 B           0 B           0 B       4676    __DATA_DIRTY
+  4603904 B           0 B           0 B         98    IOAccelerator (graphics)
+  4413917 B           0 B           0 B       5114    __DATA
+  3801088 B           0 B           0 B         65    MALLOC metadata
+  3724448 B           0 B           0 B          7    page table
+  1982464 B           0 B           0 B         95    stack
+  1966080 B           0 B           0 B         30    Owned physical footprint (unmapped)
+  1884160 B           0 B       49152 B          3    JS JIT generated code
+  1802240 B           0 B           0 B          7    MALLOC_TINY
+  1721955 B           0 B           0 B      10456    unused dyld shared cache area
+  1605632 B           0 B           0 B        145    untagged (VM_ALLOCATE)
+  1082137 B           0 B           0 B       3227    __AUTH
+   933888 B           0 B       81920 B          4    libdispatch
+   688128 B           0 B           0 B         33    CoreAnimation
+   491128 B           0 B           0 B         14    __TPRO_CONST
+   475136 B           0 B           0 B       5669    __DATA_CONST
+   458752 B           0 B           0 B       5615    __AUTH_CONST
+   278528 B           0 B           0 B          2    CoreUI image data
+   262144 B    36044800 B           0 B        182    mapped file
+   212992 B           0 B           0 B          8    IOAccelerator
+   212992 B           0 B           0 B          6    Activity Tracing
+   163840 B           0 B           0 B          8    app-specific tag 2
+   131072 B           0 B           0 B          1    Accelerate image backing stores
+   131072 B           0 B           0 B          8    ColorSync
+   114688 B           0 B           0 B          7    os_alloc_once
+   114688 B           0 B           0 B         21    IOKit
+    81920 B           0 B           0 B          7    CoreGraphics
+    49152 B           0 B           0 B          3    Foundation
+    32768 B           0 B           0 B          3    CoreServices
+    32768 B           0 B           0 B          2    tag 22
+    16384 B           0 B           0 B          3    SQLite page cache
+        0 B     7569408 B           0 B       5814    __TEXT
+        0 B      196608 B           0 B         29    __LINKEDIT
+        0 B           0 B           0 B          1    __GLSLBUILTINS
+        0 B           0 B           0 B          3    app-specific tag 1
+        0 B           0 B           0 B          7    __FONT_DATA
+        0 B           0 B           0 B          5    dyld private memory
+        0 B           0 B           0 B          7    __CTF
+        0 B           0 B           0 B        201    guard
+        ---           ---           ---        ---    ---
+290886816 B    43810816 B    56016896 B      44318    TOTAL

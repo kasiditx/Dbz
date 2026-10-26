@@ -4,7 +4,7 @@
 |---|---|---|---|
 | Core language | Rust | Proposed | capability and performance design |
 | UI | egui/eframe + wgpu candidate | **Unconfirmed** | M0 Native UX/editor/grid spike, ADR-0001 |
-| UI fallback | Tauri 2 + React/TypeScript | Consider only if UX/accessibility/maintenance warrants | same-workload comparison |
+| UI alternative | Tauri 2 + React/TypeScript | Experiment available; decision Pending | T-004a same-workload macOS evidence; Windows/accessibility gates remain |
 | Oracle Primary | `oracle/rust-oracledb` thin | **Unverified live** | POC + 19c test, ADR-0002 |
 | Oracle OCI fallback | `kubo/rust-oracle` adapter | Deferred | only if documented gap/11g need |
 | Database support MVP | Oracle 19c, PostgreSQL, SQLite | Proposed | integration fixtures + version support matrix |

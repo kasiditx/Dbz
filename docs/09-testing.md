@@ -55,3 +55,6 @@ Coverage percentage alone is insufficient. Every P0 FR/OR item has one unit or c
 
 ## Test quality
 Each AC must be falsifiable against starting code. A scenario already passing before feature implementation does not prove ticket work. Prefer vertical integration from UI action to driver result where feasible.
+
+## T-004a prototype validation
+`python3 benchmarks/t004a/verify.py` records exact local test/fmt/lint/typecheck/build commands and results. `benchmarks/t004a/cua-workload.mjs` drives real desktop actions through CUA; `harness.py` collects process/frame/state evidence. Read the comparison report for QA failures, corrections, precise timing gaps and platform limitations. No live database test is implied.

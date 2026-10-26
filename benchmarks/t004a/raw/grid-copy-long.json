@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "expected_characters": 420,
+  "note": "Shared generator includes trailing space; initial expectation incorrectly trimmed it.",
+  "state": {
+    "cached_tabs": 1,
+    "cells": 147,
+    "chars": 420,
+    "dark": true,
+    "dom_elements": 308,
+    "editor": [
+      225,
+      140,
+      1280,
+      340
+    ],
+    "editor_has_focus": true,
+    "exp_row1": [
+      0,
+      207,
+      220,
+      237
+    ],
+    "focus": "Editor",
+    "grid": [
+      225,
+      384,
+      1280,
+      772
+    ],
+    "inner": [
+      0,
+      0,
+      1280,
+      800
+    ],
+    "last_dom_row": "20",
+    "outcome": "success",
+    "plus": [
+      642.90625,
+      52,
+      688.828125,
+      91
+    ],
+    "run": "idle",
+    "scroll_height": 22026,
+    "scroll_row": 0,
+    "scroll_top": 0,
+    "sel": [
+      0,
+      4
+    ],
+    "selected_rect": [
+      825,
+      410,
+      1145,
+      432
+    ],
+    "sidebar": 220,
+    "sidebar_splitter": [
+      220,
+      52,
+      225,
+      772
+    ],
+    "split": 200,
+    "splitter": [
+      225,
+      340,
+      1280,
+      345
+    ],
+    "tab": 3,
+    "tab0": [
+      225,
+      52,
+      328.03125,
+      91
+    ],
+    "tabs": 4,
+    "tail": "ตุยาว 0 หมายเหตุยาว 0 หมายเหตุยาว 0 หมายเหตุยาว 0 หมายเหตุยาว 0 หมายเหตุยาว 0 หมายเหตุยาว 0 หมายเหตุยาว 0 หมายเหตุยาว 0 ",
+    "ts_ns": 1793033013067000000
+  }
+}

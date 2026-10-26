@@ -1,0 +1,1959 @@
+[
+  {
+    "name": "PageDown selected row visible",
+    "pass": true,
+    "state": {
+      "cached_tabs": 0,
+      "cells": 147,
+      "chars": 191,
+      "dark": true,
+      "dom_elements": 324,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Grid",
+      "grid": [
+        225,
+        384,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "20",
+      "plus": [
+        537.71875,
+        52,
+        583.640625,
+        91
+      ],
+      "run": "idle",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 12,
+      "sel": [
+        16,
+        0
+      ],
+      "selected_rect": [
+        225,
+        750,
+        375,
+        772
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        772
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 0,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030723697000000
+    }
+  },
+  {
+    "name": "1M last row and column reachable",
+    "pass": true,
+    "state": {
+      "cached_tabs": 0,
+      "cells": 140,
+      "chars": 191,
+      "dark": true,
+      "dom_elements": 316,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Grid",
+      "grid": [
+        225,
+        384,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "999999",
+      "plus": [
+        537.71875,
+        52,
+        583.640625,
+        91
+      ],
+      "run": "idle",
+      "scroll_height": 22000026,
+      "scroll_row": 999983,
+      "scroll_top": 21999638,
+      "sel": [
+        999999,
+        19
+      ],
+      "selected_rect": null,
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        772
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 0,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030724204000000
+    }
+  },
+  {
+    "name": "Run completion resets row and scroll",
+    "pass": true,
+    "state": {
+      "cached_tabs": 0,
+      "cells": 180,
+      "chars": 191,
+      "dark": true,
+      "dom_elements": 360,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Grid",
+      "grid": [
+        225,
+        384,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "19",
+      "plus": [
+        537.71875,
+        52,
+        583.640625,
+        91
+      ],
+      "run": "done",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": null,
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        772
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 0,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030736476000000
+    }
+  },
+  {
+    "name": "Mock cancel acknowledged",
+    "pass": true,
+    "state": {
+      "cached_tabs": 0,
+      "cells": 140,
+      "chars": 191,
+      "dark": true,
+      "dom_elements": 316,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Grid",
+      "grid": [
+        225,
+        384,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "19",
+      "plus": [
+        537.71875,
+        52,
+        583.640625,
+        91
+      ],
+      "run": "cancelled",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        225,
+        410,
+        375,
+        432
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        772
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 0,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030736977000000
+    }
+  },
+  {
+    "name": "New tab accepts Thai Unicode",
+    "pass": false,
+    "state": {
+      "cached_tabs": 1,
+      "cells": 147,
+      "chars": 7,
+      "dark": true,
+      "dom_elements": 279,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": true,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        384,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "20",
+      "plus": [
+        642.90625,
+        52,
+        688.828125,
+        91
+      ],
+      "run": "cancelled",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        225,
+        410,
+        375,
+        432
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        772
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 3,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 4,
+      "tail": "SELECT ",
+      "ts_ns": 1793030737949000000
+    }
+  },
+  {
+    "name": "Editor selection copy paste",
+    "pass": false,
+    "state": {
+      "cached_tabs": 1,
+      "cells": 147,
+      "chars": 14,
+      "dark": true,
+      "dom_elements": 280,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": true,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        384,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "20",
+      "plus": [
+        642.90625,
+        52,
+        688.828125,
+        91
+      ],
+      "run": "cancelled",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        225,
+        410,
+        375,
+        432
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        772
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 3,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 4,
+      "tail": "SELECT SELECT ",
+      "ts_ns": 1793030738782000000
+    }
+  },
+  {
+    "name": "Closed tab cache bounded",
+    "pass": true,
+    "state": {
+      "cached_tabs": 1,
+      "cells": 147,
+      "chars": 191,
+      "dark": true,
+      "dom_elements": 323,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": true,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        384,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "20",
+      "plus": [
+        537.71875,
+        52,
+        583.640625,
+        91
+      ],
+      "run": "cancelled",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        225,
+        410,
+        375,
+        432
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        772
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 2,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030739626000000
+    }
+  },
+  {
+    "name": "Thai paste and combining marks",
+    "pass": true,
+    "state": {
+      "cached_tabs": 2,
+      "cells": 147,
+      "chars": 23,
+      "dark": true,
+      "dom_elements": 279,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": true,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        384,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "20",
+      "plus": [
+        642.609375,
+        52,
+        688.53125,
+        91
+      ],
+      "run": "cancelled",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        225,
+        410,
+        375,
+        432
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        772
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 3,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 4,
+      "tail": "SELECT ทดสอบ ก็ ที่ นี่",
+      "ts_ns": 1793030756172000000
+    }
+  },
+  {
+    "name": "Thai selection copy paste",
+    "pass": true,
+    "state": {
+      "cached_tabs": 2,
+      "cells": 147,
+      "chars": 46,
+      "dark": true,
+      "dom_elements": 280,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": true,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        384,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "20",
+      "plus": [
+        642.609375,
+        52,
+        688.53125,
+        91
+      ],
+      "run": "cancelled",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        225,
+        410,
+        375,
+        432
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        772
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 3,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 4,
+      "tail": "SELECT ทดสอบ ก็ ที่ นี่SELECT ทดสอบ ก็ ที่ นี่",
+      "ts_ns": 1793030756943000000
+    }
+  },
+  {
+    "name": "Ctrl+Tab wraps",
+    "pass": true,
+    "state": {
+      "cached_tabs": 3,
+      "cells": 147,
+      "chars": 191,
+      "dark": true,
+      "dom_elements": 325,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": true,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        384,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "20",
+      "plus": [
+        642.609375,
+        52,
+        688.53125,
+        91
+      ],
+      "run": "cancelled",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        225,
+        410,
+        375,
+        432
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        772
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 0,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 4,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030757814000000
+    }
+  },
+  {
+    "name": "Ctrl+Shift+Tab reverses",
+    "pass": true,
+    "state": {
+      "cached_tabs": 3,
+      "cells": 147,
+      "chars": 46,
+      "dark": true,
+      "dom_elements": 279,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": true,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        384,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "20",
+      "plus": [
+        642.609375,
+        52,
+        688.53125,
+        91
+      ],
+      "run": "cancelled",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        225,
+        410,
+        375,
+        432
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        772
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 3,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 4,
+      "tail": "SELECT ทดสอบ ก็ ที่ นี่SELECT ทดสอบ ก็ ที่ นี่",
+      "ts_ns": 1793030758715000000
+    }
+  },
+  {
+    "name": "Light theme toggle",
+    "pass": true,
+    "state": {
+      "cached_tabs": 2,
+      "cells": 147,
+      "chars": 191,
+      "dark": false,
+      "dom_elements": 298,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": true,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        384,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "20",
+      "plus": [
+        537.71875,
+        52,
+        583.640625,
+        91
+      ],
+      "run": "cancelled",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        225,
+        410,
+        375,
+        432
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        772
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 2,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030759607000000
+    }
+  },
+  {
+    "name": "Mouse sidebar splitter drag",
+    "pass": true,
+    "state": {
+      "cached_tabs": 2,
+      "cells": 147,
+      "chars": 191,
+      "dark": false,
+      "dom_elements": 299,
+      "editor": [
+        285,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        280,
+        237
+      ],
+      "focus": "Controls",
+      "grid": [
+        285,
+        384,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "20",
+      "plus": [
+        597.71875,
+        52,
+        643.640625,
+        91
+      ],
+      "run": "cancelled",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        285,
+        410,
+        435,
+        432
+      ],
+      "sidebar": 280,
+      "sidebar_splitter": [
+        280,
+        52,
+        285,
+        772
+      ],
+      "split": 200,
+      "splitter": [
+        285,
+        340,
+        1280,
+        345
+      ],
+      "tab": 2,
+      "tab0": [
+        285,
+        52,
+        388.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030778056000000
+    }
+  },
+  {
+    "name": "Mouse editor splitter drag",
+    "pass": true,
+    "state": {
+      "cached_tabs": 2,
+      "cells": 147,
+      "chars": 191,
+      "dark": false,
+      "dom_elements": 299,
+      "editor": [
+        285,
+        140,
+        1280,
+        390
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        280,
+        237
+      ],
+      "focus": "Controls",
+      "grid": [
+        285,
+        434,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "20",
+      "plus": [
+        597.71875,
+        52,
+        643.640625,
+        91
+      ],
+      "run": "cancelled",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        285,
+        460,
+        435,
+        482
+      ],
+      "sidebar": 280,
+      "sidebar_splitter": [
+        280,
+        52,
+        285,
+        772
+      ],
+      "split": 250,
+      "splitter": [
+        285,
+        390,
+        1280,
+        395
+      ],
+      "tab": 2,
+      "tab0": [
+        285,
+        52,
+        388.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030779761000000
+    }
+  },
+  {
+    "name": "Empty result state",
+    "pass": false,
+    "state": {
+      "cached_tabs": 2,
+      "cells": 119,
+      "chars": 191,
+      "dark": false,
+      "dom_elements": 267,
+      "editor": [
+        285,
+        140,
+        1280,
+        390
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        280,
+        237
+      ],
+      "focus": "Controls",
+      "grid": [
+        285,
+        434,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "16",
+      "plus": [
+        597.71875,
+        52,
+        643.640625,
+        91
+      ],
+      "run": "done",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        285,
+        460,
+        435,
+        482
+      ],
+      "sidebar": 280,
+      "sidebar_splitter": [
+        280,
+        52,
+        285,
+        772
+      ],
+      "split": 250,
+      "splitter": [
+        285,
+        390,
+        1280,
+        395
+      ],
+      "tab": 2,
+      "tab0": [
+        285,
+        52,
+        388.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030785286000000
+    }
+  },
+  {
+    "name": "Empty result completes",
+    "pass": false,
+    "state": {
+      "cached_tabs": 2,
+      "cells": 119,
+      "chars": 191,
+      "dark": false,
+      "dom_elements": 267,
+      "editor": [
+        285,
+        140,
+        1280,
+        390
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        280,
+        237
+      ],
+      "focus": "Controls",
+      "grid": [
+        285,
+        434,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "16",
+      "plus": [
+        597.71875,
+        52,
+        643.640625,
+        91
+      ],
+      "run": "done",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        285,
+        460,
+        435,
+        482
+      ],
+      "sidebar": 280,
+      "sidebar_splitter": [
+        280,
+        52,
+        285,
+        772
+      ],
+      "split": 250,
+      "splitter": [
+        285,
+        390,
+        1280,
+        395
+      ],
+      "tab": 2,
+      "tab0": [
+        285,
+        52,
+        388.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030785286000000
+    }
+  },
+  {
+    "name": "Error state visible after Run button",
+    "pass": true,
+    "state": {
+      "cached_tabs": 2,
+      "cells": 119,
+      "chars": 191,
+      "dark": false,
+      "dom_elements": 268,
+      "editor": [
+        285,
+        140,
+        1280,
+        390
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        280,
+        237
+      ],
+      "focus": "Controls",
+      "grid": [
+        285,
+        465,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "16",
+      "plus": [
+        597.71875,
+        52,
+        643.640625,
+        91
+      ],
+      "run": "error",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        285,
+        491,
+        435,
+        513
+      ],
+      "sidebar": 280,
+      "sidebar_splitter": [
+        280,
+        52,
+        285,
+        772
+      ],
+      "split": 250,
+      "splitter": [
+        285,
+        390,
+        1280,
+        395
+      ],
+      "tab": 2,
+      "tab0": [
+        285,
+        52,
+        388.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030808654000000
+    }
+  },
+  {
+    "name": "Explorer shortcut focus",
+    "pass": true,
+    "state": {
+      "cached_tabs": 2,
+      "cells": 119,
+      "chars": 191,
+      "dark": false,
+      "dom_elements": 268,
+      "editor": [
+        285,
+        140,
+        1280,
+        390
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        280,
+        237
+      ],
+      "focus": "Explorer",
+      "grid": [
+        285,
+        465,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "16",
+      "plus": [
+        597.71875,
+        52,
+        643.640625,
+        91
+      ],
+      "run": "error",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        285,
+        491,
+        435,
+        513
+      ],
+      "sidebar": 280,
+      "sidebar_splitter": [
+        280,
+        52,
+        285,
+        772
+      ],
+      "split": 250,
+      "splitter": [
+        285,
+        390,
+        1280,
+        395
+      ],
+      "tab": 2,
+      "tab0": [
+        285,
+        52,
+        388.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030818702000000
+    }
+  },
+  {
+    "name": "F6 returns editor focus",
+    "pass": true,
+    "state": {
+      "cached_tabs": 2,
+      "cells": 119,
+      "chars": 191,
+      "dark": false,
+      "dom_elements": 268,
+      "editor": [
+        285,
+        140,
+        1280,
+        390
+      ],
+      "editor_has_focus": true,
+      "exp_row1": [
+        0,
+        207,
+        280,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        285,
+        465,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "16",
+      "plus": [
+        597.71875,
+        52,
+        643.640625,
+        91
+      ],
+      "run": "error",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        285,
+        491,
+        435,
+        513
+      ],
+      "sidebar": 280,
+      "sidebar_splitter": [
+        280,
+        52,
+        285,
+        772
+      ],
+      "split": 250,
+      "splitter": [
+        285,
+        390,
+        1280,
+        395
+      ],
+      "tab": 2,
+      "tab0": [
+        285,
+        52,
+        388.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030819587000300
+    }
+  },
+  {
+    "name": "Empty outcome after native select commit",
+    "pass": false,
+    "state": {
+      "cached_tabs": 2,
+      "cells": 119,
+      "chars": 191,
+      "dark": false,
+      "dom_elements": 268,
+      "editor": [
+        285,
+        140,
+        1280,
+        390
+      ],
+      "editor_has_focus": true,
+      "exp_row1": [
+        0,
+        207,
+        280,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        285,
+        465,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "16",
+      "plus": [
+        597.71875,
+        52,
+        643.640625,
+        91
+      ],
+      "run": "error",
+      "scroll_height": 22000026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        285,
+        491,
+        435,
+        513
+      ],
+      "sidebar": 280,
+      "sidebar_splitter": [
+        280,
+        52,
+        285,
+        772
+      ],
+      "split": 250,
+      "splitter": [
+        285,
+        390,
+        1280,
+        395
+      ],
+      "tab": 2,
+      "tab0": [
+        285,
+        52,
+        388.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030819587000300
+    }
+  },
+  {
+    "name": "Final release Error completion",
+    "pass": true,
+    "state": {
+      "cached_tabs": 0,
+      "cells": 140,
+      "chars": 191,
+      "dark": true,
+      "dom_elements": 317,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Controls",
+      "grid": [
+        225,
+        415,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "19",
+      "outcome": "error",
+      "plus": [
+        537.71875,
+        52,
+        583.640625,
+        91
+      ],
+      "run": "error",
+      "scroll_height": 22026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        225,
+        441,
+        375,
+        463
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        772
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 0,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030974964000000
+    }
+  },
+  {
+    "name": "Final release ASCII typing",
+    "pass": true,
+    "state": {
+      "cached_tabs": 1,
+      "cells": 140,
+      "chars": 9,
+      "dark": true,
+      "dom_elements": 273,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": true,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        415,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "19",
+      "outcome": "error",
+      "plus": [
+        642.90625,
+        52,
+        688.828125,
+        91
+      ],
+      "run": "error",
+      "scroll_height": 22026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        225,
+        441,
+        375,
+        463
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        772
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 3,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 4,
+      "tail": "SELECT 42",
+      "ts_ns": 1793030984583000000
+    }
+  },
+  {
+    "name": "Final release Thai paste",
+    "pass": true,
+    "state": {
+      "cached_tabs": 1,
+      "cells": 140,
+      "chars": 17,
+      "dark": true,
+      "dom_elements": 273,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": true,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        415,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "19",
+      "outcome": "error",
+      "plus": [
+        642.90625,
+        52,
+        688.828125,
+        91
+      ],
+      "run": "error",
+      "scroll_height": 22026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "selected_rect": [
+        225,
+        441,
+        375,
+        463
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        772
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 3,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 4,
+      "tail": "SELECT 42 ภาษาไทย",
+      "ts_ns": 1793030985374000000
+    }
+  },
+  {
+    "name": "1K final row reachable with bounded DOM",
+    "pass": true,
+    "state": {
+      "cached_tabs": 1,
+      "cells": 133,
+      "chars": 191,
+      "dark": true,
+      "dom_elements": 309,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Grid",
+      "grid": [
+        225,
+        415,
+        1280,
+        772
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        800
+      ],
+      "last_dom_row": "999",
+      "outcome": "error",
+      "plus": [
+        537.71875,
+        52,
+        583.640625,
+        91
+      ],
+      "run": "error",
+      "scroll_height": 22026,
+      "scroll_row": 984,
+      "scroll_top": 21669,
+      "sel": [
+        999,
+        19
+      ],
+      "selected_rect": null,
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        772
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 2,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030986329000000
+    }
+  }
+]

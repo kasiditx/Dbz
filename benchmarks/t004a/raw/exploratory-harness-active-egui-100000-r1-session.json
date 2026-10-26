@@ -1,0 +1,156 @@
+{
+  "stack": "egui",
+  "rows": 100000,
+  "mode": "active",
+  "pid": 16394,
+  "ready_ms": 594.9028750183061,
+  "args": [
+    "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/bundle/Dbz Egui POC.app/Contents/MacOS/dbz-ui-poc",
+    "--rows",
+    "100000",
+    "--event-log",
+    "/var/folders/zy/r4_zwb9n7tn0dh9y0yjnr4k80000gn/T/dbz-t004a-active-egui-100000-r1-4cjh8api/active-egui-100000-r1-events.jsonl",
+    "--large-sql",
+    "--comparison",
+    "--bench",
+    "external",
+    "--seconds",
+    "180.0",
+    "--out",
+    "/var/folders/zy/r4_zwb9n7tn0dh9y0yjnr4k80000gn/T/dbz-t004a-active-egui-100000-r1-4cjh8api/active-egui-100000-r1-frames.csv"
+  ],
+  "bundle": "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/bundle/Dbz Egui POC.app",
+  "events": "/var/folders/zy/r4_zwb9n7tn0dh9y0yjnr4k80000gn/T/dbz-t004a-active-egui-100000-r1-4cjh8api/active-egui-100000-r1-events.jsonl",
+  "frames": "/var/folders/zy/r4_zwb9n7tn0dh9y0yjnr4k80000gn/T/dbz-t004a-active-egui-100000-r1-4cjh8api/active-egui-100000-r1-frames.csv",
+  "large_sql": true,
+  "baseline_webkit_pids": [
+    23321,
+    23331,
+    23333
+  ],
+  "state": {
+    "ts_ns": 1793032083085620000,
+    "frame": 2,
+    "sel": [
+      0,
+      0
+    ],
+    "focus": "Editor",
+    "tab": 0,
+    "tabs": 3,
+    "chars": 95500,
+    "tail": " no database connection\nORDER BY o.id;\n\n",
+    "split": 0.28,
+    "scroll_row": 0,
+    "exp_sel": 0,
+    "dark": true,
+    "editor_has_focus": true,
+    "run": "idle",
+    "ppp": 2,
+    "inner": [
+      221.0,
+      95.0,
+      1501.0,
+      895.0
+    ],
+    "editor": [
+      238.0,
+      75.0,
+      1272.0,
+      49601.5
+    ],
+    "grid": [
+      238.0,
+      284.5,
+      1272.0,
+      759.0
+    ],
+    "splitter": [
+      238.0,
+      272.5,
+      1272.0,
+      278.5
+    ],
+    "tab0": [
+      238.0,
+      41.0,
+      291.6,
+      69.0
+    ],
+    "plus": [
+      546.8,
+      41.0,
+      574.2,
+      69.0
+    ],
+    "exp_row1": [
+      8.0,
+      124.0,
+      78.7,
+      152.0
+    ]
+  },
+  "label": "active-egui-100000-r1",
+  "final_state": {
+    "ts_ns": 1793032257462676000,
+    "frame": 23858,
+    "sel": [
+      0,
+      0
+    ],
+    "focus": "Grid",
+    "tab": 2,
+    "tabs": 3,
+    "chars": 95521,
+    "tail": "on\nORDER BY o.id;\n\naaaaaaaaaaaaaaaaaaaa\u00a3",
+    "split": 0.28,
+    "scroll_row": 794,
+    "exp_sel": 0,
+    "dark": true,
+    "editor_has_focus": false,
+    "run": "idle",
+    "ppp": 2,
+    "inner": [
+      221.0,
+      95.0,
+      1341.0,
+      895.0
+    ],
+    "editor": [
+      238.0,
+      -49260.0,
+      1112.0,
+      266.5
+    ],
+    "grid": [
+      238.0,
+      284.5,
+      1112.0,
+      759.0
+    ],
+    "splitter": [
+      238.0,
+      272.5,
+      1112.0,
+      278.5
+    ],
+    "tab0": [
+      238.0,
+      41.0,
+      291.6,
+      69.0
+    ],
+    "plus": [
+      546.8,
+      41.0,
+      574.2,
+      69.0
+    ],
+    "exp_row1": [
+      8.0,
+      124.0,
+      78.7,
+      152.0
+    ]
+  }
+}

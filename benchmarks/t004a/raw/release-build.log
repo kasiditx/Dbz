@@ -1,0 +1,32 @@
+
+> dbz-tauri-prototype@0.1.0 release
+> tauri build --bundles app
+
+        Info Looking up installed tauri packages to check mismatched versions...
+     Running beforeBuildCommand `npm run build`
+
+> dbz-tauri-prototype@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 47 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.36 kB │ gzip:   0.27 kB
+dist/assets/index-uJ4Syoig.css    6.23 kB │ gzip:   2.04 kB
+dist/assets/index-DI2Bn4Gi.js   600.97 kB │ gzip: 193.10 kB
+
+✓ built in 106ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+   Compiling dbz-tauri-poc v0.1.0 (/Users/kasidit/Documents/Dbz/crates/poc-tauri/src-tauri)
+    Finished `release` profile [optimized] target(s) in 7.67s
+       Built application at: /Users/kasidit/Documents/Dbz/crates/poc-tauri/src-tauri/target/release/dbz-tauri-poc
+    Bundling Dbz Tauri POC.app (/Users/kasidit/Documents/Dbz/crates/poc-tauri/src-tauri/target/release/bundle/macos/Dbz Tauri POC.app)
+    Finished 1 bundle at:
+        /Users/kasidit/Documents/Dbz/crates/poc-tauri/src-tauri/target/release/bundle/macos/Dbz Tauri POC.app (10.78 MiB)
+

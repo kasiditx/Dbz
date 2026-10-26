@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "window": { "width": 1280, "height": 800 },
+  "datasets": [1000, 100000, 1000000],
+  "columns": 20,
+  "rowHeight": 22,
+  "columnWidth": 150,
+  "wideColumnWidth": 320,
+  "wideColumn": 4,
+  "overscan": 3,
+  "tabs": 3,
+  "queryDelayMs": 400,
+  "largeSqlRepeats": 500,
+  "scrollNotches": -3,
+  "scrollRepetitions": 20,
+  "resizeDelta": [160, 90],
+  "resizeSteps": 30,
+  "resizeRepetitions": 6,
+  "keyboardRepetitions": 20
+}

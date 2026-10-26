@@ -14,6 +14,8 @@ fn main() -> eframe::Result {
             .cloned()
     };
     let opts = Options {
+        comparison: args.iter().any(|a| a == "--comparison"),
+        large_sql: args.iter().any(|a| a == "--large-sql"),
         rows: get("--rows")
             .and_then(|v| v.parse().ok())
             .unwrap_or(100_000),

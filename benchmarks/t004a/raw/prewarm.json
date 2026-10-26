@@ -1,0 +1,50 @@
+[
+  {
+    "stack": "egui",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 9623,
+    "ready_ms": 720.6073749694042,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/bundle/Dbz Egui POC.app/Contents/MacOS/dbz-ui-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/var/folders/zy/r4_zwb9n7tn0dh9y0yjnr4k80000gn/T/dbz-t004a-prewarm-egui-_4metigd/prewarm-egui-events.jsonl",
+      "--comparison",
+      "--bench",
+      "idle",
+      "--seconds",
+      "0",
+      "--out",
+      "/var/folders/zy/r4_zwb9n7tn0dh9y0yjnr4k80000gn/T/dbz-t004a-prewarm-egui-_4metigd/prewarm-egui-frames.csv"
+    ],
+    "bundle": "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/bundle/Dbz Egui POC.app",
+    "events": "/var/folders/zy/r4_zwb9n7tn0dh9y0yjnr4k80000gn/T/dbz-t004a-prewarm-egui-_4metigd/prewarm-egui-events.jsonl",
+    "frames": "/var/folders/zy/r4_zwb9n7tn0dh9y0yjnr4k80000gn/T/dbz-t004a-prewarm-egui-_4metigd/prewarm-egui-frames.csv",
+    "large_sql": false
+  },
+  {
+    "stack": "tauri",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 9698,
+    "ready_ms": 2349.3472909904085,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-tauri/src-tauri/target/release/bundle/macos/Dbz Tauri POC.app/Contents/MacOS/dbz-tauri-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/var/folders/zy/r4_zwb9n7tn0dh9y0yjnr4k80000gn/T/dbz-t004a-prewarm-tauri-rs0xfvga/prewarm-tauri-events.jsonl",
+      "--measure",
+      "--seconds",
+      "0",
+      "--out",
+      "/var/folders/zy/r4_zwb9n7tn0dh9y0yjnr4k80000gn/T/dbz-t004a-prewarm-tauri-rs0xfvga/prewarm-tauri-frames.jsonl"
+    ],
+    "bundle": "/Users/kasidit/Documents/Dbz/crates/poc-tauri/src-tauri/target/release/bundle/macos/Dbz Tauri POC.app",
+    "events": "/var/folders/zy/r4_zwb9n7tn0dh9y0yjnr4k80000gn/T/dbz-t004a-prewarm-tauri-rs0xfvga/prewarm-tauri-events.jsonl",
+    "frames": "/var/folders/zy/r4_zwb9n7tn0dh9y0yjnr4k80000gn/T/dbz-t004a-prewarm-tauri-rs0xfvga/prewarm-tauri-frames.jsonl",
+    "large_sql": false
+  }
+]

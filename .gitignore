@@ -5,3 +5,9 @@ target/
 cwallet.sso
 .DS_Store
 .serena/
+
+node_modules/
+dist/
+crates/poc-tauri/src-tauri/gen/
+__pycache__/
+*.pyc

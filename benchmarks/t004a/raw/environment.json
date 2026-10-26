@@ -1,0 +1,65 @@
+{
+  "os": {
+    "returncode": 0,
+    "stdout": "ProductName:\t\tmacOS\nProductVersion:\t\t26.5.2\nBuildVersion:\t\t25F84",
+    "stderr": ""
+  },
+  "cpu": {
+    "returncode": 0,
+    "stdout": "Apple M4 Pro",
+    "stderr": ""
+  },
+  "ram": {
+    "returncode": 0,
+    "stdout": "25769803776",
+    "stderr": ""
+  },
+  "cpus": {
+    "returncode": 0,
+    "stdout": "12",
+    "stderr": ""
+  },
+  "power": {
+    "returncode": 0,
+    "stdout": "Now drawing from 'Battery Power'\n -InternalBattery-0 (id=21823587)\t14%; discharging; 0:51 remaining present: true",
+    "stderr": ""
+  },
+  "display": {
+    "returncode": 0,
+    "stdout": "Graphics/Displays:\n\n    Apple M4 Pro:\n\n      Chipset Model: Apple M4 Pro\n      Type: GPU\n      Bus: Built-In\n      Total Number of Cores: 16\n      Vendor: Apple (0x106b)\n      Metal Support: Metal 4\n      Displays:\n        Color LCD:\n          Display Type: Built-in Liquid Retina XDR Display\n          Resolution: 3024 x 1964 Retina\n          Main Display: Yes\n          Mirror: Off\n          Online: Yes\n          Automatically Adjust Brightness: Yes\n          Connection Type: Internal",
+    "stderr": ""
+  },
+  "rustc": {
+    "returncode": 0,
+    "stdout": "rustc 1.99.1 (58cf8f9c3 2026-10-13)",
+    "stderr": ""
+  },
+  "node": {
+    "returncode": 0,
+    "stdout": "v24.10.0",
+    "stderr": ""
+  },
+  "head": {
+    "returncode": 0,
+    "stdout": "25711f57177424983694821f022b7d8cf25de69a",
+    "stderr": ""
+  },
+  "status": {
+    "returncode": 0,
+    "stdout": "MM .gitignore\nA  benchmarks/t004a/query.sql\nA  benchmarks/t004a/workload.json\nA  crates/poc-tauri/eslint.config.js\nA  crates/poc-tauri/icon.svg\nA  crates/poc-tauri/index.html\nA  crates/poc-tauri/package-lock.json\nA  crates/poc-tauri/package.json\nA  crates/poc-tauri/src-tauri/Cargo.lock\nA  crates/poc-tauri/src-tauri/Cargo.toml\nAM crates/poc-tauri/src-tauri/build.rs\nA  crates/poc-tauri/src-tauri/capabilities/default.json\nA  crates/poc-tauri/src-tauri/icons/128x128.png\nA  crates/poc-tauri/src-tauri/icons/128x128@2x.png\nA  crates/poc-tauri/src-tauri/icons/32x32.png\nA  crates/poc-tauri/src-tauri/icons/icon.icns\nA  crates/poc-tauri/src-tauri/icons/icon.ico\nA  crates/poc-tauri/src-tauri/icons/icon.png\nAM crates/poc-tauri/src-tauri/src/main.rs\nAM crates/poc-tauri/src-tauri/src/query.rs\nAM crates/poc-tauri/src-tauri/tauri.conf.json\nAM crates/poc-tauri/src/App.tsx\nA  crates/poc-tauri/src/Editor.tsx\nA  crates/poc-tauri/src/Explorer.tsx\nAM crates/poc-tauri/src/Grid.tsx\nA  crates/poc-tauri/src/Splitter.tsx\nA  crates/poc-tauri/src/diagnostics.ts\nA  crates/poc-tauri/src/main.tsx\nAM crates/poc-tauri/src/model.test.ts\nAM crates/poc-tauri/src/model.ts\nA  crates/poc-tauri/src/style.css\nA  crates/poc-tauri/tsconfig.json\nA  crates/poc-tauri/vite.config.ts\n M crates/poc-ui/Cargo.lock\nM  crates/poc-ui/Cargo.toml\nMM crates/poc-ui/src/app.rs\nM  crates/poc-ui/src/bin/dbz-ui-poc.rs\nMM crates/poc-ui/src/model/grid.rs\nA  crates/poc-workload/Cargo.lock\nA  crates/poc-workload/Cargo.toml\nAM crates/poc-workload/src/lib.rs\n?? benchmarks/t004a/README.md\n?? benchmarks/t004a/__pycache__/\n?? benchmarks/t004a/harness.py\n?? benchmarks/t004a/idle_suite.py\n?? benchmarks/t004a/ownership.py\n?? benchmarks/t004a/raw/\n?? benchmarks/t004a/test_ownership.py\n?? benchmarks/t004a/verify.py\n?? benchmarks/t004a/window.swift\n?? docs/evidence/T-004a-research.md",
+    "stderr": ""
+  },
+  "artifacts": {
+    "tauri": {
+      "path": "/Users/kasidit/Documents/Dbz/crates/poc-tauri/src-tauri/target/release/bundle/macos/Dbz Tauri POC.app/Contents/MacOS/dbz-tauri-poc",
+      "bytes": 11250464,
+      "sha256": "e39f43a51a9dc72aafcc0df7e03c6d888f8b7c99d08c1ff6f0ccccf00cf93788"
+    },
+    "egui": {
+      "path": "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/bundle/Dbz Egui POC.app/Contents/MacOS/dbz-ui-poc",
+      "bytes": 14820272,
+      "sha256": "b4371328a6a628b9072b4cf1cfd4051129be787b1aabbfd51887ff7c0e83698d"
+    }
+  },
+  "recorded_at": "2026-10-26T23:10:45+0700"
+}

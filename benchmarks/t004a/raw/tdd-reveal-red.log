@@ -1,0 +1,30 @@
+
+> dbz-tauri-prototype@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/kasidit/Documents/Dbz/crates/poc-tauri
+
+ ❯ src/model.test.ts (4 tests | 1 failed) 3ms
+   × reveals intermediate rows below the sticky header, including the last row 1ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/model.test.ts > reveals intermediate rows below the sticky header, including the last row
+TypeError: revealRow is not a function
+ ❯ src/model.test.ts:27:10
+     25| import { revealRow } from './model';
+     26| it('reveals intermediate rows below the sticky header, including the l…
+     27|   expect(revealRow(30, 0, 400)).toBe(308);
+       |          ^
+     28|   expect(revealRow(0, 308, 400)).toBe(0);
+     29|   expect(revealRow(999999, 0, 400)).toBe(21999626);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 3 passed (4)
+   Start at  22:59:43
+   Duration  88ms (transform 55%, import 23%, tests 13%, worker 9%)
+

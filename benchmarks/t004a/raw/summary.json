@@ -1,0 +1,609 @@
+{
+  "startup": {
+    "egui": {
+      "n": 10,
+      "p50": 229.70100003294647,
+      "p95": 264.9460000102408,
+      "min": 202.48783304123208,
+      "max": 264.9460000102408
+    },
+    "tauri": {
+      "n": 10,
+      "p50": 519.7704159654677,
+      "p95": 554.1832919698209,
+      "min": 502.3742080084048,
+      "max": 554.1832919698209
+    }
+  },
+  "idle": [
+    {
+      "footprint_mib": 268.3455810546875,
+      "file": "idle-egui-1000-0-memory.json",
+      "stack": "egui",
+      "rows": 1000,
+      "idle_main_mib": 108.765625,
+      "idle_group_rss_mib": 156.390625,
+      "sampled_peak_group_rss_mib": 163.8125,
+      "sampled_peak_main_mib": 113.71875,
+      "group_cpu_percent": 0.7891100527823439,
+      "seconds": 64.62976845900994,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        69425,
+        69445,
+        69449
+      ]
+    },
+    {
+      "footprint_mib": 265.50160217285156,
+      "file": "idle-egui-100000-1-memory.json",
+      "stack": "egui",
+      "rows": 100000,
+      "idle_main_mib": 118.390625,
+      "idle_group_rss_mib": 157.265625,
+      "sampled_peak_group_rss_mib": 157.359375,
+      "sampled_peak_main_mib": 120.875,
+      "group_cpu_percent": 0.7712353661642879,
+      "seconds": 64.83105183398584,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        78593,
+        78617
+      ]
+    },
+    {
+      "footprint_mib": 258.6265106201172,
+      "file": "idle-egui-100000-3-memory.json",
+      "stack": "egui",
+      "rows": 100000,
+      "idle_main_mib": 99.921875,
+      "idle_group_rss_mib": 131.375,
+      "sampled_peak_group_rss_mib": 131.421875,
+      "sampled_peak_main_mib": 112.25,
+      "group_cpu_percent": 0.7580385853707883,
+      "seconds": 64.64050899998983,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        92987,
+        93187
+      ]
+    },
+    {
+      "footprint_mib": 272.26727294921875,
+      "file": "idle-egui-100000-4-memory.json",
+      "stack": "egui",
+      "rows": 100000,
+      "idle_main_mib": 126.65625,
+      "idle_group_rss_mib": 165.5,
+      "sampled_peak_group_rss_mib": 165.96875,
+      "sampled_peak_main_mib": 130.796875,
+      "group_cpu_percent": 0.7583296661963528,
+      "seconds": 64.61569708300522,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        95760,
+        95786
+      ]
+    },
+    {
+      "footprint_mib": 259.9546585083008,
+      "file": "idle-egui-1000000-2-memory.json",
+      "stack": "egui",
+      "rows": 1000000,
+      "idle_main_mib": 112.546875,
+      "idle_group_rss_mib": 151.4375,
+      "sampled_peak_group_rss_mib": 152.09375,
+      "sampled_peak_main_mib": 115.328125,
+      "group_cpu_percent": 0.7554176695623822,
+      "seconds": 64.864778749994,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        80063,
+        80088
+      ]
+    },
+    {
+      "footprint_mib": 235.9571304321289,
+      "file": "idle-tauri-1000-0-memory.json",
+      "stack": "tauri",
+      "rows": 1000,
+      "idle_main_mib": 97.921875,
+      "idle_group_rss_mib": 245.625,
+      "sampled_peak_group_rss_mib": 250.875,
+      "sampled_peak_main_mib": 105.359375,
+      "group_cpu_percent": 3.7089930660337993,
+      "seconds": 64.70758929097792,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        73736,
+        73740,
+        73741,
+        73742,
+        73743
+      ]
+    },
+    {
+      "footprint_mib": 253.14508819580078,
+      "file": "idle-tauri-100000-1-memory.json",
+      "stack": "tauri",
+      "rows": 100000,
+      "idle_main_mib": 95.046875,
+      "idle_group_rss_mib": 281.40625,
+      "sampled_peak_group_rss_mib": 289.359375,
+      "sampled_peak_main_mib": 104.5625,
+      "group_cpu_percent": 3.6483087087740915,
+      "seconds": 64.68750833295053,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        76678,
+        76683,
+        76684,
+        76685,
+        76686,
+        76689
+      ]
+    },
+    {
+      "footprint_mib": 153.0044403076172,
+      "file": "idle-tauri-100000-3-memory.json",
+      "stack": "tauri",
+      "rows": 100000,
+      "idle_main_mib": 104.953125,
+      "idle_group_rss_mib": 295.4375,
+      "sampled_peak_group_rss_mib": 295.859375,
+      "sampled_peak_main_mib": 105.390625,
+      "group_cpu_percent": 3.835287066174232,
+      "seconds": 64.9234322499833,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        89813,
+        89817,
+        89818,
+        89819,
+        89820,
+        92738
+      ]
+    },
+    {
+      "footprint_mib": 251.66073608398438,
+      "file": "idle-tauri-100000-4-memory.json",
+      "stack": "tauri",
+      "rows": 100000,
+      "idle_main_mib": 103.953125,
+      "idle_group_rss_mib": 291.046875,
+      "sampled_peak_group_rss_mib": 292.421875,
+      "sampled_peak_main_mib": 104.265625,
+      "group_cpu_percent": 3.599563393024881,
+      "seconds": 64.73007266700733,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        3118,
+        3123,
+        3124,
+        3125,
+        3126,
+        3128
+      ]
+    },
+    {
+      "footprint_mib": 263.0508575439453,
+      "file": "idle-tauri-1000000-2-memory.json",
+      "stack": "tauri",
+      "rows": 1000000,
+      "idle_main_mib": 104.25,
+      "idle_group_rss_mib": 278.46875,
+      "sampled_peak_group_rss_mib": 278.53125,
+      "sampled_peak_main_mib": 104.578125,
+      "group_cpu_percent": 3.5786718078526363,
+      "seconds": 64.82852087495849,
+      "self_responsible_all": true,
+      "attributed_pids": [
+        85804,
+        85811,
+        85812,
+        85813,
+        85814
+      ]
+    }
+  ],
+  "active": [
+    {
+      "label": "active-egui-100000-r2",
+      "stack": "egui",
+      "rows": 100000,
+      "actions": {
+        "grid-key": {
+          "attempts": 20,
+          "matched": 18,
+          "call_to_state_upper_bound_ms": {
+            "n": 18,
+            "p50": 2.211072,
+            "p95": 2.823936,
+            "min": 1.625856,
+            "max": 2.823936
+          }
+        },
+        "tab-switch": {
+          "attempts": 20,
+          "matched": 18,
+          "call_to_state_upper_bound_ms": {
+            "n": 18,
+            "p50": 2.727936,
+            "p95": 3.545856,
+            "min": 1.892096,
+            "max": 3.545856
+          }
+        },
+        "large-sql-typing": {
+          "attempts": 20,
+          "matched": 19,
+          "call_to_state_upper_bound_ms": {
+            "n": 19,
+            "p50": 8.865792,
+            "p95": 10.130944,
+            "min": 2.072064,
+            "max": 10.130944
+          }
+        },
+        "scroll": {
+          "attempts": 20,
+          "matched": 20,
+          "call_to_state_upper_bound_ms": {
+            "n": 20,
+            "p50": 6.23104,
+            "p95": 7.465984,
+            "min": 4.400896,
+            "max": 714.294016
+          }
+        },
+        "resize": {
+          "attempts": 6,
+          "matched": 6,
+          "call_to_state_upper_bound_ms": {
+            "n": 6,
+            "p50": 674.938112,
+            "p95": 1227.876096,
+            "min": 666.474752,
+            "max": 1227.876096
+          }
+        }
+      },
+      "frame_interval_ms": {
+        "n": 17243,
+        "p50": 7.5611,
+        "p95": 9.3706,
+        "min": 3.6164,
+        "max": 24.388
+      },
+      "window_widths": [
+        1120.0,
+        1280.0
+      ],
+      "resize_width_changes": 6,
+      "max_cells": 560,
+      "max_rows": 28,
+      "memory": {
+        "footprint_mib": null,
+        "file": "active-egui-100000-r2-memory.json",
+        "stack": "egui",
+        "rows": 100000,
+        "idle_main_mib": 150.1171875,
+        "idle_group_rss_mib": 219.609375,
+        "sampled_peak_group_rss_mib": 234.25,
+        "sampled_peak_main_mib": 164.1875,
+        "group_cpu_percent": 73.39861866182599,
+        "seconds": 119.25292545801494,
+        "self_responsible_all": true,
+        "attributed_pids": [
+          19558,
+          19579,
+          19649
+        ]
+      },
+      "scroll_memory_samples": 6,
+      "scroll_sampled_peak_group_rss_mib": 223.0625,
+      "scroll_sampled_peak_main_mib": 153.515625
+    },
+    {
+      "label": "active-egui-1000000-r1",
+      "stack": "egui",
+      "rows": 1000000,
+      "actions": {
+        "grid-key": {
+          "attempts": 20,
+          "matched": 17,
+          "call_to_state_upper_bound_ms": {
+            "n": 17,
+            "p50": 2.53824,
+            "p95": 6.796032,
+            "min": 1.946112,
+            "max": 6.796032
+          }
+        },
+        "tab-switch": {
+          "attempts": 20,
+          "matched": 18,
+          "call_to_state_upper_bound_ms": {
+            "n": 18,
+            "p50": 2.503936,
+            "p95": 3.252992,
+            "min": 1.869056,
+            "max": 3.252992
+          }
+        },
+        "large-sql-typing": {
+          "attempts": 20,
+          "matched": 19,
+          "call_to_state_upper_bound_ms": {
+            "n": 19,
+            "p50": 7.867904,
+            "p95": 10.605056,
+            "min": 5.35296,
+            "max": 10.605056
+          }
+        },
+        "scroll": {
+          "attempts": 20,
+          "matched": 20,
+          "call_to_state_upper_bound_ms": {
+            "n": 20,
+            "p50": 6.744064,
+            "p95": 10.690816,
+            "min": 5.23904,
+            "max": 692.179968
+          }
+        },
+        "resize": {
+          "attempts": 6,
+          "matched": 6,
+          "call_to_state_upper_bound_ms": {
+            "n": 6,
+            "p50": 728.856832,
+            "p95": 1220.788992,
+            "min": 727.401984,
+            "max": 1220.788992
+          }
+        }
+      },
+      "frame_interval_ms": {
+        "n": 14325,
+        "p50": 8.3299,
+        "p95": 9.6224,
+        "min": 1.3405,
+        "max": 199.5054
+      },
+      "window_widths": [
+        1120.0,
+        1280.0
+      ],
+      "resize_width_changes": 6,
+      "max_cells": 560,
+      "max_rows": 28,
+      "memory": {
+        "footprint_mib": null,
+        "file": "active-egui-1000000-r1-memory.json",
+        "stack": "egui",
+        "rows": 1000000,
+        "idle_main_mib": 153.0625,
+        "idle_group_rss_mib": 217.9921875,
+        "sampled_peak_group_rss_mib": 219.1875,
+        "sampled_peak_main_mib": 154.09375,
+        "group_cpu_percent": 62.38349034822234,
+        "seconds": 119.32644291699398,
+        "self_responsible_all": true,
+        "attributed_pids": [
+          22706,
+          22728,
+          22933
+        ]
+      },
+      "scroll_memory_samples": 6,
+      "scroll_sampled_peak_group_rss_mib": 218.9375,
+      "scroll_sampled_peak_main_mib": 153.828125
+    },
+    {
+      "label": "active-tauri-100000-r2",
+      "stack": "tauri",
+      "rows": 100000,
+      "actions": {
+        "grid-key": {
+          "attempts": 20,
+          "matched": 14,
+          "call_to_state_upper_bound_ms": {
+            "n": 14,
+            "p50": 1.999872,
+            "p95": 7.000064,
+            "min": 0,
+            "max": 7.000064
+          }
+        },
+        "tab-switch": {
+          "attempts": 20,
+          "matched": 16,
+          "call_to_state_upper_bound_ms": {
+            "n": 16,
+            "p50": 4,
+            "p95": 7.000064,
+            "min": 2.000128,
+            "max": 7.000064
+          }
+        },
+        "large-sql-typing": {
+          "attempts": 20,
+          "matched": 14,
+          "call_to_state_upper_bound_ms": {
+            "n": 14,
+            "p50": 0,
+            "p95": 6.000128,
+            "min": 0,
+            "max": 6.000128
+          }
+        },
+        "scroll": {
+          "attempts": 20,
+          "matched": 18,
+          "call_to_state_upper_bound_ms": {
+            "n": 18,
+            "p50": 1.999872,
+            "p95": 5.999872,
+            "min": 0.999936,
+            "max": 5.999872
+          }
+        },
+        "resize": {
+          "attempts": 6,
+          "matched": 0,
+          "call_to_state_upper_bound_ms": {
+            "n": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      "frame_interval_ms": {
+        "n": 7118,
+        "p50": 17.0,
+        "p95": 18.0,
+        "min": 1.0,
+        "max": 80.0
+      },
+      "window_widths": [
+        1120.0,
+        1280.0
+      ],
+      "resize_width_changes": 6,
+      "max_cells": 175,
+      "max_rows": 25,
+      "max_dom_elements": 589,
+      "memory": {
+        "footprint_mib": null,
+        "file": "active-tauri-100000-r2-memory.json",
+        "stack": "tauri",
+        "rows": 100000,
+        "idle_main_mib": 109.4375,
+        "idle_group_rss_mib": 442.640625,
+        "sampled_peak_group_rss_mib": 449.578125,
+        "sampled_peak_main_mib": 122.109375,
+        "group_cpu_percent": 12.797081257834344,
+        "seconds": 120.41808354202658,
+        "self_responsible_all": true,
+        "attributed_pids": [
+          25894,
+          25895,
+          25896,
+          25897,
+          25899,
+          25998,
+          26000
+        ]
+      },
+      "scroll_memory_samples": 2,
+      "scroll_sampled_peak_group_rss_mib": 449.578125,
+      "scroll_sampled_peak_main_mib": 108.359375
+    },
+    {
+      "label": "active-tauri-1000000-r1",
+      "stack": "tauri",
+      "rows": 1000000,
+      "actions": {
+        "grid-key": {
+          "attempts": 20,
+          "matched": 12,
+          "call_to_state_upper_bound_ms": {
+            "n": 12,
+            "p50": 2.000128,
+            "p95": 3.00032,
+            "min": 0.000256,
+            "max": 3.00032
+          }
+        },
+        "tab-switch": {
+          "attempts": 20,
+          "matched": 17,
+          "call_to_state_upper_bound_ms": {
+            "n": 17,
+            "p50": 5.000192,
+            "p95": 11.000064,
+            "min": 3.000064,
+            "max": 11.000064
+          }
+        },
+        "large-sql-typing": {
+          "attempts": 20,
+          "matched": 17,
+          "call_to_state_upper_bound_ms": {
+            "n": 17,
+            "p50": 2.000128,
+            "p95": 7.000064,
+            "min": 0.000256,
+            "max": 7.000064
+          }
+        },
+        "scroll": {
+          "attempts": 20,
+          "matched": 18,
+          "call_to_state_upper_bound_ms": {
+            "n": 18,
+            "p50": 1.000192,
+            "p95": 483.00032,
+            "min": 0.000256,
+            "max": 483.00032
+          }
+        },
+        "resize": {
+          "attempts": 6,
+          "matched": 0,
+          "call_to_state_upper_bound_ms": {
+            "n": 0,
+            "p50": null,
+            "p95": null,
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      "frame_interval_ms": {
+        "n": 7110,
+        "p50": 17.0,
+        "p95": 18.0,
+        "min": 1.0,
+        "max": 81.0
+      },
+      "window_widths": [
+        1120.0,
+        1280.0
+      ],
+      "resize_width_changes": 6,
+      "max_cells": 175,
+      "max_rows": 25,
+      "max_dom_elements": 589,
+      "memory": {
+        "footprint_mib": null,
+        "file": "active-tauri-1000000-r1-memory.json",
+        "stack": "tauri",
+        "rows": 1000000,
+        "idle_main_mib": 110.3125,
+        "idle_group_rss_mib": 449.890625,
+        "sampled_peak_group_rss_mib": 484.40625,
+        "sampled_peak_main_mib": 124.265625,
+        "group_cpu_percent": 12.70912248578004,
+        "seconds": 120.46465062501375,
+        "self_responsible_all": true,
+        "attributed_pids": [
+          24856,
+          24857,
+          24858,
+          24859,
+          24861,
+          24865,
+          24929
+        ]
+      },
+      "scroll_memory_samples": 3,
+      "scroll_sampled_peak_group_rss_mib": 484.40625,
+      "scroll_sampled_peak_main_mib": 116.921875
+    }
+  ]
+}

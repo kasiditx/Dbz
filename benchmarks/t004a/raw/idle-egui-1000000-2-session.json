@@ -1,0 +1,156 @@
+{
+  "stack": "egui",
+  "rows": 1000000,
+  "mode": "idle",
+  "pid": 80063,
+  "ready_ms": 212.6384160364978,
+  "args": [
+    "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/bundle/Dbz Egui POC.app/Contents/MacOS/dbz-ui-poc",
+    "--rows",
+    "1000000",
+    "--event-log",
+    "/tmp/dbz-t004a-idle-egui-1000000-2/idle-egui-1000000-2-events.jsonl",
+    "--comparison",
+    "--bench",
+    "idle",
+    "--seconds",
+    "0",
+    "--out",
+    "/tmp/dbz-t004a-idle-egui-1000000-2/idle-egui-1000000-2-frames.csv"
+  ],
+  "bundle": "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/bundle/Dbz Egui POC.app",
+  "events": "/tmp/dbz-t004a-idle-egui-1000000-2/idle-egui-1000000-2-events.jsonl",
+  "frames": "/tmp/dbz-t004a-idle-egui-1000000-2/idle-egui-1000000-2-frames.csv",
+  "large_sql": false,
+  "baseline_webkit_pids": [
+    23321,
+    23331,
+    23333,
+    81309
+  ],
+  "state": {
+    "ts_ns": 1793031334577530000,
+    "frame": 2,
+    "sel": [
+      0,
+      0
+    ],
+    "focus": "Editor",
+    "tab": 0,
+    "tabs": 3,
+    "chars": 191,
+    "tail": " no database connection\nORDER BY o.id;\n\n",
+    "split": 0.28,
+    "scroll_row": 0,
+    "exp_sel": 0,
+    "dark": true,
+    "editor_has_focus": true,
+    "run": "idle",
+    "ppp": 2,
+    "inner": [
+      221.0,
+      95.0,
+      1501.0,
+      895.0
+    ],
+    "editor": [
+      238.0,
+      75.0,
+      1272.0,
+      215.5
+    ],
+    "grid": [
+      238.0,
+      284.5,
+      1272.0,
+      759.0
+    ],
+    "splitter": [
+      238.0,
+      272.5,
+      1272.0,
+      278.5
+    ],
+    "tab0": [
+      238.0,
+      41.0,
+      291.6,
+      69.0
+    ],
+    "plus": [
+      546.8,
+      41.0,
+      574.2,
+      69.0
+    ],
+    "exp_row1": [
+      8.0,
+      124.0,
+      78.7,
+      152.0
+    ]
+  },
+  "label": "idle-egui-1000000-2",
+  "final_state": {
+    "ts_ns": 1793031334577530000,
+    "frame": 2,
+    "sel": [
+      0,
+      0
+    ],
+    "focus": "Editor",
+    "tab": 0,
+    "tabs": 3,
+    "chars": 191,
+    "tail": " no database connection\nORDER BY o.id;\n\n",
+    "split": 0.28,
+    "scroll_row": 0,
+    "exp_sel": 0,
+    "dark": true,
+    "editor_has_focus": true,
+    "run": "idle",
+    "ppp": 2,
+    "inner": [
+      221.0,
+      95.0,
+      1501.0,
+      895.0
+    ],
+    "editor": [
+      238.0,
+      75.0,
+      1272.0,
+      215.5
+    ],
+    "grid": [
+      238.0,
+      284.5,
+      1272.0,
+      759.0
+    ],
+    "splitter": [
+      238.0,
+      272.5,
+      1272.0,
+      278.5
+    ],
+    "tab0": [
+      238.0,
+      41.0,
+      291.6,
+      69.0
+    ],
+    "plus": [
+      546.8,
+      41.0,
+      574.2,
+      69.0
+    ],
+    "exp_row1": [
+      8.0,
+      124.0,
+      78.7,
+      152.0
+    ]
+  }
+}

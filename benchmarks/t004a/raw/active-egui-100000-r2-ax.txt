@@ -1,0 +1,3044 @@
+Window: "DB Client POC (T-003)", App: Dbz Egui POC.
+0 standard window DB Client POC (T-003), Secondary Actions: Raise
+	1 container
+		2 unknown
+			3 text (settable) DB Client · T-003 POC
+			4 text (settable) Connection: Oracle DEV (mock)
+			5 text (settable)  READ-ONLY 
+			6 button ▶ Run  ⌘↵
+			7 button (disabled) ■ Cancel  Esc
+			8 button ☀ Light, Help: ⌘⇧L
+		9 unknown
+			10 text (settable) idle
+			11 text (settable) Ln 3001, Col 22
+			12 text (settable) rows 100000 · rendered rows 753..780 · cells/frame 540
+			13 text (settable) ui() cpu ms p50 2.90 p95 3.17
+			14 text (settable) frame Δ ms p50 4.86 p95 7.36
+			15 text (settable) RSS 154 MiB
+			16 text (settable) focus: Grid (F6)
+		17 unknown
+			18 text (settable) Explorer
+			19 text (settable) mock data · ←→↑↓ · Alt+1
+			20 toggle button (settable, boolean) ◉ Oracle DEV (mock), Value: off
+			21 toggle button (settable, boolean)     ▣ APP, Value: off
+			22 toggle button (settable, boolean)     ▣ HR, Value: off
+			23 toggle button (settable, boolean)     ▣ SALES_DW, Value: off
+		24 splitter (settable, float) Resize panel, Value: 0.1796875
+		25 unknown
+			26 toggle button (settable, boolean) SQL 1, Value: off
+			27 button ×, Help: Close tab (⌘W)
+			28 toggle button (settable, boolean) SQL 2, Value: off
+			29 button ×, Help: Close tab (⌘W)
+			30 toggle button (settable, boolean) SQL 3, Value: on
+			31 button ×, Help: Close tab (⌘W)
+			32 button +, Help: New tab (⌘T)
+			33 text entry area (settable) SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลลกคคา
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+aaaaaaaaaaaaaaaaaaaa£
+			34 scroll bar
+			35 scroll bar
+			36 scroll bar
+	37 close button
+	38 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	39 minimize button
+	40 text DB Client POC (T-003)
+41 menu bar
+	42 DB Client POC (T-003)

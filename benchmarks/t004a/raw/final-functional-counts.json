@@ -1,0 +1,26 @@
+[
+  {
+    "session": "active-egui-100000-r2",
+    "tab_transitions_during_tab_phase": 20,
+    "final_tab": 2,
+    "action_count": 86
+  },
+  {
+    "session": "active-egui-1000000-r1",
+    "tab_transitions_during_tab_phase": 20,
+    "final_tab": 2,
+    "action_count": 86
+  },
+  {
+    "session": "active-tauri-100000-r2",
+    "tab_transitions_during_tab_phase": 20,
+    "final_tab": 2,
+    "action_count": 86
+  },
+  {
+    "session": "active-tauri-1000000-r1",
+    "tab_transitions_during_tab_phase": 20,
+    "final_tab": 2,
+    "action_count": 86
+  }
+]

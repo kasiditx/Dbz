@@ -1,0 +1,1802 @@
+[
+  {
+    "stack": "egui",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 53901,
+    "ready_ms": 847.785499994643,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/dbz-ui-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-0-events.jsonl",
+      "--comparison",
+      "--bench",
+      "idle",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-0-frames.csv"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-0-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-0-frames.csv",
+    "large_sql": false,
+    "run": 0,
+    "state": {
+      "ts_ns": 1793030522307058000,
+      "frame": 2,
+      "sel": [
+        0,
+        0
+      ],
+      "focus": "Editor",
+      "tab": 0,
+      "tabs": 3,
+      "chars": 191,
+      "tail": " no database connection\nORDER BY o.id;\n\n",
+      "split": 0.28,
+      "scroll_row": 0,
+      "exp_sel": 0,
+      "dark": true,
+      "editor_has_focus": true,
+      "run": "idle",
+      "ppp": 2,
+      "inner": [
+        221.0,
+        95.0,
+        1501.0,
+        895.0
+      ],
+      "editor": [
+        238.0,
+        75.0,
+        1272.0,
+        215.5
+      ],
+      "grid": [
+        238.0,
+        284.5,
+        1272.0,
+        759.0
+      ],
+      "splitter": [
+        238.0,
+        272.5,
+        1272.0,
+        278.5
+      ],
+      "tab0": [
+        238.0,
+        41.0,
+        291.6,
+        69.0
+      ],
+      "plus": [
+        546.8,
+        41.0,
+        574.2,
+        69.0
+      ],
+      "exp_row1": [
+        8.0,
+        124.0,
+        78.7,
+        152.0
+      ]
+    }
+  },
+  {
+    "stack": "tauri",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 53960,
+    "ready_ms": 941.1773749743588,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-tauri/src-tauri/target/release/bundle/macos/Dbz Tauri POC.app/Contents/MacOS/dbz-tauri-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-0-events.jsonl",
+      "--measure",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-0-frames.jsonl"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-0-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-0-frames.jsonl",
+    "large_sql": false,
+    "run": 0,
+    "state": {
+      "cells": 0,
+      "chars": 191,
+      "dark": true,
+      "dom_elements": 141,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        384,
+        1280,
+        740
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        768
+      ],
+      "plus": [
+        537.71875,
+        52,
+        583.640625,
+        91
+      ],
+      "run": "idle",
+      "scroll_height": 2200026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        740
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 0,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030523928000300
+    }
+  },
+  {
+    "stack": "tauri",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 54018,
+    "ready_ms": 468.33120903465897,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-tauri/src-tauri/target/release/bundle/macos/Dbz Tauri POC.app/Contents/MacOS/dbz-tauri-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-1-events.jsonl",
+      "--measure",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-1-frames.jsonl"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-1-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-1-frames.jsonl",
+    "large_sql": false,
+    "run": 1,
+    "state": {
+      "cells": 0,
+      "chars": 191,
+      "dark": true,
+      "dom_elements": 141,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        384,
+        1280,
+        740
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        768
+      ],
+      "plus": [
+        537.71875,
+        52,
+        583.640625,
+        91
+      ],
+      "run": "idle",
+      "scroll_height": 2200026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        740
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 0,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030525094000000
+    }
+  },
+  {
+    "stack": "egui",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 54068,
+    "ready_ms": 244.3867499823682,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/dbz-ui-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-1-events.jsonl",
+      "--comparison",
+      "--bench",
+      "idle",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-1-frames.csv"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-1-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-1-frames.csv",
+    "large_sql": false,
+    "run": 1,
+    "state": {
+      "ts_ns": 1793030526076529000,
+      "frame": 2,
+      "sel": [
+        0,
+        0
+      ],
+      "focus": "Editor",
+      "tab": 0,
+      "tabs": 3,
+      "chars": 191,
+      "tail": " no database connection\nORDER BY o.id;\n\n",
+      "split": 0.28,
+      "scroll_row": 0,
+      "exp_sel": 0,
+      "dark": true,
+      "editor_has_focus": true,
+      "run": "idle",
+      "ppp": 2,
+      "inner": [
+        221.0,
+        95.0,
+        1501.0,
+        895.0
+      ],
+      "editor": [
+        238.0,
+        75.0,
+        1272.0,
+        215.5
+      ],
+      "grid": [
+        238.0,
+        284.5,
+        1272.0,
+        759.0
+      ],
+      "splitter": [
+        238.0,
+        272.5,
+        1272.0,
+        278.5
+      ],
+      "tab0": [
+        238.0,
+        41.0,
+        291.6,
+        69.0
+      ],
+      "plus": [
+        546.8,
+        41.0,
+        574.2,
+        69.0
+      ],
+      "exp_row1": [
+        8.0,
+        124.0,
+        78.7,
+        152.0
+      ]
+    }
+  },
+  {
+    "stack": "egui",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 54132,
+    "ready_ms": 229.20129098929465,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/dbz-ui-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-2-events.jsonl",
+      "--comparison",
+      "--bench",
+      "idle",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-2-frames.csv"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-2-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-2-frames.csv",
+    "large_sql": false,
+    "run": 2,
+    "state": {
+      "ts_ns": 1793030527035486000,
+      "frame": 2,
+      "sel": [
+        0,
+        0
+      ],
+      "focus": "Editor",
+      "tab": 0,
+      "tabs": 3,
+      "chars": 191,
+      "tail": " no database connection\nORDER BY o.id;\n\n",
+      "split": 0.28,
+      "scroll_row": 0,
+      "exp_sel": 0,
+      "dark": true,
+      "editor_has_focus": true,
+      "run": "idle",
+      "ppp": 2,
+      "inner": [
+        221.0,
+        95.0,
+        1501.0,
+        895.0
+      ],
+      "editor": [
+        238.0,
+        75.0,
+        1272.0,
+        215.5
+      ],
+      "grid": [
+        238.0,
+        284.5,
+        1272.0,
+        759.0
+      ],
+      "splitter": [
+        238.0,
+        272.5,
+        1272.0,
+        278.5
+      ],
+      "tab0": [
+        238.0,
+        41.0,
+        291.6,
+        69.0
+      ],
+      "plus": [
+        546.8,
+        41.0,
+        574.2,
+        69.0
+      ],
+      "exp_row1": [
+        8.0,
+        124.0,
+        78.7,
+        152.0
+      ]
+    }
+  },
+  {
+    "stack": "tauri",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 54201,
+    "ready_ms": 478.2658750191331,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-tauri/src-tauri/target/release/bundle/macos/Dbz Tauri POC.app/Contents/MacOS/dbz-tauri-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-2-events.jsonl",
+      "--measure",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-2-frames.jsonl"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-2-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-2-frames.jsonl",
+    "large_sql": false,
+    "run": 2,
+    "state": {
+      "cells": 0,
+      "chars": 191,
+      "dark": true,
+      "dom_elements": 141,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        384,
+        1280,
+        740
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        768
+      ],
+      "plus": [
+        537.71875,
+        52,
+        583.640625,
+        91
+      ],
+      "run": "idle",
+      "scroll_height": 2200026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        740
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 0,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030528174000000
+    }
+  },
+  {
+    "stack": "tauri",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 54263,
+    "ready_ms": 476.53762495610863,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-tauri/src-tauri/target/release/bundle/macos/Dbz Tauri POC.app/Contents/MacOS/dbz-tauri-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-3-events.jsonl",
+      "--measure",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-3-frames.jsonl"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-3-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-3-frames.jsonl",
+    "large_sql": false,
+    "run": 3,
+    "state": {
+      "cells": 0,
+      "chars": 191,
+      "dark": true,
+      "dom_elements": 141,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        384,
+        1280,
+        740
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        768
+      ],
+      "plus": [
+        537.71875,
+        52,
+        583.640625,
+        91
+      ],
+      "run": "idle",
+      "scroll_height": 2200026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        740
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 0,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030529360000000
+    }
+  },
+  {
+    "stack": "egui",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 54329,
+    "ready_ms": 227.75795799680054,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/dbz-ui-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-3-events.jsonl",
+      "--comparison",
+      "--bench",
+      "idle",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-3-frames.csv"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-3-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-3-frames.csv",
+    "large_sql": false,
+    "run": 3,
+    "state": {
+      "ts_ns": 1793030530341623000,
+      "frame": 2,
+      "sel": [
+        0,
+        0
+      ],
+      "focus": "Editor",
+      "tab": 0,
+      "tabs": 3,
+      "chars": 191,
+      "tail": " no database connection\nORDER BY o.id;\n\n",
+      "split": 0.28,
+      "scroll_row": 0,
+      "exp_sel": 0,
+      "dark": true,
+      "editor_has_focus": true,
+      "run": "idle",
+      "ppp": 2,
+      "inner": [
+        221.0,
+        95.0,
+        1501.0,
+        895.0
+      ],
+      "editor": [
+        238.0,
+        75.0,
+        1272.0,
+        215.5
+      ],
+      "grid": [
+        238.0,
+        284.5,
+        1272.0,
+        759.0
+      ],
+      "splitter": [
+        238.0,
+        272.5,
+        1272.0,
+        278.5
+      ],
+      "tab0": [
+        238.0,
+        41.0,
+        291.6,
+        69.0
+      ],
+      "plus": [
+        546.8,
+        41.0,
+        574.2,
+        69.0
+      ],
+      "exp_row1": [
+        8.0,
+        124.0,
+        78.7,
+        152.0
+      ]
+    }
+  },
+  {
+    "stack": "egui",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 54411,
+    "ready_ms": 227.48620802303776,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/dbz-ui-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-4-events.jsonl",
+      "--comparison",
+      "--bench",
+      "idle",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-4-frames.csv"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-4-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-4-frames.csv",
+    "large_sql": false,
+    "run": 4,
+    "state": {
+      "ts_ns": 1793030531275294000,
+      "frame": 2,
+      "sel": [
+        0,
+        0
+      ],
+      "focus": "Editor",
+      "tab": 0,
+      "tabs": 3,
+      "chars": 191,
+      "tail": " no database connection\nORDER BY o.id;\n\n",
+      "split": 0.28,
+      "scroll_row": 0,
+      "exp_sel": 0,
+      "dark": true,
+      "editor_has_focus": true,
+      "run": "idle",
+      "ppp": 2,
+      "inner": [
+        221.0,
+        95.0,
+        1501.0,
+        895.0
+      ],
+      "editor": [
+        238.0,
+        75.0,
+        1272.0,
+        215.5
+      ],
+      "grid": [
+        238.0,
+        284.5,
+        1272.0,
+        759.0
+      ],
+      "splitter": [
+        238.0,
+        272.5,
+        1272.0,
+        278.5
+      ],
+      "tab0": [
+        238.0,
+        41.0,
+        291.6,
+        69.0
+      ],
+      "plus": [
+        546.8,
+        41.0,
+        574.2,
+        69.0
+      ],
+      "exp_row1": [
+        8.0,
+        124.0,
+        78.7,
+        152.0
+      ]
+    }
+  },
+  {
+    "stack": "tauri",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 54430,
+    "ready_ms": 528.4648339729756,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-tauri/src-tauri/target/release/bundle/macos/Dbz Tauri POC.app/Contents/MacOS/dbz-tauri-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-4-events.jsonl",
+      "--measure",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-4-frames.jsonl"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-4-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-4-frames.jsonl",
+    "large_sql": false,
+    "run": 4,
+    "state": {
+      "cells": 0,
+      "chars": 191,
+      "dark": true,
+      "dom_elements": 141,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        384,
+        1280,
+        740
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        768
+      ],
+      "plus": [
+        537.71875,
+        52,
+        583.640625,
+        91
+      ],
+      "run": "idle",
+      "scroll_height": 2200026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        740
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 0,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030532470000000
+    }
+  },
+  {
+    "stack": "tauri",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 54504,
+    "ready_ms": 3532.8249580343254,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-tauri/src-tauri/target/release/bundle/macos/Dbz Tauri POC.app/Contents/MacOS/dbz-tauri-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-5-events.jsonl",
+      "--measure",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-5-frames.jsonl"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-5-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-5-frames.jsonl",
+    "large_sql": false,
+    "run": 5,
+    "state": {
+      "cells": 0,
+      "chars": 191,
+      "dark": true,
+      "dom_elements": 141,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        384,
+        1280,
+        740
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        768
+      ],
+      "plus": [
+        537.71875,
+        52,
+        583.640625,
+        91
+      ],
+      "run": "idle",
+      "scroll_height": 2200026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        740
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 0,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030533675000000
+    }
+  },
+  {
+    "stack": "egui",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 54673,
+    "ready_ms": 260.04412496695295,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/dbz-ui-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-5-events.jsonl",
+      "--comparison",
+      "--bench",
+      "idle",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-5-frames.csv"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-5-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-5-frames.csv",
+    "large_sql": false,
+    "run": 5,
+    "state": {
+      "ts_ns": 1793030537742586000,
+      "frame": 2,
+      "sel": [
+        0,
+        0
+      ],
+      "focus": "Editor",
+      "tab": 0,
+      "tabs": 3,
+      "chars": 191,
+      "tail": " no database connection\nORDER BY o.id;\n\n",
+      "split": 0.28,
+      "scroll_row": 0,
+      "exp_sel": 0,
+      "dark": true,
+      "editor_has_focus": true,
+      "run": "idle",
+      "ppp": 2,
+      "inner": [
+        221.0,
+        95.0,
+        1501.0,
+        895.0
+      ],
+      "editor": [
+        238.0,
+        75.0,
+        1272.0,
+        215.5
+      ],
+      "grid": [
+        238.0,
+        284.5,
+        1272.0,
+        759.0
+      ],
+      "splitter": [
+        238.0,
+        272.5,
+        1272.0,
+        278.5
+      ],
+      "tab0": [
+        238.0,
+        41.0,
+        291.6,
+        69.0
+      ],
+      "plus": [
+        546.8,
+        41.0,
+        574.2,
+        69.0
+      ],
+      "exp_row1": [
+        8.0,
+        124.0,
+        78.7,
+        152.0
+      ]
+    }
+  },
+  {
+    "stack": "egui",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 54694,
+    "ready_ms": 223.88695797417313,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/dbz-ui-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-6-events.jsonl",
+      "--comparison",
+      "--bench",
+      "idle",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-6-frames.csv"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-6-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-6-frames.csv",
+    "large_sql": false,
+    "run": 6,
+    "state": {
+      "ts_ns": 1793030538676743000,
+      "frame": 2,
+      "sel": [
+        0,
+        0
+      ],
+      "focus": "Editor",
+      "tab": 0,
+      "tabs": 3,
+      "chars": 191,
+      "tail": " no database connection\nORDER BY o.id;\n\n",
+      "split": 0.28,
+      "scroll_row": 0,
+      "exp_sel": 0,
+      "dark": true,
+      "editor_has_focus": true,
+      "run": "idle",
+      "ppp": 2,
+      "inner": [
+        221.0,
+        95.0,
+        1501.0,
+        895.0
+      ],
+      "editor": [
+        238.0,
+        75.0,
+        1272.0,
+        215.5
+      ],
+      "grid": [
+        238.0,
+        284.5,
+        1272.0,
+        759.0
+      ],
+      "splitter": [
+        238.0,
+        272.5,
+        1272.0,
+        278.5
+      ],
+      "tab0": [
+        238.0,
+        41.0,
+        291.6,
+        69.0
+      ],
+      "plus": [
+        546.8,
+        41.0,
+        574.2,
+        69.0
+      ],
+      "exp_row1": [
+        8.0,
+        124.0,
+        78.7,
+        152.0
+      ]
+    }
+  },
+  {
+    "stack": "tauri",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 54791,
+    "ready_ms": 505.2677919738926,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-tauri/src-tauri/target/release/bundle/macos/Dbz Tauri POC.app/Contents/MacOS/dbz-tauri-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-6-events.jsonl",
+      "--measure",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-6-frames.jsonl"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-6-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-6-frames.jsonl",
+    "large_sql": false,
+    "run": 6,
+    "state": {
+      "cells": 0,
+      "chars": 191,
+      "dark": true,
+      "dom_elements": 141,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        384,
+        1280,
+        740
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        768
+      ],
+      "plus": [
+        537.71875,
+        52,
+        583.640625,
+        91
+      ],
+      "run": "idle",
+      "scroll_height": 2200026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        740
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 0,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030539851000000
+    }
+  },
+  {
+    "stack": "tauri",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 54879,
+    "ready_ms": 484.31429197080433,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-tauri/src-tauri/target/release/bundle/macos/Dbz Tauri POC.app/Contents/MacOS/dbz-tauri-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-7-events.jsonl",
+      "--measure",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-7-frames.jsonl"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-7-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-7-frames.jsonl",
+    "large_sql": false,
+    "run": 7,
+    "state": {
+      "cells": 0,
+      "chars": 191,
+      "dark": true,
+      "dom_elements": 141,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        384,
+        1280,
+        740
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        768
+      ],
+      "plus": [
+        537.71875,
+        52,
+        583.640625,
+        91
+      ],
+      "run": "idle",
+      "scroll_height": 2200026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        740
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 0,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030541059000000
+    }
+  },
+  {
+    "stack": "egui",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 54973,
+    "ready_ms": 250.62037497991696,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/dbz-ui-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-7-events.jsonl",
+      "--comparison",
+      "--bench",
+      "idle",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-7-frames.csv"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-7-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-7-frames.csv",
+    "large_sql": false,
+    "run": 7,
+    "state": {
+      "ts_ns": 1793030542055091000,
+      "frame": 2,
+      "sel": [
+        0,
+        0
+      ],
+      "focus": "Editor",
+      "tab": 0,
+      "tabs": 3,
+      "chars": 191,
+      "tail": " no database connection\nORDER BY o.id;\n\n",
+      "split": 0.28,
+      "scroll_row": 0,
+      "exp_sel": 0,
+      "dark": true,
+      "editor_has_focus": true,
+      "run": "idle",
+      "ppp": 2,
+      "inner": [
+        221.0,
+        95.0,
+        1501.0,
+        895.0
+      ],
+      "editor": [
+        238.0,
+        75.0,
+        1272.0,
+        215.5
+      ],
+      "grid": [
+        238.0,
+        284.5,
+        1272.0,
+        759.0
+      ],
+      "splitter": [
+        238.0,
+        272.5,
+        1272.0,
+        278.5
+      ],
+      "tab0": [
+        238.0,
+        41.0,
+        291.6,
+        69.0
+      ],
+      "plus": [
+        546.8,
+        41.0,
+        574.2,
+        69.0
+      ],
+      "exp_row1": [
+        8.0,
+        124.0,
+        78.7,
+        152.0
+      ]
+    }
+  },
+  {
+    "stack": "egui",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 55101,
+    "ready_ms": 205.70983400102705,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/dbz-ui-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-8-events.jsonl",
+      "--comparison",
+      "--bench",
+      "idle",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-8-frames.csv"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-8-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-8-frames.csv",
+    "large_sql": false,
+    "run": 8,
+    "state": {
+      "ts_ns": 1793030542955638000,
+      "frame": 1,
+      "sel": [
+        0,
+        0
+      ],
+      "focus": "Editor",
+      "tab": 0,
+      "tabs": 3,
+      "chars": 191,
+      "tail": " no database connection\nORDER BY o.id;\n\n",
+      "split": 0.28,
+      "scroll_row": 0,
+      "exp_sel": 0,
+      "dark": true,
+      "editor_has_focus": true,
+      "run": "idle",
+      "ppp": 2,
+      "inner": [
+        116.0,
+        95.0,
+        1396.0,
+        895.0
+      ],
+      "editor": [
+        238.0,
+        75.0,
+        1272.0,
+        215.5
+      ],
+      "grid": [
+        238.0,
+        284.5,
+        1272.0,
+        759.0
+      ],
+      "splitter": [
+        238.0,
+        272.5,
+        1272.0,
+        278.5
+      ],
+      "tab0": [
+        238.0,
+        41.0,
+        291.6,
+        69.0
+      ],
+      "plus": [
+        546.8,
+        41.0,
+        574.2,
+        69.0
+      ],
+      "exp_row1": [
+        8.0,
+        124.0,
+        78.7,
+        152.0
+      ]
+    }
+  },
+  {
+    "stack": "tauri",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 55162,
+    "ready_ms": 725.7744589587674,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-tauri/src-tauri/target/release/bundle/macos/Dbz Tauri POC.app/Contents/MacOS/dbz-tauri-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-8-events.jsonl",
+      "--measure",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-8-frames.jsonl"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-8-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-8-frames.jsonl",
+    "large_sql": false,
+    "run": 8,
+    "state": {
+      "cells": 0,
+      "chars": 191,
+      "dark": true,
+      "dom_elements": 141,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        384,
+        1280,
+        740
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        768
+      ],
+      "plus": [
+        537.71875,
+        52,
+        583.640625,
+        91
+      ],
+      "run": "idle",
+      "scroll_height": 2200026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        740
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 0,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030544335000000
+    }
+  },
+  {
+    "stack": "tauri",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 55451,
+    "ready_ms": 625.3810829948634,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-tauri/src-tauri/target/release/bundle/macos/Dbz Tauri POC.app/Contents/MacOS/dbz-tauri-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-9-events.jsonl",
+      "--measure",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-9-frames.jsonl"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-9-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-tauri-9-frames.jsonl",
+    "large_sql": false,
+    "run": 9,
+    "state": {
+      "cells": 0,
+      "chars": 191,
+      "dark": true,
+      "dom_elements": 141,
+      "editor": [
+        225,
+        140,
+        1280,
+        340
+      ],
+      "editor_has_focus": false,
+      "exp_row1": [
+        0,
+        207,
+        220,
+        237
+      ],
+      "focus": "Editor",
+      "grid": [
+        225,
+        384,
+        1280,
+        740
+      ],
+      "inner": [
+        0,
+        0,
+        1280,
+        768
+      ],
+      "plus": [
+        537.71875,
+        52,
+        583.640625,
+        91
+      ],
+      "run": "idle",
+      "scroll_height": 2200026,
+      "scroll_row": 0,
+      "scroll_top": 0,
+      "sel": [
+        0,
+        0
+      ],
+      "sidebar": 220,
+      "sidebar_splitter": [
+        220,
+        52,
+        225,
+        740
+      ],
+      "split": 200,
+      "splitter": [
+        225,
+        340,
+        1280,
+        345
+      ],
+      "tab": 0,
+      "tab0": [
+        225,
+        52,
+        328.03125,
+        91
+      ],
+      "tabs": 3,
+      "tail": " app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- synthetic only; no database connection\nORDER BY o.id;\n\n",
+      "ts_ns": 1793030545694000000
+    }
+  },
+  {
+    "stack": "egui",
+    "rows": 100000,
+    "mode": "idle",
+    "pid": 55574,
+    "ready_ms": 398.7847919925116,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/dbz-ui-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-9-events.jsonl",
+      "--comparison",
+      "--bench",
+      "idle",
+      "--seconds",
+      "0",
+      "--out",
+      "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-9-frames.csv"
+    ],
+    "events": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-9-events.jsonl",
+    "frames": "/Users/kasidit/Documents/Dbz/benchmarks/t004a/raw/startup-egui-9-frames.csv",
+    "large_sql": false,
+    "run": 9,
+    "state": {
+      "ts_ns": 1793030546833600000,
+      "frame": 2,
+      "sel": [
+        0,
+        0
+      ],
+      "focus": "Editor",
+      "tab": 0,
+      "tabs": 3,
+      "chars": 191,
+      "tail": " no database connection\nORDER BY o.id;\n\n",
+      "split": 0.28,
+      "scroll_row": 0,
+      "exp_sel": 0,
+      "dark": true,
+      "editor_has_focus": true,
+      "run": "idle",
+      "ppp": 2,
+      "inner": [
+        221.0,
+        95.0,
+        1501.0,
+        895.0
+      ],
+      "editor": [
+        238.0,
+        75.0,
+        1272.0,
+        215.5
+      ],
+      "grid": [
+        238.0,
+        284.5,
+        1272.0,
+        759.0
+      ],
+      "splitter": [
+        238.0,
+        272.5,
+        1272.0,
+        278.5
+      ],
+      "tab0": [
+        238.0,
+        41.0,
+        291.6,
+        69.0
+      ],
+      "plus": [
+        546.8,
+        41.0,
+        574.2,
+        69.0
+      ],
+      "exp_row1": [
+        8.0,
+        124.0,
+        78.7,
+        152.0
+      ]
+    }
+  }
+]

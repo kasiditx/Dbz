@@ -1,0 +1,14 @@
+{
+  "tauri": {
+    "executable_bytes": 11250464,
+    "sha256": "e39f43a51a9dc72aafcc0df7e03c6d888f8b7c99d08c1ff6f0ccccf00cf93788",
+    "bundle_file_bytes": 11253581,
+    "same_as_measured_environment": true
+  },
+  "egui": {
+    "executable_bytes": 14820272,
+    "sha256": "b4371328a6a628b9072b4cf1cfd4051129be787b1aabbfd51887ff7c0e83698d",
+    "bundle_file_bytes": 14822944,
+    "same_as_measured_environment": true
+  }
+}

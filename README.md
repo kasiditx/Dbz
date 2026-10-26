@@ -42,7 +42,7 @@
 - **M3 Multi-DB / Polish:** MySQL/MariaDB + accessibility + perf & security hardening
 - **M4 Public Beta → v1.0:** installers, licenses, contributor docs, Oracle support matrix, CI
 
-> **หมายเหตุ:** ยังไม่มี Source Code ของผลิตภัณฑ์ (มีเพียง POC แบบ throwaway: `crates/poc-oracle` T-002, `crates/poc-ui` T-003 — ดู `docs/evidence/`); ทั้งหมดเป็นเอกสารตั้งต้นให้ Agent สร้างโปรเจกต์อย่างเป็นระบบ ตัวเลขประสิทธิภาพคือ **targets**, ไม่ใช่ benchmark ที่ตรวจวัดแล้ว
+> **หมายเหตุ:** ยังไม่มี Source Code ของผลิตภัณฑ์ (มีเพียง POC แบบ throwaway: `crates/poc-oracle` T-002, `crates/poc-ui` T-003, `crates/poc-tauri` T-004a — ดู `docs/evidence/`); ทั้งหมดเป็นเอกสารตั้งต้นให้ Agent สร้างโปรเจกต์อย่างเป็นระบบ ตัวเลขประสิทธิภาพคือ **targets**, ไม่ใช่ benchmark ที่ตรวจวัดแล้ว
 
 ## แหล่งอ้างอิงหลัก
 - [REA — morluto/rea](https://github.com/morluto/rea)
@@ -53,3 +53,6 @@
 - [ArtCraft / PhotoCraft](https://github.com/storytold/photocraft)
 - [Caveman Skill](https://github.com/JuliusBrussee/caveman)
 - [Matt Pocock Agent Skills](https://github.com/mattpocock/skills)
+
+## UI stack experiment
+T-004a: [Tauri vs egui evidence](docs/evidence/T-004a-tauri-comparison.md) · [build/benchmark instructions](benchmarks/t004a/README.md). Both are runnable throwaway prototypes; ADR-0001 remains Pending.

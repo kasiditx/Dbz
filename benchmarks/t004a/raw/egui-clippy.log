@@ -1,0 +1,10 @@
+    Checking serde_core v1.0.229
+    Checking zmij v1.0.23
+   Compiling serde_derive v1.0.229
+    Checking itoa v1.0.18
+    Checking memchr v2.8.3
+    Checking serde_json v1.0.154
+    Checking serde v1.0.229
+    Checking poc-workload v0.1.0 (/Users/kasidit/Documents/Dbz/crates/poc-workload)
+    Checking poc-ui v0.1.0 (/Users/kasidit/Documents/Dbz/crates/poc-ui)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 5.18s

@@ -1,0 +1,148 @@
+{
+  "captured_unix_seconds": 1793030687.133887,
+  "main_pid": 57758,
+  "observer_pid": 57783,
+  "method": "private read-only macOS responsibility API; parent chain; coalition corroboration",
+  "pids": [
+    57758,
+    57768,
+    57769,
+    57770,
+    57771,
+    57772
+  ],
+  "self_responsible": true,
+  "links": {
+    "57758": "main process",
+    "57768": "responsibility API equals main PID",
+    "57769": "responsibility API equals main PID",
+    "57770": "responsibility API equals main PID",
+    "57771": "responsibility API equals main PID",
+    "57772": "responsibility API equals main PID"
+  },
+  "error": null,
+  "evidence": [
+    {
+      "pid": 23321,
+      "ppid": 1,
+      "name": "/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent",
+      "responsible_pid": 23314,
+      "responsibility_errno": 0,
+      "resource_coalition": 26628,
+      "jetsam_coalition": 26629,
+      "coalition_return_size": 40,
+      "coalition_errno": 0
+    },
+    {
+      "pid": 23331,
+      "ppid": 1,
+      "name": "/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking",
+      "responsible_pid": 23314,
+      "responsibility_errno": 0,
+      "resource_coalition": 26628,
+      "jetsam_coalition": 26629,
+      "coalition_return_size": 40,
+      "coalition_errno": 0
+    },
+    {
+      "pid": 23333,
+      "ppid": 1,
+      "name": "/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc/Contents/MacOS/com.apple.WebKit.GPU",
+      "responsible_pid": 23314,
+      "responsibility_errno": 0,
+      "resource_coalition": 26628,
+      "jetsam_coalition": 26629,
+      "coalition_return_size": 40,
+      "coalition_errno": 0
+    },
+    {
+      "pid": 57758,
+      "ppid": 1,
+      "name": "/Users/kasidit/Documents/Dbz/crates/poc-tauri/src-tauri/target/release/bundle/macos/Dbz Tauri POC.app/Contents/MacOS/dbz-tauri-poc",
+      "responsible_pid": 57758,
+      "responsibility_errno": 0,
+      "resource_coalition": 41542,
+      "jetsam_coalition": 41543,
+      "coalition_return_size": 40,
+      "coalition_errno": 0
+    },
+    {
+      "pid": 57768,
+      "ppid": 1,
+      "name": "/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc/Contents/MacOS/com.apple.WebKit.GPU",
+      "responsible_pid": 57758,
+      "responsibility_errno": 0,
+      "resource_coalition": 41542,
+      "jetsam_coalition": 41543,
+      "coalition_return_size": 40,
+      "coalition_errno": 0
+    },
+    {
+      "pid": 57769,
+      "ppid": 1,
+      "name": "/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking",
+      "responsible_pid": 57758,
+      "responsibility_errno": 0,
+      "resource_coalition": 41542,
+      "jetsam_coalition": 41543,
+      "coalition_return_size": 40,
+      "coalition_errno": 0
+    },
+    {
+      "pid": 57770,
+      "ppid": 1,
+      "name": "/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent",
+      "responsible_pid": 57758,
+      "responsibility_errno": 0,
+      "resource_coalition": 41542,
+      "jetsam_coalition": 41543,
+      "coalition_return_size": 40,
+      "coalition_errno": 0
+    },
+    {
+      "pid": 57771,
+      "ppid": 1,
+      "name": "/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper",
+      "responsible_pid": 57758,
+      "responsibility_errno": 0,
+      "resource_coalition": 41542,
+      "jetsam_coalition": 41543,
+      "coalition_return_size": 40,
+      "coalition_errno": 0
+    },
+    {
+      "pid": 57772,
+      "ppid": 1,
+      "name": "/System/Library/PrivateFrameworks/SafariPlatformSupport.framework/Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/MacOS/com.apple.SafariPlatformSupport.Helper",
+      "responsible_pid": 57758,
+      "responsibility_errno": 0,
+      "resource_coalition": 41542,
+      "jetsam_coalition": 41543,
+      "coalition_return_size": 40,
+      "coalition_errno": 0
+    },
+    {
+      "pid": 57783,
+      "ppid": 57782,
+      "name": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python",
+      "responsible_pid": 63705,
+      "responsibility_errno": 0,
+      "resource_coalition": 34399,
+      "jetsam_coalition": 38688,
+      "coalition_return_size": 40,
+      "coalition_errno": 0
+    },
+    {
+      "pid": 81309,
+      "ppid": 1,
+      "name": "/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.GPU.xpc/Contents/MacOS/com.apple.WebKit.GPU",
+      "responsible_pid": 81308,
+      "responsibility_errno": 0,
+      "resource_coalition": 38982,
+      "jetsam_coalition": 812,
+      "coalition_return_size": 40,
+      "coalition_errno": 0
+    }
+  ],
+  "limitation": "Attributed subset, not proof of all helpers. Shared launcher coalitions never imply app ownership."
+}

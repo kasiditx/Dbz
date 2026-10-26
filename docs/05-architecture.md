@@ -75,3 +75,6 @@ See [`14-driver-contract.md`](14-driver-contract.md). Required capability groups
 
 ## Threat boundaries
 Desktop process trusts its own source and authorized settings, **not** query text, database strings, rich values or remote certificates. Handle untrusted SQL result data as data. Escaping required for any HTML/WebView fallback.
+
+## T-004a experiment boundary (2026-10-26)
+`crates/poc-tauri` is a separate throwaway Tauri/React frontend and mock Rust command worker. `crates/poc-workload` supplies comparison data/SQL to the native POC; the TypeScript port is checked at the same data/geometry seams. No production core or Oracle adapter is introduced or changed. See `evidence/T-004a-tauri-comparison.md`; this experiment does not settle ADR-0001.

@@ -4,8 +4,8 @@ use crate::model::editor::{line_col, statement_at};
 use crate::model::explorer::{Explorer, NodeKind};
 use crate::model::focus::{FocusModel, Pane};
 use crate::model::grid::{
-    Cell, Nav, RowSource, Selection, SyntheticSource, copy_text, scroll_to_reveal, visible_cells,
-    visible_range,
+    Cell, ComparisonSource, Nav, RowSource, Selection, SyntheticSource, copy_text,
+    scroll_to_reveal, visible_cells, visible_range,
 };
 use crate::model::highlight::{Kind, tokenize};
 use crate::model::layout::Split;
@@ -69,6 +69,8 @@ enum RunResult {
 }
 
 pub struct Options {
+    pub comparison: bool,
+    pub large_sql: bool,
     pub rows: usize,
     pub cols: usize,
     pub dark: bool,
@@ -92,7 +94,7 @@ pub struct PocApp {
     opts: Options,
     tabs: Tabs,
     explorer: Explorer,
-    src: SyntheticSource,
+    src: Box<dyn RowSource>,
     sel: Selection,
     focus: FocusModel,
     editor_split: Split,
@@ -133,8 +135,20 @@ impl PocApp {
             .and_then(|p| std::fs::File::create(p).ok());
         let mut tabs = Tabs::new();
         tabs.active_mut().text = "SELECT o.id, o.status, o.total, c.name AS ลูกค้า\nFROM app.orders o\nJOIN app.customers c ON c.id = o.customer_id\nWHERE o.id > :min_id -- mock only; no database connection\nORDER BY o.id;\n\nSELECT COUNT(*) FROM app.orders;".into();
+        if opts.comparison {
+            let text = poc_workload::sql(opts.large_sql);
+            tabs.active_mut().text = text.clone();
+            for _ in 1..poc_workload::contract().tabs {
+                tabs.open(&text);
+            }
+            tabs.active = 0;
+        }
         Self {
-            src: SyntheticSource::new(opts.rows, opts.cols),
+            src: if opts.comparison {
+                Box::new(ComparisonSource(opts.rows))
+            } else {
+                Box::new(SyntheticSource::new(opts.rows, opts.cols))
+            },
             dark: opts.dark,
             opts,
             tabs,
@@ -628,7 +642,7 @@ impl PocApp {
             }
             if self.copy_requested {
                 let (r, c) = (self.sel.row.min(rows.saturating_sub(1)), self.sel.col);
-                ui.ctx().copy_text(copy_text(&self.src, r, c));
+                ui.ctx().copy_text(copy_text(self.src.as_ref(), r, c));
             }
         }
 
@@ -643,7 +657,7 @@ impl PocApp {
             let origin = ui.min_rect().min;
             let body_h = (viewport.height() - HEADER_H).max(0.0);
             let range = visible_range(viewport.min.y, body_h, ROW_H, rows, OVERSCAN);
-            let cells = visible_cells(&self.src, range.clone());
+            let cells = visible_cells(self.src.as_ref(), range.clone());
             self.last_cells = cells.len() * cols;
             self.last_range = (range.start, range.end);
             let painter = ui.painter_at(egui::Rect::from_min_size(
@@ -956,7 +970,8 @@ impl PocApp {
                 if f == 5 && b.ready_ms.is_none() {
                     b.ready_ms = Some(b.started.elapsed().as_secs_f64() * 1000.0);
                     println!(
-                        "READY first_ui_ms={:.2} ready_ms={:.2}",
+                        "READY pid={} first_ui_ms={:.2} ready_ms={:.2}",
+                        std::process::id(),
                         b.first_ui_ms.unwrap_or(-1.0),
                         b.ready_ms.unwrap()
                     );
@@ -970,7 +985,8 @@ impl PocApp {
                 if f == 5 && b.ready_ms.is_none() {
                     b.ready_ms = Some(b.started.elapsed().as_secs_f64() * 1000.0);
                     println!(
-                        "READY first_ui_ms={:.2} ready_ms={:.2}",
+                        "READY pid={} first_ui_ms={:.2} ready_ms={:.2}",
+                        std::process::id(),
                         b.first_ui_ms.unwrap_or(-1.0),
                         b.ready_ms.unwrap()
                     );
@@ -981,7 +997,8 @@ impl PocApp {
                 if f == 5 && b.ready_ms.is_none() {
                     b.ready_ms = Some(b.started.elapsed().as_secs_f64() * 1000.0);
                     println!(
-                        "READY first_ui_ms={:.2} ready_ms={:.2}",
+                        "READY pid={} first_ui_ms={:.2} ready_ms={:.2}",
+                        std::process::id(),
                         b.first_ui_ms.unwrap_or(-1.0),
                         b.ready_ms.unwrap()
                     );

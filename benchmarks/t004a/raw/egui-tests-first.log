@@ -1,0 +1,108 @@
+    Updating crates.io index
+    Blocking waiting for file lock on package cache
+     Locking 4 packages to highest Rust 1.99.1 compatible versions
+      Adding itoa v1.0.18
+      Adding poc-workload v0.1.0 (/Users/kasidit/Documents/Dbz/crates/poc-workload)
+      Adding serde_json v1.0.154
+      Adding zmij v1.0.23
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   Compiling serde_core v1.0.229
+   Compiling zmij v1.0.23
+   Compiling serde_json v1.0.154
+   Compiling serde v1.0.229
+   Compiling serde_derive v1.0.229
+   Compiling memchr v2.8.3
+   Compiling itoa v1.0.18
+   Compiling poc-workload v0.1.0 (/Users/kasidit/Documents/Dbz/crates/poc-workload)
+   Compiling poc-ui v0.1.0 (/Users/kasidit/Documents/Dbz/crates/poc-ui)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 12.16s
+     Running unittests src/lib.rs (crates/poc-ui/target/debug/deps/poc_ui-932d54bd0b0c714d)
+
+running 68 tests
+test model::editor::tests::empty_text_is_empty_range ... ok
+test jsonlog::tests::empty_string ... ok
+test jsonlog::tests::thai_and_combining_marks_pass_through_unescaped ... ok
+test model::editor::tests::picks_statement_under_cursor ... ok
+test model::editor::tests::statement_without_trailing_semicolon ... ok
+test model::editor::tests::plsql_block_not_split_on_inner_semicolons ... ok
+test model::editor::tests::cursor_at_end_picks_last ... ok
+test model::editor::tests::cursor_in_blank_gap_uses_previous_statement ... ok
+test model::editor::tests::semicolon_in_string_or_comment_does_not_split ... ok
+test jsonlog::tests::escapes_quote_backslash_and_control_chars ... ok
+test model::editor::tests::thai_text_ranges_are_char_boundaries ... ok
+test model::editor::tests::line_col_counts_chars_not_bytes ... ok
+test model::focus::tests::clicking_into_editor_without_request_focuses_editor ... ok
+test model::focus::tests::explicit_request_for_editor_keeps_editor ... ok
+test model::focus::tests::f6_cycles_explorer_editor_grid ... ok
+test model::focus::tests::request_flag_resets_each_frame ... ok
+test model::focus::tests::next_frame_after_release_stays_on_grid ... ok
+test model::explorer::tests::depth_of_root_is_zero_and_child_is_deeper ... ok
+test model::focus::tests::request_from_editor_is_not_stolen_back_by_text_focus ... ok
+test model::explorer::tests::starts_with_connection_expanded_and_schemas_collapsed ... ok
+test model::explorer::tests::left_collapses_then_goes_to_parent ... ok
+test model::explorer::tests::right_expands_and_down_moves ... ok
+test model::grid::tests::copy_text_is_full_value_and_null_is_empty ... ok
+test model::grid::tests::decimal_column_keeps_exact_digits ... ok
+test model::grid::tests::scroll_to_reveal_cases ... ok
+test model::grid::tests::selection_moves_and_clamps ... ok
+test model::grid::tests::selection_on_empty_grid_is_noop ... ok
+test model::grid::tests::selection_page_home_end ... ok
+test model::grid::tests::synthetic_cells_are_deterministic_and_typed ... ok
+test model::grid::tests::visible_range_at_1m_rows_bottom_is_small ... ok
+test model::explorer::tests::up_down_clamp ... ok
+test model::grid::tests::visible_range_basic_and_scrolled ... ok
+test model::grid::tests::visible_range_overscan_and_clamps ... ok
+test model::grid::tests::million_row_source_is_constant_size_and_reachable ... FAILED
+test model::highlight::tests::basic_select ... ok
+test model::grid::tests::only_visible_cells_are_read_from_source ... ok
+test model::highlight::tests::bind_and_quoted_identifier ... ok
+test model::highlight::tests::decimal_number_and_punct ... ok
+test model::highlight::tests::empty_input_has_no_tokens ... ok
+test model::highlight::tests::keywords_case_insensitive ... ok
+test model::highlight::tests::line_comment_to_eol_and_block_comment ... ok
+test model::highlight::tests::string_with_escaped_quote_and_thai ... ok
+test model::highlight::tests::tokens_tile_input_and_slice_on_char_boundaries ... ok
+test model::highlight::tests::unterminated_block_comment_runs_to_end ... ok
+test model::layout::tests::drag_beyond_bounds_is_clamped ... ok
+test model::layout::tests::pos_clamps_to_minimums ... ok
+test model::layout::tests::pos_from_ratio ... ok
+test model::layout::tests::ratio_survives_window_resize ... ok
+test model::layout::tests::tiny_window_smaller_than_minimums_stays_finite_and_proportional ... ok
+test model::metrics::tests::empty_is_none ... ok
+test model::metrics::tests::cap_drops_oldest ... ok
+test model::metrics::tests::unsorted_input ... ok
+test model::metrics::tests::nearest_rank_percentiles ... ok
+test model::tabs::tests::close_active_last_selects_new_last ... ok
+test model::tabs::tests::close_before_active_shifts_active_index ... ok
+test model::tabs::tests::close_last_remaining_is_refused ... ok
+test model::tabs::tests::close_out_of_range_is_noop ... ok
+test model::tabs::tests::next_prev_wrap ... ok
+test model::tabs::tests::open_adds_and_activates_with_unique_ids_and_titles ... ok
+test model::tabs::tests::starts_with_one_tab ... ok
+test model::tabs::tests::titles_not_reused_after_close ... ok
+test shortcuts::tests::copy_event_is_reported ... ok
+test shortcuts::tests::no_events_no_shortcuts ... ok
+test shortcuts::tests::ctrl_shift_tab_is_prev_only ... ok
+test shortcuts::tests::ctrl_tab_is_next_only ... ok
+test shortcuts::tests::cmd_shift_l_toggles_theme_and_plain_l_does_not ... ok
+test shortcuts::tests::cmd_enter_runs_and_cmd_t_w_manage_tabs ... ok
+test shortcuts::tests::f6_alt_digits_and_escape ... ok
+
+failures:
+
+---- model::grid::tests::million_row_source_is_constant_size_and_reachable stdout ----
+
+thread 'model::grid::tests::million_row_source_is_constant_size_and_reachable' (6122763) panicked at src/model/grid.rs:197:9:
+assertion `left == right` failed
+  left: 24
+ right: 16
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    model::grid::tests::million_row_source_is_constant_size_and_reachable
+
+test result: FAILED. 67 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `--lib`

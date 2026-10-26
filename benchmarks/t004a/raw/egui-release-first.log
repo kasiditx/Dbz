@@ -1,0 +1,10 @@
+   Compiling serde_core v1.0.229
+   Compiling zmij v1.0.23
+   Compiling serde_json v1.0.154
+   Compiling serde v1.0.229
+   Compiling serde_derive v1.0.229
+   Compiling memchr v2.8.3
+   Compiling itoa v1.0.18
+   Compiling poc-workload v0.1.0 (/Users/kasidit/Documents/Dbz/crates/poc-workload)
+   Compiling poc-ui v0.1.0 (/Users/kasidit/Documents/Dbz/crates/poc-ui)
+    Finished `release` profile [optimized] target(s) in 4.15s

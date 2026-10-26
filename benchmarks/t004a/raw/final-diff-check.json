@@ -1,0 +1,31 @@
+{
+  "note": "Raw logs/AX captures preserved byte-for-byte; workload SQL final blank line is part of measured 191-character script. Source-only check excludes these evidence fixtures. No warning configuration changed.",
+  "results": [
+    {
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "exit_code": 2,
+      "stdout": "benchmarks/t004a/query.sql:6: new blank line at EOF.\nbenchmarks/t004a/raw/active-egui-100000-r2-ax.txt:7: trailing whitespace.\n+\t\t\t5 text (settable)  READ-ONLY \nbenchmarks/t004a/raw/active-egui-1000000-r1-ax.txt:7: trailing whitespace.\n+\t\t\t5 text (settable)  READ-ONLY \nbenchmarks/t004a/raw/active-tauri-100000-r2-ax.txt:34: trailing whitespace.\n+\t\t\t\t26 text \u25c9 Read-only mock Outcome \nbenchmarks/t004a/raw/active-tauri-1000000-r1-ax.txt:34: trailing whitespace.\n+\t\t\t\t26 text \u25c9 Read-only mock Outcome \nbenchmarks/t004a/raw/check-01.log:21: new blank line at EOF.\nbenchmarks/t004a/raw/check-04.log:94: new blank line at EOF.\nbenchmarks/t004a/raw/check-07.log:9: new blank line at EOF.\nbenchmarks/t004a/raw/check-09.log:4: new blank line at EOF.\nbenchmarks/t004a/raw/check-10.log:4: new blank line at EOF.\nbenchmarks/t004a/raw/check-11.log:13: new blank line at EOF.\nbenchmarks/t004a/raw/check-12.log:15: trailing whitespace.\n+[plugin builtin:vite-reporter] \nbenchmarks/t004a/raw/egui-tests.log:88: new blank line at EOF.\nbenchmarks/t004a/raw/exploratory-flush-active-tauri-100000-r1-ax.txt:34: trailing whitespace.\n+\t\t\t\t26 text \u25c9 Read-only mock Outcome \nbenchmarks/t004a/raw/exploratory-harness-active-egui-100000-r1-ax.txt:7: trailing whitespace.\n+\t\t\t5 text (settable)  READ-ONLY \nbenchmarks/t004a/raw/frontend-build-first.log:15: trailing whitespace.\n+[plugin builtin:vite-reporter] \nbenchmarks/t004a/raw/frontend-lint-first.log:4: new blank line at EOF.\nbenchmarks/t004a/raw/release-build-final-metadata.log:21: trailing whitespace.\n+[plugin builtin:vite-reporter] \nbenchmarks/t004a/raw/release-build-final-metadata.log:33: new blank line at EOF.\nbenchmarks/t004a/raw/release-build-final.log:21: trailing whitespace.\n+[plugin builtin:vite-reporter] \nbenchmarks/t004a/raw/release-build-final.log:32: new blank line at EOF.\nbenchmarks/t004a/raw/release-build-first.log:21: trailing whitespace.\n+[plugin builtin:vite-reporter] \nbenchmarks/t004a/raw/release-build-first.log:52: new blank line at EOF.\nbenchmarks/t004a/raw/release-build.log:21: trailing whitespace.\n+[plugin builtin:vite-reporter] \nbenchmarks/t004a/raw/release-build.log:32: new blank line at EOF.\nbenchmarks/t004a/raw/tauri-accessibility.txt:34: trailing whitespace.\n+\t\t\t\t26 text \u25c9 Read-only mock Outcome \nbenchmarks/t004a/raw/tauri-accessibility.txt:227: new blank line at EOF.\nbenchmarks/t004a/raw/tauri-rust-tests.log:229: new blank line at EOF.\nbenchmarks/t004a/raw/tdd-model-green.log:13: new blank line at EOF.\nbenchmarks/t004a/raw/tdd-model-red.log:29: new blank line at EOF.\nbenchmarks/t004a/raw/tdd-navigation-green.log:13: new blank line at EOF.\nbenchmarks/t004a/raw/tdd-navigation-red.log:43: new blank line at EOF.\nbenchmarks/t004a/raw/tdd-reveal-green.log:13: new blank line at EOF.\nbenchmarks/t004a/raw/tdd-reveal-red.log:30: new blank line at EOF.\nbenchmarks/t004a/raw/tdd-workload-green.log:15: new blank line at EOF.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--check",
+        "--",
+        ".",
+        ":!benchmarks/t004a/raw/**",
+        ":!benchmarks/t004a/query.sql"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

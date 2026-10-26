@@ -1,0 +1,13 @@
+
+> dbz-tauri-prototype@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/kasidit/Documents/Dbz/crates/poc-tauri
+
+
+ Test Files  1 passed (1)
+      Tests  5 passed (5)
+   Start at  23:43:23
+   Duration  68ms (import 37%, transform 35%, tests 15%, worker 13%)
+

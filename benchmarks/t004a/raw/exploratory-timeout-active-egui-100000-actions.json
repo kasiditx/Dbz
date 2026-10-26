@@ -1,0 +1,3242 @@
+{
+  "session": {
+    "stack": "egui",
+    "rows": 100000,
+    "mode": "active",
+    "pid": 10965,
+    "ready_ms": 372.79304198455065,
+    "args": [
+      "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/bundle/Dbz Egui POC.app/Contents/MacOS/dbz-ui-poc",
+      "--rows",
+      "100000",
+      "--event-log",
+      "/var/folders/zy/r4_zwb9n7tn0dh9y0yjnr4k80000gn/T/dbz-t004a-active-egui-100000-b1ij10zt/active-egui-100000-events.jsonl",
+      "--large-sql",
+      "--comparison",
+      "--bench",
+      "external",
+      "--seconds",
+      "90.0",
+      "--out",
+      "/var/folders/zy/r4_zwb9n7tn0dh9y0yjnr4k80000gn/T/dbz-t004a-active-egui-100000-b1ij10zt/active-egui-100000-frames.csv"
+    ],
+    "bundle": "/Users/kasidit/Documents/Dbz/crates/poc-ui/target/release/bundle/Dbz Egui POC.app",
+    "events": "/var/folders/zy/r4_zwb9n7tn0dh9y0yjnr4k80000gn/T/dbz-t004a-active-egui-100000-b1ij10zt/active-egui-100000-events.jsonl",
+    "frames": "/var/folders/zy/r4_zwb9n7tn0dh9y0yjnr4k80000gn/T/dbz-t004a-active-egui-100000-b1ij10zt/active-egui-100000-frames.csv",
+    "large_sql": true,
+    "baseline_webkit_pids": [
+      23321,
+      23331,
+      23333
+    ],
+    "state": {
+      "ts_ns": 1793031955198815000,
+      "frame": 2,
+      "sel": [
+        0,
+        0
+      ],
+      "focus": "Editor",
+      "tab": 0,
+      "tabs": 3,
+      "chars": 95500,
+      "tail": " no database connection\nORDER BY o.id;\n\n",
+      "split": 0.28,
+      "scroll_row": 0,
+      "exp_sel": 0,
+      "dark": true,
+      "editor_has_focus": true,
+      "run": "idle",
+      "ppp": 2,
+      "inner": [
+        221,
+        95,
+        1501,
+        895
+      ],
+      "editor": [
+        238,
+        75,
+        1272,
+        49601.5
+      ],
+      "grid": [
+        238,
+        284.5,
+        1272,
+        759
+      ],
+      "splitter": [
+        238,
+        272.5,
+        1272,
+        278.5
+      ],
+      "tab0": [
+        238,
+        41,
+        291.6,
+        69
+      ],
+      "plus": [
+        546.8,
+        41,
+        574.2,
+        69
+      ],
+      "exp_row1": [
+        8,
+        124,
+        78.7,
+        152
+      ]
+    },
+    "label": "active-egui-100000"
+  },
+  "records": [
+    {
+      "name": "grid-key",
+      "start_ns": 1793031969976000000,
+      "end_ns": 1793031972222000000,
+      "matched": true,
+      "call_to_state_ms": 21.155072,
+      "before": {
+        "ts_ns": 1793031968112495000,
+        "frame": 1544,
+        "sel": [
+          0,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793031969997155000,
+        "frame": 1770,
+        "sel": [
+          1,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793031972224000000,
+      "end_ns": 1793031974490000000,
+      "matched": true,
+      "call_to_state_ms": 24.018944,
+      "before": {
+        "ts_ns": 1793031969997155000,
+        "frame": 1770,
+        "sel": [
+          1,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793031972248019000,
+        "frame": 2040,
+        "sel": [
+          2,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793031974496000000,
+      "end_ns": 1793031976731000000,
+      "matched": true,
+      "call_to_state_ms": 17.110016,
+      "before": {
+        "ts_ns": 1793031972248019000,
+        "frame": 2040,
+        "sel": [
+          2,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793031974513110000,
+        "frame": 2311,
+        "sel": [
+          3,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793031976732000000,
+      "end_ns": 1793031979026000000,
+      "matched": true,
+      "call_to_state_ms": 23.46112,
+      "before": {
+        "ts_ns": 1793031974513110000,
+        "frame": 2311,
+        "sel": [
+          3,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793031976755461000,
+        "frame": 2580,
+        "sel": [
+          4,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793031979027000000,
+      "end_ns": 1793031981271000000,
+      "matched": true,
+      "call_to_state_ms": 20.683008,
+      "before": {
+        "ts_ns": 1793031976755461000,
+        "frame": 2580,
+        "sel": [
+          4,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793031979047683000,
+        "frame": 2849,
+        "sel": [
+          5,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793031981272000000,
+      "end_ns": 1793031983514000000,
+      "matched": true,
+      "call_to_state_ms": 16.692992,
+      "before": {
+        "ts_ns": 1793031979047683000,
+        "frame": 2849,
+        "sel": [
+          5,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793031981288693000,
+        "frame": 3116,
+        "sel": [
+          6,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793031983515000000,
+      "end_ns": 1793031985770000000,
+      "matched": true,
+      "call_to_state_ms": 23.127808,
+      "before": {
+        "ts_ns": 1793031981288693000,
+        "frame": 3116,
+        "sel": [
+          6,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793031983538128000,
+        "frame": 3385,
+        "sel": [
+          7,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793031985771000000,
+      "end_ns": 1793031988022000000,
+      "matched": true,
+      "call_to_state_ms": 18.048,
+      "before": {
+        "ts_ns": 1793031983538128000,
+        "frame": 3385,
+        "sel": [
+          7,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793031985789048000,
+        "frame": 3655,
+        "sel": [
+          8,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793031988023000000,
+      "end_ns": 1793031990256000000,
+      "matched": true,
+      "call_to_state_ms": 15.40096,
+      "before": {
+        "ts_ns": 1793031985789048000,
+        "frame": 3655,
+        "sel": [
+          8,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793031988038401000,
+        "frame": 3921,
+        "sel": [
+          9,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793031990258000000,
+      "end_ns": 1793031992521000000,
+      "matched": true,
+      "call_to_state_ms": 21.78304,
+      "before": {
+        "ts_ns": 1793031988038401000,
+        "frame": 3921,
+        "sel": [
+          9,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793031990279783000,
+        "frame": 4190,
+        "sel": [
+          10,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793031992522000000,
+      "end_ns": 1793031994756000000,
+      "matched": true,
+      "call_to_state_ms": 15.916032,
+      "before": {
+        "ts_ns": 1793031990279783000,
+        "frame": 4190,
+        "sel": [
+          10,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793031992537916000,
+        "frame": 4460,
+        "sel": [
+          11,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793031994757000000,
+      "end_ns": 1793031996997000000,
+      "matched": true,
+      "call_to_state_ms": 22.653184,
+      "before": {
+        "ts_ns": 1793031992537916000,
+        "frame": 4460,
+        "sel": [
+          11,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793031994779653000,
+        "frame": 4729,
+        "sel": [
+          12,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793031996999000000,
+      "end_ns": 1793031999230000000,
+      "matched": true,
+      "call_to_state_ms": 22.727936,
+      "before": {
+        "ts_ns": 1793031994779653000,
+        "frame": 4729,
+        "sel": [
+          12,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793031997021728000,
+        "frame": 4998,
+        "sel": [
+          13,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793031999231000000,
+      "end_ns": 1793032001472000000,
+      "matched": true,
+      "call_to_state_ms": 15.282944,
+      "before": {
+        "ts_ns": 1793031997021728000,
+        "frame": 4998,
+        "sel": [
+          13,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793031999246283000,
+        "frame": 5265,
+        "sel": [
+          14,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793032001473000000,
+      "end_ns": 1793032003704000000,
+      "matched": true,
+      "call_to_state_ms": 15.155968,
+      "before": {
+        "ts_ns": 1793031999246283000,
+        "frame": 5265,
+        "sel": [
+          14,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793032001488156000,
+        "frame": 5533,
+        "sel": [
+          15,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793032003705000000,
+      "end_ns": 1793032005968000000,
+      "matched": true,
+      "call_to_state_ms": 16.39296,
+      "before": {
+        "ts_ns": 1793032001488156000,
+        "frame": 5533,
+        "sel": [
+          15,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793032003721393000,
+        "frame": 5801,
+        "sel": [
+          16,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793032005969000000,
+      "end_ns": 1793032008216000000,
+      "matched": true,
+      "call_to_state_ms": 23.213056,
+      "before": {
+        "ts_ns": 1793032003721393000,
+        "frame": 5801,
+        "sel": [
+          16,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793032005992213000,
+        "frame": 6068,
+        "sel": [
+          17,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793032008217000000,
+      "end_ns": 1793032010451000000,
+      "matched": true,
+      "call_to_state_ms": 16.82304,
+      "before": {
+        "ts_ns": 1793032005992213000,
+        "frame": 6068,
+        "sel": [
+          17,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793032008233823000,
+        "frame": 6337,
+        "sel": [
+          18,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793032010453000000,
+      "end_ns": 1793032012692000000,
+      "matched": true,
+      "call_to_state_ms": 23.085056,
+      "before": {
+        "ts_ns": 1793032008233823000,
+        "frame": 6337,
+        "sel": [
+          18,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793032010476085000,
+        "frame": 6606,
+        "sel": [
+          19,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "grid-key",
+      "start_ns": 1793032012693000000,
+      "end_ns": 1793032014943000000,
+      "matched": true,
+      "call_to_state_ms": 15.849984,
+      "before": {
+        "ts_ns": 1793032010476085000,
+        "frame": 6606,
+        "sel": [
+          19,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793032012708850000,
+        "frame": 6874,
+        "sel": [
+          20,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "tab-switch",
+      "start_ns": 1793032014945000000,
+      "end_ns": 1793032017201000000,
+      "matched": true,
+      "call_to_state_ms": 23.133952,
+      "before": {
+        "ts_ns": 1793032012708850000,
+        "frame": 6874,
+        "sel": [
+          20,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793032014968134000,
+        "frame": 7144,
+        "sel": [
+          20,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 1,
+        "tabs": 3,
+        "chars": 95500,
+        "tail": " no database connection\nORDER BY o.id;\n\n",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "tab-switch",
+      "start_ns": 1793032017203000000,
+      "end_ns": 1793032019468000000,
+      "matched": true,
+      "call_to_state_ms": 22.712064,
+      "before": {
+        "ts_ns": 1793032014968134000,
+        "frame": 7144,
+        "sel": [
+          20,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 1,
+        "tabs": 3,
+        "chars": 95500,
+        "tail": " no database connection\nORDER BY o.id;\n\n",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793032017225712000,
+        "frame": 7414,
+        "sel": [
+          20,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 2,
+        "tabs": 3,
+        "chars": 95500,
+        "tail": " no database connection\nORDER BY o.id;\n\n",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "tab-switch",
+      "start_ns": 1793032019470000000,
+      "end_ns": 1793032021728000000,
+      "matched": true,
+      "call_to_state_ms": 31.78496,
+      "before": {
+        "ts_ns": 1793032017225712000,
+        "frame": 7414,
+        "sel": [
+          20,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 2,
+        "tabs": 3,
+        "chars": 95500,
+        "tail": " no database connection\nORDER BY o.id;\n\n",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793032019501785000,
+        "frame": 7685,
+        "sel": [
+          20,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    },
+    {
+      "name": "tab-switch",
+      "start_ns": 1793032021729000000,
+      "end_ns": 1793032023986000000,
+      "matched": true,
+      "call_to_state_ms": 22.23104,
+      "before": {
+        "ts_ns": 1793032019501785000,
+        "frame": 7685,
+        "sel": [
+          20,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 0,
+        "tabs": 3,
+        "chars": 95501,
+        "tail": "no database connection\nORDER BY o.id;\n\n£",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      },
+      "after": {
+        "ts_ns": 1793032021751231000,
+        "frame": 7955,
+        "sel": [
+          20,
+          0
+        ],
+        "focus": "Grid",
+        "tab": 1,
+        "tabs": 3,
+        "chars": 95500,
+        "tail": " no database connection\nORDER BY o.id;\n\n",
+        "split": 0.28,
+        "scroll_row": 0,
+        "exp_sel": 0,
+        "dark": true,
+        "editor_has_focus": false,
+        "run": "idle",
+        "ppp": 2,
+        "inner": [
+          221,
+          95,
+          1501,
+          895
+        ],
+        "editor": [
+          238,
+          -49260,
+          1272,
+          266.5
+        ],
+        "grid": [
+          238,
+          284.5,
+          1272,
+          759
+        ],
+        "splitter": [
+          238,
+          272.5,
+          1272,
+          278.5
+        ],
+        "tab0": [
+          238,
+          41,
+          291.6,
+          69
+        ],
+        "plus": [
+          546.8,
+          41,
+          574.2,
+          69
+        ],
+        "exp_row1": [
+          8,
+          124,
+          78.7,
+          152
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+    Updating crates.io index
+     Locking 11 packages to highest Rust 1.99.1 compatible versions
+ Downloading crates ...
+  Downloaded zmij v1.0.23
+  Downloaded itoa v1.0.18
+  Downloaded memchr v2.8.3
+  Downloaded serde_json v1.0.154
+   Compiling proc-macro2 v1.0.107
+   Compiling quote v1.0.47
+   Compiling unicode-ident v1.0.27
+   Compiling serde_core v1.0.229
+   Compiling zmij v1.0.23
+   Compiling serde v1.0.229
+   Compiling serde_json v1.0.154
+   Compiling memchr v2.8.3
+   Compiling itoa v1.0.18
+   Compiling syn v3.0.9
+   Compiling serde_derive v1.0.229
+   Compiling poc-workload v0.1.0 (/Users/kasidit/Documents/Dbz/crates/poc-workload)
+error[E0425]: cannot find function `cell` in module `super`
+ --> src/lib.rs:6:27
+  |
+6 |         assert_eq!(super::cell(42, 5).as_deref(), Some("2026-01-15T00:00:42.000Z"));
+  |                           ^^^^ not found in `super`
+
+error[E0425]: cannot find function `cell` in module `super`
+ --> src/lib.rs:7:24
+  |
+7 |         assert!(super::cell(42, 6).unwrap().chars().count() > 300);
+  |                        ^^^^ not found in `super`
+
+error[E0425]: cannot find function `cell` in module `super`
+ --> src/lib.rs:8:27
+  |
+8 |         assert_eq!(super::cell(7, 3), None);
+  |                           ^^^^ not found in `super`
+
+For more information about this error, try `rustc --explain E0425`.
+error: could not compile `poc-workload` (lib test) due to 3 previous errors

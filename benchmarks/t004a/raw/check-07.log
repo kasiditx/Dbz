@@ -1,0 +1,9 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.30s
+     Running unittests src/main.rs (crates/poc-tauri/src-tauri/target/debug/deps/dbz_tauri_poc-4f86c5e45ef66a26)
+
+running 2 tests
+test query::tests::cancellation_is_acknowledged_and_a_second_job_is_rejected ... ok
+test query::tests::validation_and_failure_do_not_leave_the_job_busy ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.82s
+

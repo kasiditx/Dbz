@@ -1,0 +1,357 @@
+Window: "Dbz · Tauri experiment", App: Dbz Tauri POC.
+0 standard window Dbz · Tauri experiment, Secondary Actions: Raise
+	1 scroll area
+		2 HTML content Description: Dbz · Tauri experiment, URL: tauri://localhost
+			3 container
+				4 text d bz LAB Workspace  /  UI stack comparison SYNTHETIC ONLY
+				5 button ☀ Light, Help: Toggle theme · ⌘⇧L
+			6 container
+				7 text EXPLORER MOCK  Local sandbox Synthetic · no connection
+				8 outline (selectable) Mock database explorer
+					9 row (selected, expanded) Description: ⌄ APP, Secondary Actions: Collapse, Value: ⌄
+APP
+					10 row (selectable) Description: ◇ Tables, Value: ◇
+Tables
+					11 row (selectable) Description: ▦ ORDERS, Value: ▦
+ORDERS
+					12 row (selectable) Description: ▦ CUSTOMERS, Value: ▦
+CUSTOMERS
+					13 row (selectable) Description: ◇ Views, Value: ◇
+Views
+					14 row (selectable) Description: ◇ Packages, Value: ◇
+Packages
+				15 text T-004a experiment 20 columns · generated on demand
+			16 splitter Explorer width, Value: 220
+			17 container
+				18 tab group (selectable) SQL tabs
+					19 tab (selectable) SQL Query 1
+					20 tab (selectable) SQL Query 2
+					21 tab (selected) SQL Query 3
+					22 button New SQL tab
+					23 button Close active SQL tab
+				24 button ▶ Run ⌘↵
+				25 button (disabled) ■ Cancel
+				26 text ◉ Read-only mock Outcome 
+				27 pop up button Mock query outcome, Value: Success
+				28 text entry area (settable) SQL editor, Value: aaaaaaaaaaaaaaaaaaaaSELECT o.id, o.status, o.total, c.name AS ลูกค้า
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลูกค้า
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลูกค้า
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลูกค้า
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลูกค้า
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+SELECT o.id, o.status, o.total, c.name AS ลูกค้า
+FROM app.orders o
+JOIN app.customers c ON c.id = o.customer_id
+WHERE o.id > :min_id -- synthetic only; no database connection
+ORDER BY o.id;
+
+
+					29 container (settable)
+						30 text (settable) aaaaaaaaaaaaaaaaaaaaSELECT o . id ,  o . status ,  o . total ,  c . name AS  ลูกค้า
+					31 container (settable)
+						32 text (settable) FROM app . orders o
+					33 container (settable)
+						34 text (settable) JOIN app . customers c ON c . id = o . customer_id
+					35 container (settable)
+						36 text (settable) WHERE o . id >  : min_id -- synthetic only; no database connection
+					37 container (settable)
+						38 text (settable) ORDER BY o . id ;
+					39 container (settable)
+						40 text (settable) SELECT o . id ,  o . status ,  o . total ,  c . name AS  ลูกค้า
+					41 container (settable)
+						42 text (settable) FROM app . orders o
+					43 container (settable)
+						44 text (settable) JOIN app . customers c ON c . id = o . customer_id
+					45 container (settable)
+						46 text (settable) WHERE o . id >  : min_id -- synthetic only; no database connection
+					47 container (settable)
+						48 text (settable) ORDER BY o . id ;
+					49 container (settable)
+						50 text (settable) SELECT o . id ,  o . status ,  o . total ,  c . name AS  ลูกค้า
+					51 container (settable)
+						52 text (settable) FROM app . orders o
+					53 container (settable)
+						54 text (settable) JOIN app . customers c ON c . id = o . customer_id
+					55 container (settable)
+						56 text (settable) WHERE o . id >  : min_id -- synthetic only; no database connection
+					57 container (settable)
+						58 text (settable) ORDER BY o . id ;
+					59 container (settable)
+						60 text (settable) SELECT o . id ,  o . status ,  o . total ,  c . name AS  ลูกค้า
+					61 container (settable)
+						62 text (settable) FROM app . orders o
+					63 container (settable)
+						64 text (settable) JOIN app . customers c ON c . id = o . customer_id
+					65 container (settable)
+						66 text (settable) WHERE o . id >  : min_id -- synthetic only; no database connection
+					67 container (settable)
+						68 text (settable) ORDER BY o . id ;
+					69 container (settable)
+						70 text (settable) SELECT o . id ,  o . status ,  o . total ,  c . name AS  ลูกค้า
+					71 container (settable)
+						72 text (settable) FROM app . orders o
+					73 container (settable)
+						74 text (settable) JOIN app . customers c ON c . id = o . customer_id
+					75 container (settable)
+						76 text (settable) WHERE o . id >  : min_id -- synthetic only; no database connection
+					77 container (settable)
+						78 text (settable) ORDER BY o . id ;
+					79 container (settable)
+						80 text (settable) SELECT o . id ,  o . status ,  o . total ,  c . name AS  ลูกค้า
+					81 container (settable)
+						82 text (settable) FROM app . orders o
+					83 container (settable)
+						84 text (settable) JOIN app . customers c ON c . id = o . customer_id
+					85 container (settable)
+						86 text (settable) WHERE o . id >  : min_id -- synthetic only; no database connection
+					87 container (settable)
+						88 text (settable) ORDER BY o . id ;
+				89 splitter Editor height, Value: 200
+				90 text Results 100,000  rows 20 columns On-demand synthetic data · no DB
+				91 table (settable) Synthetic query results
+					92 row (selectable)
+						93 cell (settable)
+							94 text ID ↕
+						95 cell (settable)
+							96 text CUSTOMER_NAME ↕
+						97 cell (settable)
+							98 text AMOUNT ↕
+						99 cell (settable)
+							100 text STATUS ↕
+						101 cell (settable)
+							102 text NOTES ↕
+						103 cell (settable)
+							104 text TIMESTAMP ↕
+						105 cell (settable)
+							106 text LONG_TEXT ↕
+					107 row (selectable)
+						108 cell (selectable, settable) 753
+						109 cell (selectable, settable) ลูกค้า 753
+						110 cell (selectable, settable) 5963007.000000753
+						111 cell (selectable, settable) OPEN
+						112 cell (selectable, settable) Value: หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยา, Description: หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753 หมายเหตุยาว 753
+						113 cell (selectable, settable) 2026-01-15T00:12:33.000Z
+						114 cell (selectable, settable) Value: Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 75, Description: Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long Unicode Ω 日本語 753 Long U
+					115 row (selectable)
+						116 cell (selectable, settable) 754
+						117 cell (selectable, settable) ลูกค้า 754
+						118 cell (selectable, settable) 5970926.000000754
+						119 cell (selectable, settable) PAID
+						120 cell (selectable, settable) Value: หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยา, Description: หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754 หมายเหตุยาว 754
+						121 cell (selectable, settable) 2026-01-15T00:12:34.000Z
+						122 cell (selectable, settable) Value: Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 75, Description: Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long Unicode Ω 日本語 754 Long U
+					123 row (selectable)
+						124 cell (selectable, settable) 755
+						125 cell (selectable, settable) ลูกค้า 755
+						126 cell (selectable, settable) 5978845.000000755
+						127 cell (selectable, settable) VOID
+						128 cell (selectable, settable) Value: หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยา, Description: หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755 หมายเหตุยาว 755
+						129 cell (selectable, settable) 2026-01-15T00:12:35.000Z
+						130 cell (selectable, settable) Value: Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 75, Description: Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long Unicode Ω 日本語 755 Long U
+					131 row (selectable)
+						132 cell (selectable, settable) 756
+						133 cell (selectable, settable) ลูกค้า 756
+						134 cell (selectable, settable) 5986764.000000756
+						135 cell (selectable, settable) NULL
+						136 cell (selectable, settable) Value: หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยา, Description: หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756 หมายเหตุยาว 756
+						137 cell (selectable, settable) 2026-01-15T00:12:36.000Z
+						138 cell (selectable, settable) Value: Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 75, Description: Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long Unicode Ω 日本語 756 Long U
+					139 row (selectable)
+						140 cell (selectable, settable) 757
+						141 cell (selectable, settable) ลูกค้า 757
+						142 cell (selectable, settable) 5994683.000000757
+						143 cell (selectable, settable) PAID
+						144 cell (selectable, settable) Value: หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยา, Description: หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757 หมายเหตุยาว 757
+						145 cell (selectable, settable) 2026-01-15T00:12:37.000Z
+						146 cell (selectable, settable) Value: Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 75, Description: Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long Unicode Ω 日本語 757 Long U
+					147 row (selectable)
+						148 cell (selectable, settable) 758
+						149 cell (selectable, settable) ลูกค้า 758
+						150 cell (selectable, settable) 6002602.000000758
+						151 cell (selectable, settable) VOID
+						152 cell (selectable, settable) Value: หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยา, Description: หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758 หมายเหตุยาว 758
+						153 cell (selectable, settable) 2026-01-15T00:12:38.000Z
+						154 cell (selectable, settable) Value: Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 75, Description: Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long Unicode Ω 日本語 758 Long U
+					155 row (selectable)
+						156 cell (selectable, settable) 759
+						157 cell (selectable, settable) ลูกค้า 759
+						158 cell (selectable, settable) 6010521.000000759
+						159 cell (selectable, settable) OPEN
+						160 cell (selectable, settable) Value: หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยา, Description: หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759 หมายเหตุยาว 759
+						161 cell (selectable, settable) 2026-01-15T00:12:39.000Z
+						162 cell (selectable, settable) Value: Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 75, Description: Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long Unicode Ω 日本語 759 Long U
+					163 row (selectable)
+						164 cell (selectable, settable) 760
+						165 cell (selectable, settable) ลูกค้า 760
+						166 cell (selectable, settable) 6018440.000000760
+						167 cell (selectable, settable) PAID
+						168 cell (selectable, settable) Value: หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยา, Description: หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760 หมายเหตุยาว 760
+						169 cell (selectable, settable) 2026-01-15T00:12:40.000Z
+						170 cell (selectable, settable) Value: Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 76, Description: Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long Unicode Ω 日本語 760 Long U
+					171 row (selectable)
+						172 cell (selectable, settable) 761
+						173 cell (selectable, settable) ลูกค้า 761
+						174 cell (selectable, settable) 6026359.000000761
+						175 cell (selectable, settable) VOID
+						176 cell (selectable, settable) Value: หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยา, Description: หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761 หมายเหตุยาว 761
+						177 cell (selectable, settable) 2026-01-15T00:12:41.000Z
+						178 cell (selectable, settable) Value: Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 76, Description: Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long Unicode Ω 日本語 761 Long U
+					179 row (selectable)
+						180 cell (selectable, settable) 762
+						181 cell (selectable, settable) ลูกค้า 762
+						182 cell (selectable, settable) 6034278.000000762
+						183 cell (selectable, settable) OPEN
+						184 cell (selectable, settable) Value: หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยา, Description: หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762 หมายเหตุยาว 762
+						185 cell (selectable, settable) 2026-01-15T00:12:42.000Z
+						186 cell (selectable, settable) Value: Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 76, Description: Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long Unicode Ω 日本語 762 Long U
+					187 row (selectable)
+						188 cell (selectable, settable) 763
+						189 cell (selectable, settable) ลูกค้า 763
+						190 cell (selectable, settable) 6042197.000000763
+						191 cell (selectable, settable) NULL
+						192 cell (selectable, settable) Value: หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยา, Description: หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763 หมายเหตุยาว 763
+						193 cell (selectable, settable) 2026-01-15T00:12:43.000Z
+						194 cell (selectable, settable) Value: Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 76, Description: Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long Unicode Ω 日本語 763 Long U
+					195 row (selectable)
+						196 cell (selectable, settable) 764
+						197 cell (selectable, settable) ลูกค้า 764
+						198 cell (selectable, settable) 6050116.000000764
+						199 cell (selectable, settable) VOID
+						200 cell (selectable, settable) Value: หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยา, Description: หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764 หมายเหตุยาว 764
+						201 cell (selectable, settable) 2026-01-15T00:12:44.000Z
+						202 cell (selectable, settable) Value: Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 76, Description: Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long Unicode Ω 日本語 764 Long U
+					203 row (selectable)
+						204 cell (selectable, settable) 765
+						205 cell (selectable, settable) ลูกค้า 765
+						206 cell (selectable, settable) 6058035.000000765
+						207 cell (selectable, settable) OPEN
+						208 cell (selectable, settable) Value: หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยา, Description: หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765 หมายเหตุยาว 765
+						209 cell (selectable, settable) 2026-01-15T00:12:45.000Z
+						210 cell (selectable, settable) Value: Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 76, Description: Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long Unicode Ω 日本語 765 Long U
+					211 row (selectable)
+						212 cell (selectable, settable) 766
+						213 cell (selectable, settable) ลูกค้า 766
+						214 cell (selectable, settable) 6065954.000000766
+						215 cell (selectable, settable) PAID
+						216 cell (selectable, settable) Value: หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยา, Description: หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766 หมายเหตุยาว 766
+						217 cell (selectable, settable) 2026-01-15T00:12:46.000Z
+						218 cell (selectable, settable) Value: Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 76, Description: Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long Unicode Ω 日本語 766 Long U
+					219 row (selectable)
+						220 cell (selectable, settable) 767
+						221 cell (selectable, settable) ลูกค้า 767
+						222 cell (selectable, settable) 6073873.000000767
+						223 cell (selectable, settable) VOID
+						224 cell (selectable, settable) Value: หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยา, Description: หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767 หมายเหตุยาว 767
+						225 cell (selectable, settable) 2026-01-15T00:12:47.000Z
+						226 cell (selectable, settable) Value: Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 76, Description: Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long Unicode Ω 日本語 767 Long U
+					227 row (selectable)
+						228 cell (selectable, settable) 768
+						229 cell (selectable, settable) ลูกค้า 768
+						230 cell (selectable, settable) 6081792.000000768
+						231 cell (selectable, settable) OPEN
+						232 cell (selectable, settable) Value: หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยา, Description: หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768 หมายเหตุยาว 768
+						233 cell (selectable, settable) 2026-01-15T00:12:48.000Z
+						234 cell (selectable, settable) Value: Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 76, Description: Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long Unicode Ω 日本語 768 Long U
+					235 row (selectable)
+						236 cell (selectable, settable) 769
+						237 cell (selectable, settable) ลูกค้า 769
+						238 cell (selectable, settable) 6089711.000000769
+						239 cell (selectable, settable) PAID
+						240 cell (selectable, settable) Value: หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยา, Description: หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769 หมายเหตุยาว 769
+						241 cell (selectable, settable) 2026-01-15T00:12:49.000Z
+						242 cell (selectable, settable) Value: Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 76, Description: Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long Unicode Ω 日本語 769 Long U
+					243 row (selectable)
+						244 cell (selectable, settable) 770
+						245 cell (selectable, settable) ลูกค้า 770
+						246 cell (selectable, settable) 6097630.000000770
+						247 cell (selectable, settable) NULL
+						248 cell (selectable, settable) Value: หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยา, Description: หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770 หมายเหตุยาว 770
+						249 cell (selectable, settable) 2026-01-15T00:12:50.000Z
+						250 cell (selectable, settable) Value: Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 77, Description: Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long Unicode Ω 日本語 770 Long U
+					251 row (selectable)
+						252 cell (selectable, settable) 771
+						253 cell (selectable, settable) ลูกค้า 771
+						254 cell (selectable, settable) 6105549.000000771
+						255 cell (selectable, settable) OPEN
+						256 cell (selectable, settable) Value: หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยา, Description: หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771 หมายเหตุยาว 771
+						257 cell (selectable, settable) 2026-01-15T00:12:51.000Z
+						258 cell (selectable, settable) Value: Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 77, Description: Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long Unicode Ω 日本語 771 Long U
+					259 row (selectable)
+						260 cell (selectable, settable) 772
+						261 cell (selectable, settable) ลูกค้า 772
+						262 cell (selectable, settable) 6113468.000000772
+						263 cell (selectable, settable) PAID
+						264 cell (selectable, settable) Value: หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยา, Description: หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772 หมายเหตุยาว 772
+						265 cell (selectable, settable) 2026-01-15T00:12:52.000Z
+						266 cell (selectable, settable) Value: Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 77, Description: Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long Unicode Ω 日本語 772 Long U
+					267 row (selectable)
+						268 cell (selectable, settable) 773
+						269 cell (selectable, settable) ลูกค้า 773
+						270 cell (selectable, settable) 6121387.000000773
+						271 cell (selectable, settable) VOID
+						272 cell (selectable, settable) Value: หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยา, Description: หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773 หมายเหตุยาว 773
+						273 cell (selectable, settable) 2026-01-15T00:12:53.000Z
+						274 cell (selectable, settable) Value: Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 77, Description: Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long Unicode Ω 日本語 773 Long U
+					275 row (selectable)
+						276 cell (selectable, settable) 774
+						277 cell (selectable, settable) ลูกค้า 774
+						278 cell (selectable, settable) 6129306.000000774
+						279 cell (selectable, settable) OPEN
+						280 cell (selectable, settable) Value: หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยา, Description: หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774 หมายเหตุยาว 774
+						281 cell (selectable, settable) 2026-01-15T00:12:54.000Z
+						282 cell (selectable, settable) Value: Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 77, Description: Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long Unicode Ω 日本語 774 Long U
+					283 row (selectable)
+						284 cell (selectable, settable) 775
+						285 cell (selectable, settable) ลูกค้า 775
+						286 cell (selectable, settable) 6137225.000000775
+						287 cell (selectable, settable) PAID
+						288 cell (selectable, settable) Value: หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยา, Description: หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775 หมายเหตุยาว 775
+						289 cell (selectable, settable) 2026-01-15T00:12:55.000Z
+						290 cell (selectable, settable) Value: Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 77, Description: Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long Unicode Ω 日本語 775 Long U
+					291 row (selectable)
+						292 cell (selectable, settable) 776
+						293 cell (selectable, settable) ลูกค้า 776
+						294 cell (selectable, settable) 6145144.000000776
+						295 cell (selectable, settable) VOID
+						296 cell (selectable, settable) Value: หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยา, Description: หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776 หมายเหตุยาว 776
+						297 cell (selectable, settable) 2026-01-15T00:12:56.000Z
+						298 cell (selectable, settable) Value: Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 77, Description: Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long Unicode Ω 日本語 776 Long U
+			299 container
+				300 text  Tauri 2 · WKWebView idle Grid  · Row  1 , Col  1 UTF-8 · SQL / PLSQL T-004a • prototype
+	301 close button
+	302 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	303 minimize button
+	304 text Dbz · Tauri experiment
+305 menu bar
+	306 Dbz Tauri POC
+	307 File
+	308 Edit
+	309 View
+	310 Window
+	311 Help
+
+The focused UI element is 91 table (settable) Synthetic query results

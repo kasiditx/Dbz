@@ -24,6 +24,13 @@
 - **Acceptance:** benchmark script reports startup/RSS/frame latency on specified hardware; no full-row allocation by viewport renderer; accessibility gaps listed.
 - **Skills:** `design-an-interface`, `prototype`, `qa`.
 
+### T-004a — Tauri vs egui same-workload comparison
+- **Status (2026-10-26): EXPERIMENT COMPLETE — decision gates remain open**. Isolated Tauri/React/CodeMirror/TanStack prototype, shared synthetic workload and release-only macOS measurements.
+- **Requirements:** FR-003/004/005/006/009/012, PERF-02/03/04/05/09.
+- **Evidence:** `docs/evidence/T-004a-tauri-comparison.md`, `benchmarks/t004a/README.md`; raw samples and exact test commands under `benchmarks/t004a/raw/`.
+- **Decision gate:** ADR-0001 stays Pending; Windows/Linux, real Thai IME, VoiceOver and precise input-to-display not validated. ADR-0002 unchanged.
+- **Next:** T-004b Windows same-workload, exact latency/accessibility and dependency audit before UI stack selection.
+
 ### T-004 — Driver API / UI ADRs
 - **Blocked by:** T-002, T-003
 - **Demo:** reviewed ADR-0001/0002 and typed contract design linked to POC evidence.
