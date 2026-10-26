@@ -1,0 +1,8 @@
+[idle_hunt] run1: cpu=0.72% bursts(>=0.10s/s)=0 sampled=False
+[idle_hunt] run2: cpu=0.72% bursts(>=0.10s/s)=0 sampled=False
+[idle_hunt] run3: cpu=0.75% bursts(>=0.10s/s)=0 sampled=False
+[idle_hunt] run4: cpu=0.78% bursts(>=0.10s/s)=0 sampled=False
+[idle_hunt] run5: cpu=0.75% bursts(>=0.10s/s)=0 sampled=False
+[idle_hunt] run6: cpu=1.10% bursts(>=0.10s/s)=2 sampled=True
+[idle_hunt] run7: cpu=0.72% bursts(>=0.10s/s)=0 sampled=False
+[idle_hunt] run8: cpu=0.75% bursts(>=0.10s/s)=0 sampled=False

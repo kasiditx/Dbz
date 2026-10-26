@@ -3,6 +3,8 @@
 Date: 2026-10-26 · Base commit: `7086980` (T-002) · Code: `crates/poc-ui` (egui/eframe 0.37.0, throwaway prototype) · Raw data: `benchmarks/results/20261026-210512/` · Scripts: `benchmarks/run_t003.py`, `benchmarks/summarize.py`
 Skills actually invoked via Skill tool: `caveman`, `design-an-interface`, `prototype`, `tdd`, `code-review`. Not invoked: `design-system`, `qa` (no benefit beyond the fallbacks below). Sub-agents were not spawned (design-an-interface / code-review suggest them; done inline instead — fallback, so no independent second reviewer).
 
+> **Update 2026-10-26 (follow-up, see `T-003-followup.md`):** real-input E2E now run (35/35 on final build) and found/fixed 3 app bugs (focus steal, Ctrl+Shift+Tab, Cmd+C); the ~1 s resize stall was traced to a CoreAnimation `nextDrawable` timeout triggered by non-interactive resize, not seen under real mouse resize; the "focus fix not E2E-verified" and "real input untested" statements below are superseded. Numbers below are from the earlier build.
+
 ## Verdict (scope-limited)
 POC builds and runs; virtualization verified with data; headline numbers are **on one machine only** (Apple M4 Pro, macOS, battery power), **not** the Windows 11 baseline of `08-performance.md`. This is **not** evidence that egui beats Tauri: no Tauri spike exists. ADR-0001 stays **Pending**; T-004 may use this as the egui half of the comparison.
 

@@ -24,3 +24,4 @@ Pros: mature editor/virtual grid/accessibility web ecosystem, rapid polished UI 
 
 ## Evidence log
 - 2026-10-26: egui/eframe 0.37 POC measured on one macOS machine only; no Tauri spike yet; status remains Pending. See `docs/evidence/T-003-native-ui.md`.
+- 2026-10-26 (follow-up): egui measurements on final build (input→state p50 ≈26 ms, live-resize 0 stalls in 22 real-mouse runs, ui() p95 ≤2.5 ms, idle 0.75 % CPU / ~115 MiB); non-interactive resize triggers ~1 s drawable stalls (CoreAnimation/wgpu). Accessibility, Thai IME and Windows unverified. Still **Pending**; Tauri same-workload comparison proposed (docs/evidence/T-003-followup.md).

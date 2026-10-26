@@ -1,0 +1,42 @@
+startup 1 READY first_ui_ms=143.22 ready_ms=253.23
+startup 2 READY first_ui_ms=113.84 ready_ms=214.48
+startup 3 READY first_ui_ms=134.29 ready_ms=215.85
+startup 4 READY first_ui_ms=104.58 ready_ms=186.71
+startup 5 READY first_ui_ms=106.14 ready_ms=195.20
+startup 6 READY first_ui_ms=111.51 ready_ms=201.34
+startup 7 READY first_ui_ms=106.13 ready_ms=194.26
+startup 8 READY first_ui_ms=117.87 ready_ms=214.45
+startup 9 READY first_ui_ms=113.77 ready_ms=204.51
+startup 10 READY first_ui_ms=109.30 ready_ms=198.38
+scroll/100000/1 peak 121 MiB
+scroll/100000/2 peak 121 MiB
+scroll/100000/3 peak 121 MiB
+scroll/100000/4 peak 124 MiB
+scroll/100000/5 peak 121 MiB
+nav/100000/1 peak 117 MiB
+nav/100000/2 peak 116 MiB
+nav/100000/3 peak 118 MiB
+nav/100000/4 peak 118 MiB
+nav/100000/5 peak 117 MiB
+scroll/1000000/1 peak 124 MiB
+scroll/1000000/2 peak 120 MiB
+scroll/1000000/3 peak 121 MiB
+scroll/1000000/4 peak 122 MiB
+scroll/1000000/5 peak 116 MiB
+nav/1000000/1 peak 118 MiB
+nav/1000000/2 peak 117 MiB
+nav/1000000/3 peak 122 MiB
+nav/1000000/4 peak 117 MiB
+nav/1000000/5 peak 117 MiB
+resize/100000/1
+resize/100000/2
+resize/100000/3
+resize/100000/4
+resize/100000/5
+idle 1000 1
+idle 100000 1
+idle 100000 2
+2026-10-26 22:12:05.822 dbz-ui-poc[31355:6031270] TSM AdjustCapsLockLEDForKeyTransitionHandling - _ISSetPhysicalKeyboardCapsLockLED Inhibit
+idle 100000 3
+idle 1000000 1
+WROTE /Users/kasidit/Documents/Dbz/benchmarks/results/20261026-220301

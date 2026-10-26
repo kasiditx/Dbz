@@ -1,0 +1,16 @@
+[mouse_base_100000_r1] drags=14 distinct_window_sizes_in_csv=29 frames=3074 stalls(>100ms)=0 stall_total_ms=0 interval p50=8.31 p95=9.73 max=19 | ui_cpu p95=0.54
+[mouse_nofix_100000_r1] drags=14 distinct_window_sizes_in_csv=29 frames=3018 stalls(>100ms)=0 stall_total_ms=0 interval p50=8.31 p95=9.66 max=18 | ui_cpu p95=0.55
+[mouse_base_1000000_r1] drags=14 distinct_window_sizes_in_csv=29 frames=3071 stalls(>100ms)=0 stall_total_ms=0 interval p50=8.31 p95=9.74 max=22 | ui_cpu p95=0.55
+[mouse_nofix_1000000_r1] drags=14 distinct_window_sizes_in_csv=29 frames=3023 stalls(>100ms)=0 stall_total_ms=0 interval p50=8.32 p95=9.67 max=19 | ui_cpu p95=0.54
+[mouse_base_100000_r2] drags=14 distinct_window_sizes_in_csv=29 frames=3108 stalls(>100ms)=0 stall_total_ms=0 interval p50=8.30 p95=9.64 max=20 | ui_cpu p95=0.58
+[mouse_nofix_100000_r2] drags=14 distinct_window_sizes_in_csv=29 frames=3018 stalls(>100ms)=0 stall_total_ms=0 interval p50=8.31 p95=9.64 max=21 | ui_cpu p95=0.55
+[mouse_base_1000000_r2] drags=14 distinct_window_sizes_in_csv=29 frames=3165 stalls(>100ms)=0 stall_total_ms=0 interval p50=8.29 p95=9.67 max=19 | ui_cpu p95=0.54
+[mouse_nofix_1000000_r2] drags=14 distinct_window_sizes_in_csv=29 frames=3019 stalls(>100ms)=0 stall_total_ms=0 interval p50=8.31 p95=9.68 max=21 | ui_cpu p95=0.55
+[mouse_base_100000_r3] drags=14 distinct_window_sizes_in_csv=29 frames=3081 stalls(>100ms)=0 stall_total_ms=0 interval p50=8.30 p95=9.64 max=19 | ui_cpu p95=0.55
+[mouse_nofix_100000_r3] drags=14 distinct_window_sizes_in_csv=29 frames=3016 stalls(>100ms)=0 stall_total_ms=0 interval p50=8.32 p95=9.72 max=28 | ui_cpu p95=0.55
+[mouse_base_1000000_r3] drags=14 distinct_window_sizes_in_csv=29 frames=3130 stalls(>100ms)=0 stall_total_ms=0 interval p50=8.30 p95=9.64 max=29 | ui_cpu p95=0.53
+[mouse_nofix_1000000_r3] drags=14 distinct_window_sizes_in_csv=29 frames=3021 stalls(>100ms)=0 stall_total_ms=0 interval p50=8.31 p95=9.61 max=22 | ui_cpu p95=0.54
+[mouse_base_100000_r4] drags=14 distinct_window_sizes_in_csv=29 frames=3305 stalls(>100ms)=0 stall_total_ms=0 interval p50=8.28 p95=9.63 max=19 | ui_cpu p95=0.53
+[mouse_nofix_100000_r4] drags=14 distinct_window_sizes_in_csv=29 frames=3013 stalls(>100ms)=0 stall_total_ms=0 interval p50=8.32 p95=9.65 max=25 | ui_cpu p95=0.53
+[mouse_base_1000000_r4] drags=14 distinct_window_sizes_in_csv=29 frames=3153 stalls(>100ms)=0 stall_total_ms=0 interval p50=8.29 p95=9.62 max=22 | ui_cpu p95=0.54
+[mouse_nofix_1000000_r4] drags=14 distinct_window_sizes_in_csv=29 frames=3025 stalls(>100ms)=0 stall_total_ms=0 interval p50=8.31 p95=9.58 max=26 | ui_cpu p95=0.54

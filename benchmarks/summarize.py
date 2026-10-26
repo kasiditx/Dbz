@@ -40,7 +40,8 @@ print("| scenario | rows | phase | frames | ui() cpu p50 | p95 | max | frame Δ 
 for key in sorted(groups):
     for ph, g in groups[key].items():
         if ph == "warmup": continue
-        print(f"| {key[0]} | {key[1]} | {ph} | {len(g['cpu'])} | {pct(g['cpu'],50):.2f} | {pct(g['cpu'],95):.2f} | {max(g['cpu']):.2f} | {pct(g['int'],50):.2f} | {pct(g['int'],95):.2f} | {max(g['int']):.2f} | {max(g['cells'])} | {max(g['vis'])} | {len(g['w'])} |")
+        label = key[0] + (" (programmatic InnerSize EVERY frame: STRESS, not representative; see docs/evidence/T-003-followup.md)" if key[0] == "resize" else "")
+        print(f"| {label} | {key[1]} | {ph} | {len(g['cpu'])} | {pct(g['cpu'],50):.2f} | {pct(g['cpu'],95):.2f} | {max(g['cpu']):.2f} | {pct(g['int'],50):.2f} | {pct(g['int'],95):.2f} | {max(g['int']):.2f} | {max(g['cells'])} | {max(g['vis'])} | {len(g['w'])} |")
 
 print("\n## Process-level (per run; wait4 rusage)\n")
 print("| scenario | rows | runs | peak RSS MiB (min/med/max) | avg CPU % (cpu_time/wall) |\n|---|---|---|---|---|")

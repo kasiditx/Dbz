@@ -4,3 +4,4 @@ target/
 *.p12
 cwallet.sso
 .DS_Store
+.serena/

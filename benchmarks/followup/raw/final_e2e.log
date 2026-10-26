@@ -1,0 +1,38 @@
+PASS editor: ASCII typing reaches editor chars=226
+PASS editor: Thai/combining-mark typing (Unicode key events, NOT IME) +24 chars expected 24
+PASS editor: Backspace x3 chars=247
+PASS editor: Shift+Left x2 selection then delete chars=245
+PASS editor: Cmd+V paste of Thai+ASCII chars=252
+PASS editor: Cmd+A then typing replaces all chars=9 tail='SELECT 42'
+INFO undo/redo state chars= 9
+PASS grid: mouse click selects cell (3,1) sel=[3, 1] focus=Grid
+PASS focus fix: editor released text focus after grid click 
+PASS grid: Down x3 + Right sel=[6, 2] editor chars unchanged=True
+PASS grid: PageDown moves > 10 rows row=26
+PASS grid: Cmd+Down -> last row (99999) sel=[99999, 19] scroll_row=99979
+PASS grid: Cmd+Up -> row 0, scrolled to top sel=[0, 0] scroll_row=0
+PASS grid: End/Home columns end_col=19 home_col=0
+PASS grid: Cmd+C copies selected cell text clipboard='ลูกค้า 0'
+PASS grid: mouse wheel scrolls scroll_row=22 via 5 x wheel1=-3 (line units)
+PASS focus: click editor -> Editor focus + text focus Editor True
+PASS focus: arrow keys in editor do not move grid selection sel [0, 1]->[0, 1]
+PASS shortcut: F6 cycles focus Editor->Grid focus=Grid
+PASS shortcut: Alt+1 -> Explorer focus=Explorer
+PASS shortcut: Alt+2 -> Editor focus=Editor
+PASS shortcut: Alt+3 -> Grid focus=Grid
+PASS explorer: click row selects + focuses exp_sel=1
+PASS explorer: Down key moves selection exp_sel=2
+PASS tabs: click + opens tab tabs=2 active=1
+PASS tabs: Cmd+T opens another tabs=3
+PASS tabs: typing goes to the new tab's editor chars=4 tail='tab2'
+PASS tabs: Ctrl+Tab next (wraps to tab 0) tab=0
+PASS tabs: Ctrl+Shift+Tab previous (wraps to last) tab=2
+PASS tabs: Cmd+W closes tabs=2
+PASS tabs: click first tab selects it tab=0 chars=10
+PASS panels: drag splitter down grows editor split 0.280->0.382
+PASS panels: drag far up clamps (editor keeps min height) split 0.382->0.132
+PASS run: Cmd+Enter starts mock run and completes without UI hang saw=running end=done
+PASS run: Esc cancels a running mock query run=cancelled
+PASS theme: Cmd+Shift+L toggles dark True->False
+
+SUMMARY: 35/35 passed; failed: []

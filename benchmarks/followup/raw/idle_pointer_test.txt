@@ -1,0 +1,3 @@
+pointer outside window: 0.80% CPU
+pointer parked over grid: 0.80% CPU
+pointer jiggling over grid (270 moves): 8.37% CPU

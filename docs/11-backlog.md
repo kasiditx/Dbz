@@ -17,6 +17,7 @@
 - **Skills:** `research`, `prototype`, `tdd`, `code-review`.
 
 ### T-003 — Native UI editor + large grid POC
+- **Follow-up (2026-10-26):** real-input E2E 35/35, 3 bugs fixed, resize stall root-caused (not app code), final-build benchmarks; see `docs/evidence/T-003-followup.md`. Proposed next: **T-004a Tauri same-workload comparison** (plan in that doc); ADR-0001 still Pending.
 - **Status (2026-10-26): DONE WITH GAPS** — POC + 51 unit tests + macOS benchmarks; real-input latency, manual resize, accessibility, cold start, Windows baseline NOT MEASURED. Evidence: `docs/evidence/T-003-native-ui.md`.
 - **Blocked by:** T-001
 - **Demo:** desktop window with SQL tab, 100k simulated virtual rows, keyboard navigation, resizable pane.
