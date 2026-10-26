@@ -21,3 +21,6 @@ Pros: mature editor/virtual grid/accessibility web ecosystem, rapid polished UI 
 
 ## Decision
 **Pending.** Do not hard-code eframe before experiment. Rust Core/driver boundary remains stable whichever UI chosen. Revisit if real-user UX/accessible UI issues outweigh measured benefits.
+
+## Evidence log
+- 2026-10-26: egui/eframe 0.37 POC measured on one macOS machine only; no Tauri spike yet; status remains Pending. See `docs/evidence/T-003-native-ui.md`.

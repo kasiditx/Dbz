@@ -42,7 +42,7 @@
 - **M3 Multi-DB / Polish:** MySQL/MariaDB + accessibility + perf & security hardening
 - **M4 Public Beta → v1.0:** installers, licenses, contributor docs, Oracle support matrix, CI
 
-> **หมายเหตุ:** ยังไม่มี Source Code ของผลิตภัณฑ์ในชุดนี้; ทั้งหมดเป็นเอกสารตั้งต้นให้ Agent สร้างโปรเจกต์อย่างเป็นระบบ ตัวเลขประสิทธิภาพคือ **targets**, ไม่ใช่ benchmark ที่ตรวจวัดแล้ว
+> **หมายเหตุ:** ยังไม่มี Source Code ของผลิตภัณฑ์ (มีเพียง POC แบบ throwaway: `crates/poc-oracle` T-002, `crates/poc-ui` T-003 — ดู `docs/evidence/`); ทั้งหมดเป็นเอกสารตั้งต้นให้ Agent สร้างโปรเจกต์อย่างเป็นระบบ ตัวเลขประสิทธิภาพคือ **targets**, ไม่ใช่ benchmark ที่ตรวจวัดแล้ว
 
 ## แหล่งอ้างอิงหลัก
 - [REA — morluto/rea](https://github.com/morluto/rea)

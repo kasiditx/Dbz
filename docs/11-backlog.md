@@ -17,6 +17,7 @@
 - **Skills:** `research`, `prototype`, `tdd`, `code-review`.
 
 ### T-003 — Native UI editor + large grid POC
+- **Status (2026-10-26): DONE WITH GAPS** — POC + 51 unit tests + macOS benchmarks; real-input latency, manual resize, accessibility, cold start, Windows baseline NOT MEASURED. Evidence: `docs/evidence/T-003-native-ui.md`.
 - **Blocked by:** T-001
 - **Demo:** desktop window with SQL tab, 100k simulated virtual rows, keyboard navigation, resizable pane.
 - **Acceptance:** benchmark script reports startup/RSS/frame latency on specified hardware; no full-row allocation by viewport renderer; accessibility gaps listed.

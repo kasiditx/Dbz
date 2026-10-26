@@ -1,0 +1,41 @@
+startup 1 READY first_ui_ms=156.37 ready_ms=324.36
+startup 2 READY first_ui_ms=110.84 ready_ms=193.48
+startup 3 READY first_ui_ms=110.50 ready_ms=202.25
+startup 4 READY first_ui_ms=107.07 ready_ms=194.40
+startup 5 READY first_ui_ms=109.04 ready_ms=197.73
+startup 6 READY first_ui_ms=111.19 ready_ms=190.80
+startup 7 READY first_ui_ms=103.76 ready_ms=185.52
+startup 8 READY first_ui_ms=112.09 ready_ms=203.92
+startup 9 READY first_ui_ms=111.99 ready_ms=191.70
+startup 10 READY first_ui_ms=105.58 ready_ms=200.82
+scroll/100000/1 peak 117 MiB
+scroll/100000/2 peak 114 MiB
+scroll/100000/3 peak 118 MiB
+scroll/100000/4 peak 117 MiB
+scroll/100000/5 peak 117 MiB
+nav/100000/1 peak 119 MiB
+nav/100000/2 peak 119 MiB
+nav/100000/3 peak 117 MiB
+nav/100000/4 peak 120 MiB
+nav/100000/5 peak 114 MiB
+scroll/1000000/1 peak 121 MiB
+scroll/1000000/2 peak 116 MiB
+scroll/1000000/3 peak 118 MiB
+scroll/1000000/4 peak 116 MiB
+scroll/1000000/5 peak 116 MiB
+nav/1000000/1 peak 124 MiB
+nav/1000000/2 peak 116 MiB
+nav/1000000/3 peak 117 MiB
+nav/1000000/4 peak 119 MiB
+nav/1000000/5 peak 116 MiB
+resize/100000/1
+resize/100000/2
+resize/100000/3
+resize/100000/4
+resize/100000/5
+idle 1000 1
+idle 100000 1
+idle 100000 2
+idle 100000 3
+idle 1000000 1
+WROTE /Users/kasidit/Documents/Dbz/benchmarks/results/20261026-210512
